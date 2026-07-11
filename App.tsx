@@ -458,11 +458,11 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 pb-20 font-sans animate-fade-in relative transition-colors duration-200">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 pb-24 sm:pb-20 font-sans animate-fade-in relative transition-colors duration-200">
       <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} lang={lang} />
       {/* Navbar - Full Width */}
       <nav className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-40 transition-colors duration-200">
-        <div className="w-full px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+        <div className="w-full px-3 sm:px-6 lg:px-8 h-14 sm:h-16 flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => { setView('home'); setShowSavedOnly(false); }}>
             <img 
                src={LOGO_URL} 
@@ -474,7 +474,7 @@ export default function App() {
             </span>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-3">
               {/* Theme Toggle */}
               <button 
                  onClick={() => setTheme(prev => prev === 'light' ? 'dark' : 'light')}
@@ -507,7 +507,7 @@ export default function App() {
                       setView('home');
                    }
                 }}
-                className={`text-sm px-3 py-2 rounded-full font-medium flex items-center gap-2 transition-colors ${
+                className={`text-sm px-2 sm:px-3 py-1.5 sm:py-2 rounded-full font-medium flex items-center gap-1.5 sm:gap-2 transition-colors ${
                   showSavedOnly 
                     ? 'bg-red-50 text-red-600 border border-red-100' 
                     : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
@@ -562,7 +562,7 @@ export default function App() {
                 )}
                 <button 
                     onClick={handleLogout}
-                    className="p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                    className="hidden sm:block p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
                     title="Выйти"
                 >
                     <LogOut className="w-5 h-5" />
@@ -649,27 +649,27 @@ export default function App() {
             {(view === 'home' || view === 'professions') && (
               <>
                 {/* Hero & Search Section */}
-                <div className="text-center mb-10 animate-fade-in-down">
+                <div className="text-center mb-6 sm:mb-10 animate-fade-in-down">
                   {showSavedOnly ? (
                       <>
-                        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 flex items-center justify-center gap-3">
-                           <Heart className="w-8 h-8 text-red-500 fill-current" /> {t.favorites_title}
+                        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 flex items-center justify-center gap-2 sm:gap-3">
+                           <Heart className="w-6 h-6 sm:w-8 sm:h-8 text-red-500 fill-current" /> {t.favorites_title}
                         </h1>
                         <p className="text-gray-500 mb-6 max-w-2xl mx-auto">{t.favorites_desc}</p>
                       </>
                   ) : (
                       <>
-                        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
                             {t.hero_title}
                         </h1>
-                        <p className="text-gray-500 mb-6 max-w-2xl mx-auto">
+                        <p className="text-gray-500 text-sm sm:text-base mb-4 sm:mb-6 max-w-2xl mx-auto">
                             {t.hero_desc}
                         </p>
                          {/* Quiz Button */}
-                        <div className="mb-8">
+                        <div className="mb-5 sm:mb-8">
                             <button 
                                 onClick={() => setIsQuizOpen(true)}
-                                className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-2.5 rounded-full font-semibold shadow-lg shadow-green-500/30 hover:-translate-y-0.5 hover:shadow-green-500/40 transition-all"
+                                className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 sm:px-6 py-2.5 rounded-full font-semibold shadow-lg shadow-green-500/30 hover:-translate-y-0.5 hover:shadow-green-500/40 transition-all text-sm sm:text-base"
                             >
                                 <Sparkles className="w-5 h-5 text-yellow-200" />
                                 {t.btn_quiz_take}
@@ -683,10 +683,10 @@ export default function App() {
                   {!showSavedOnly && (
                     <div className="flex flex-col items-center gap-4 mb-6">
                       {/* Mode Toggle */}
-                      <div className="inline-flex bg-gray-100 dark:bg-gray-800 rounded-2xl p-1.5 gap-1 shadow-inner">
+                      <div className="inline-flex bg-gray-100 dark:bg-gray-800 rounded-2xl p-1 sm:p-1.5 gap-0.5 sm:gap-1 shadow-inner">
                         <button
                           onClick={() => setApplicantMode('school')}
-                          className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
+                          className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                             applicantMode === 'school'
                               ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md'
                               : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'
@@ -696,7 +696,7 @@ export default function App() {
                         </button>
                         <button
                           onClick={() => setApplicantMode('college')}
-                          className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
+                          className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                             applicantMode === 'college'
                               ? 'bg-white dark:bg-gray-700 text-purple-700 dark:text-purple-400 shadow-md'
                               : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'
@@ -708,7 +708,7 @@ export default function App() {
 
                       {/* Info Banner */}
                       {applicantMode === 'school' ? (
-                        <div className="w-full max-w-3xl bg-gradient-to-r from-brand-50 to-blue-50 dark:from-brand-950/30 dark:to-blue-950/30 border border-brand-100 dark:border-brand-800 rounded-2xl px-5 py-4 flex flex-col sm:flex-row gap-4 items-start text-left animate-fade-in">
+                        <div className="w-full max-w-3xl bg-gradient-to-r from-brand-50 to-blue-50 dark:from-brand-950/30 dark:to-blue-950/30 border border-brand-100 dark:border-brand-800 rounded-xl sm:rounded-2xl px-3 sm:px-5 py-3 sm:py-4 flex flex-col sm:flex-row gap-3 sm:gap-4 items-start text-left animate-fade-in">
                           <div className="text-3xl shrink-0">🎓</div>
                           <div>
                             <p className="font-bold text-brand-800 dark:text-brand-300 mb-1">
@@ -729,7 +729,7 @@ export default function App() {
                           </div>
                         </div>
                       ) : (
-                        <div className="w-full max-w-3xl bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/30 dark:to-pink-950/30 border border-purple-100 dark:border-purple-800 rounded-2xl px-5 py-4 flex flex-col sm:flex-row gap-4 items-start text-left animate-fade-in">
+                        <div className="w-full max-w-3xl bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/30 dark:to-pink-950/30 border border-purple-100 dark:border-purple-800 rounded-xl sm:rounded-2xl px-3 sm:px-5 py-3 sm:py-4 flex flex-col sm:flex-row gap-3 sm:gap-4 items-start text-left animate-fade-in">
                           <div className="text-3xl shrink-0">🏫</div>
                           <div>
                             <p className="font-bold text-purple-800 dark:text-purple-300 mb-1">
@@ -757,16 +757,16 @@ export default function App() {
                   {/* --- SCOPE SWITCHER (КЗ / Зарубежные) --- */}
                   {view === 'home' && !showSavedOnly && (
                     <div className="flex justify-center mb-6">
-                      <div className="inline-flex bg-gray-100 dark:bg-gray-800 rounded-xl p-1 gap-1 shadow-inner">
+                      <div className="inline-flex bg-gray-100 dark:bg-gray-800 rounded-xl p-1 gap-0.5 sm:gap-1 shadow-inner">
                         <button
                           onClick={() => { setUniScope('domestic'); setSelectedCity('All'); setSelectedCategory('All'); setCurrentPage(1); }}
-                          className={`flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 ${uniScope === 'domestic' ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'}`}
+                          className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 ${uniScope === 'domestic' ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'}`}
                         >
                           🇰🇿 {lang === 'kz' ? 'Қазақстан вузлары' : lang === 'en' ? 'Kazakhstan unis' : 'Казахстанские вузы'}
                         </button>
                         <button
                           onClick={() => { setUniScope('international'); setSelectedCity('All'); setSelectedCategory('All'); setCurrentPage(1); }}
-                          className={`flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 ${uniScope === 'international' ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'}`}
+                          className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 ${uniScope === 'international' ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'}`}
                         >
                           🌍 {lang === 'kz' ? 'Шетелдік вузлар' : lang === 'en' ? 'International unis' : 'Зарубежные вузы'}
                         </button>
@@ -774,7 +774,7 @@ export default function App() {
                     </div>
                   )}
 
-                  <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-4 relative z-20">
+                  <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-2 sm:gap-4 relative z-20">
                     {/* Search */}
                     <div className="flex-grow-[2] relative">
                         <input 
@@ -907,7 +907,7 @@ export default function App() {
                           <div 
                             key={uni.id} 
                             onClick={() => handleUniversityClick(uni)}
-                            className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-300 transition-all cursor-pointer group flex flex-col md:flex-row gap-6 relative"
+                            className="bg-white p-3 sm:p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-300 transition-all cursor-pointer group flex flex-col md:flex-row gap-3 sm:gap-6 relative"
                           >
                             {/* Favorite Button (Absolute) */}
                             <button 
@@ -918,7 +918,7 @@ export default function App() {
                             </button>
 
                             {/* University Image */}
-                            <div className="w-full md:w-48 h-48 md:h-auto shrink-0 relative rounded-xl overflow-hidden bg-gray-100 border border-gray-100">
+                            <div className="w-full md:w-48 h-36 sm:h-48 md:h-auto shrink-0 relative rounded-lg sm:rounded-xl overflow-hidden bg-gray-100 border border-gray-100">
                               <img 
                                 src={uni.image} 
                                 alt={uni.name}
@@ -933,7 +933,7 @@ export default function App() {
 
                             <div className="flex-1 py-1">
                               <div className="flex flex-col sm:flex-row sm:items-center gap-3 mb-2 pr-10">
-                                <h3 className="font-bold text-xl text-gray-900 group-hover:text-brand-600 transition-colors">{uni.name}</h3>
+                                <h3 className="font-bold text-base sm:text-xl text-gray-900 group-hover:text-brand-600 transition-colors">{uni.name}</h3>
                                 <div className="flex flex-wrap gap-2">
                                   <span className="text-xs font-semibold bg-gray-100 px-2 py-1 rounded text-gray-600">{t.ranking}: #{uni.ranking}</span>
                                   {uni.category && (
@@ -1013,7 +1013,7 @@ export default function App() {
                                   )}
                               </button>
                               
-                              <button className="flex items-center justify-center gap-1 text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 w-full md:w-32 py-2 rounded-lg transition-colors">
+                              <button className="flex items-center justify-center gap-1 text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 w-full md:w-32 py-2.5 sm:py-2 rounded-lg transition-colors">
                                   {t.details} <ArrowRight className="w-4 h-4" />
                               </button>
                             </div>
@@ -1223,7 +1223,7 @@ export default function App() {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-24 right-6 z-40 p-3 bg-white text-gray-600 rounded-full shadow-lg border border-gray-200 hover:bg-gray-50 hover:text-brand-600 transition-all animate-fade-in"
+          className="fixed bottom-36 sm:bottom-24 right-4 sm:right-6 z-40 p-2.5 sm:p-3 bg-white text-gray-600 rounded-full shadow-lg border border-gray-200 hover:bg-gray-50 hover:text-brand-600 transition-all animate-fade-in"
           title="Наверх"
         >
           <ArrowUp className="w-5 h-5" />

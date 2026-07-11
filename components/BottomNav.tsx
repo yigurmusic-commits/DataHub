@@ -79,18 +79,18 @@ export const BottomNav: React.FC<BottomNavProps> = ({
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-white border-t border-gray-200 safe-area-inset-bottom">
-      <div className="flex items-center justify-around px-2 py-2">
+    <nav className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-white/95 dark:bg-gray-800/95 backdrop-blur-lg border-t border-gray-200 dark:border-gray-700 transition-colors duration-200">
+      <div className="flex items-center justify-around px-1 pt-1.5 pb-[max(0.375rem,env(safe-area-inset-bottom))]">
         {navItems.map(item => {
           const Icon = item.icon;
           return (
             <button
               key={item.id}
               onClick={item.onClick}
-              className={`flex flex-col items-center gap-0.5 min-w-[44px] min-h-[44px] px-3 py-1.5 rounded-xl transition-all relative ${
+              className={`flex flex-col items-center gap-0.5 min-w-[48px] min-h-[48px] px-2 sm:px-3 py-1 rounded-xl transition-all relative ${
                 item.active
-                  ? 'text-brand-600 bg-brand-50'
-                  : 'text-gray-500 hover:text-gray-700 hover:bg-gray-50'
+                  ? 'text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-900/30'
+                  : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 active:bg-gray-100 dark:active:bg-gray-700'
               }`}
               aria-label={item.label}
               aria-current={item.active ? 'page' : undefined}

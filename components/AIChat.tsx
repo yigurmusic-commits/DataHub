@@ -64,10 +64,10 @@ export const AIChat = forwardRef<AIChatRef>((props, ref) => {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end pointer-events-none">
+    <div className="fixed bottom-20 lg:bottom-6 right-4 sm:right-6 z-50 flex flex-col items-end pointer-events-none">
       {/* Chat Window */}
       <div 
-        className={`bg-white rounded-2xl shadow-2xl border border-gray-200 w-80 md:w-96 mb-4 transition-all duration-300 origin-bottom-right pointer-events-auto flex flex-col ${isOpen ? 'scale-100 opacity-100 h-[500px]' : 'scale-75 opacity-0 h-0 overflow-hidden'}`}
+        className={`bg-white rounded-2xl shadow-2xl border border-gray-200 transition-all duration-300 origin-bottom-right pointer-events-auto flex flex-col ${isOpen ? 'scale-100 opacity-100 fixed inset-3 sm:inset-auto sm:relative sm:w-96 sm:h-[500px] sm:mb-4 h-auto z-50' : 'w-80 md:w-96 scale-75 opacity-0 h-0 overflow-hidden'}`}
       >
         <div className="bg-gradient-to-r from-brand-600 to-brand-500 p-4 rounded-t-2xl flex justify-between items-center text-white shrink-0">
           <div className="flex items-center gap-2">
@@ -123,7 +123,7 @@ export const AIChat = forwardRef<AIChatRef>((props, ref) => {
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && handleSend()}
               placeholder="Спроси о грантах или вузах..." 
-              className="flex-1 text-base px-4 py-2.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500 bg-gray-50 focus:bg-white transition-all"
+              className="flex-1 text-[16px] px-4 py-2.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500 bg-gray-50 focus:bg-white transition-all"
             />
             <button 
               onClick={() => handleSend()}
@@ -139,7 +139,7 @@ export const AIChat = forwardRef<AIChatRef>((props, ref) => {
       {/* Toggle Button */}
       <button 
         onClick={() => setIsOpen(!isOpen)}
-        className="pointer-events-auto bg-brand-600 hover:bg-brand-700 text-white w-14 h-14 rounded-full shadow-xl shadow-brand-500/30 flex items-center justify-center transition-all hover:scale-105 active:scale-95 group"
+        className="pointer-events-auto bg-brand-600 hover:bg-brand-700 text-white w-12 h-12 sm:w-14 sm:h-14 rounded-full shadow-xl shadow-brand-500/30 flex items-center justify-center transition-all hover:scale-105 active:scale-95 group"
       >
         {isOpen ? <X className="w-6 h-6" /> : (
             <>

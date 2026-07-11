@@ -34,10 +34,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onLogin }) => {
     <div className="min-h-screen bg-white flex flex-col lg:flex-row">
       
       {/* Left Side - Content & Login */}
-      <div className="lg:w-1/2 flex flex-col justify-center px-8 md:px-16 lg:px-24 py-12 animate-fade-in relative z-10">
+      <div className="lg:w-1/2 flex flex-col justify-center px-5 sm:px-8 md:px-16 lg:px-24 py-8 sm:py-12 animate-fade-in relative z-10">
         
         {/* Logo */}
-        <div className="flex items-center gap-2 mb-12">
+        <div className="flex items-center gap-2 mb-8 sm:mb-12">
           <img 
                src={LOGO_URL} 
                alt="DataHub Logo" 
@@ -49,14 +49,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onLogin }) => {
         </div>
 
         {/* Hero Text */}
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
           Твой путеводитель в мир <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-indigo-600">
             высшего образования
           </span>
         </h1>
         
-        <p className="text-gray-500 text-lg mb-10 leading-relaxed max-w-lg">
+        <p className="text-gray-500 text-base sm:text-lg mb-6 sm:mb-10 leading-relaxed max-w-lg">
           Единая платформа для абитуриентов Казахстана. Сравнивай университеты, оценивай шансы на грант с AI и поступай правильно.
         </p>
 
@@ -172,7 +172,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onLogin }) => {
         </div>
         
         {/* Footer */}
-        <div className="mt-auto pt-12 text-gray-400 text-sm">
+        <div className="mt-auto pt-8 sm:pt-12 text-gray-400 text-sm">
           © 2025 DataHub Education. Все права защищены.
         </div>
       </div>
