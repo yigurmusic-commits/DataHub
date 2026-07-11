@@ -2031,7 +2031,6 @@ export const UNIVERSITIES: University[] = [
       email: 'inter@bsuir.by',
       address: 'ул. П. Бровки, 6, г. Минск, 220013, Беларусь',
     }
-    }
   },
   {
     id: 'kartu',
