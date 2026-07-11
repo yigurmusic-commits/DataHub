@@ -573,8 +573,8 @@ export default function App() {
       </nav>
 
       {/* Main Container - Full Width Layout */}
-      <div className="w-full px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-col lg:flex-row gap-8 items-start">
+      <div className="w-full px-3 sm:px-6 lg:px-8 py-4 sm:py-8 overflow-hidden">
+        <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 items-start">
           
           {/* LEFT SIDEBAR (ADVERTISEMENT) - Fixed Width */}
           <aside className="hidden lg:block w-72 flex-shrink-0 sticky top-24 h-fit space-y-6">
@@ -645,33 +645,33 @@ export default function App() {
           </aside>
 
           {/* MAIN CONTENT AREA */}
-          <main className="flex-1 min-w-0 max-w-[1600px]">
+          <main className="flex-1 min-w-0 max-w-[1600px] w-full overflow-hidden">
             {(view === 'home' || view === 'professions') && (
               <>
                 {/* Hero & Search Section */}
-                <div className="text-center mb-6 sm:mb-10 animate-fade-in-down">
+                <div className="text-center mb-4 sm:mb-10 animate-fade-in-down overflow-hidden">
                   {showSavedOnly ? (
                       <>
-                        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 flex items-center justify-center gap-2 sm:gap-3">
-                           <Heart className="w-6 h-6 sm:w-8 sm:h-8 text-red-500 fill-current" /> {t.favorites_title}
+                        <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2 sm:mb-4 flex items-center justify-center gap-2 flex-wrap">
+                           <Heart className="w-5 h-5 sm:w-8 sm:h-8 text-red-500 fill-current" /> {t.favorites_title}
                         </h1>
-                        <p className="text-gray-500 mb-6 max-w-2xl mx-auto">{t.favorites_desc}</p>
+                        <p className="text-gray-500 text-sm sm:text-base mb-4 sm:mb-6 px-2">{t.favorites_desc}</p>
                       </>
                   ) : (
                       <>
-                        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
+                        <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2 sm:mb-4 px-2 break-words">
                             {t.hero_title}
                         </h1>
-                        <p className="text-gray-500 text-sm sm:text-base mb-4 sm:mb-6 max-w-2xl mx-auto">
+                        <p className="text-gray-500 text-xs sm:text-base mb-3 sm:mb-6 max-w-2xl mx-auto px-2 break-words">
                             {t.hero_desc}
                         </p>
                          {/* Quiz Button */}
-                        <div className="mb-5 sm:mb-8">
+                        <div className="mb-4 sm:mb-8 px-4">
                             <button 
                                 onClick={() => setIsQuizOpen(true)}
-                                className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 sm:px-6 py-2.5 rounded-full font-semibold shadow-lg shadow-green-500/30 hover:-translate-y-0.5 hover:shadow-green-500/40 transition-all text-sm sm:text-base"
+                                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-5 py-2.5 rounded-full font-semibold shadow-lg shadow-green-500/30 hover:-translate-y-0.5 hover:shadow-green-500/40 transition-all text-sm"
                             >
-                                <Sparkles className="w-5 h-5 text-yellow-200" />
+                                <Sparkles className="w-4 h-4 text-yellow-200" />
                                 {t.btn_quiz_take}
                             </button>
                         </div>
@@ -681,73 +681,76 @@ export default function App() {
 
                   {/* --- APPLICANT MODE SWITCHER (School / College) --- */}
                   {!showSavedOnly && (
-                    <div className="flex flex-col items-center gap-4 mb-6">
+                    <div className="flex flex-col items-center gap-3 sm:gap-4 mb-4 sm:mb-6 px-1">
                       {/* Mode Toggle */}
-                      <div className="inline-flex bg-gray-100 dark:bg-gray-800 rounded-2xl p-1 sm:p-1.5 gap-0.5 sm:gap-1 shadow-inner">
+                      <div className="flex w-full max-w-xs sm:max-w-none sm:w-auto bg-gray-100 dark:bg-gray-800 rounded-2xl p-1 sm:p-1.5 gap-0.5 sm:gap-1 shadow-inner">
                         <button
                           onClick={() => setApplicantMode('school')}
-                          className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
+                          className={`flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                             applicantMode === 'school'
                               ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md'
                               : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'
                           }`}
                         >
-                          🎓 {lang === 'kz' ? 'Мектептен кейін' : lang === 'en' ? 'After School' : 'После школы'}
+                          🎓 <span className="hidden sm:inline">{lang === 'kz' ? 'Мектептен кейін' : lang === 'en' ? 'After School' : 'После школы'}</span><span className="sm:hidden">{lang === 'kz' ? 'Мектеп' : lang === 'en' ? 'School' : 'Школа'}</span>
                         </button>
                         <button
                           onClick={() => setApplicantMode('college')}
-                          className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
+                          className={`flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                             applicantMode === 'college'
                               ? 'bg-white dark:bg-gray-700 text-purple-700 dark:text-purple-400 shadow-md'
                               : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'
                           }`}
                         >
-                          🏫 {lang === 'kz' ? 'Колледждан кейін' : lang === 'en' ? 'After College' : 'После колледжа'}
+                          🏫 <span className="hidden sm:inline">{lang === 'kz' ? 'Колледждан кейін' : lang === 'en' ? 'After College' : 'После колледжа'}</span><span className="sm:hidden">{lang === 'kz' ? 'Колледж' : lang === 'en' ? 'College' : 'Колледж'}</span>
                         </button>
                       </div>
 
-                      {/* Info Banner */}
+                      {/* Info Banner — compact on mobile, full on desktop */}
                       {applicantMode === 'school' ? (
-                        <div className="w-full max-w-3xl bg-gradient-to-r from-brand-50 to-blue-50 dark:from-brand-950/30 dark:to-blue-950/30 border border-brand-100 dark:border-brand-800 rounded-xl sm:rounded-2xl px-3 sm:px-5 py-3 sm:py-4 flex flex-col sm:flex-row gap-3 sm:gap-4 items-start text-left animate-fade-in">
-                          <div className="text-3xl shrink-0">🎓</div>
-                          <div>
-                            <p className="font-bold text-brand-800 dark:text-brand-300 mb-1">
-                              {lang === 'kz' ? 'Мектеп бітірушілер үшін' : lang === 'en' ? 'For School Graduates' : 'Для выпускников школы'}
-                            </p>
-                            <p className="text-sm text-brand-700 dark:text-brand-400 leading-relaxed">
-                              {lang === 'kz'
-                                ? 'ЕҰТ нәтижелері бойынша бакалавриатқа түсесіз. Мемлекеттік грант үшін минималды балл: 50–70 (мамандыққа байланысты). Оқу мерзімі: 4 жыл.'
-                                : lang === 'en'
-                                ? 'You apply to Bachelor programs based on UNT scores. Minimum grant score: 50–70 (depends on specialty). Duration: 4 years.'
-                                : 'Поступаете в бакалавриат по результатам ЕНТ. Минимальный балл для гранта: 50–70 (зависит от специальности). Срок обучения: 4 года.'}
-                            </p>
-                            <div className="flex flex-wrap gap-2 mt-2">
-                              <span className="text-xs bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 px-2.5 py-1 rounded-full font-medium">📋 ЕНТ</span>
-                              <span className="text-xs bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 px-2.5 py-1 rounded-full font-medium">🎯 {lang === 'kz' ? 'Грант конкурсы' : lang === 'en' ? 'Grant competition' : 'Конкурс грантов'}</span>
-                              <span className="text-xs bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 px-2.5 py-1 rounded-full font-medium">📅 4 {lang === 'kz' ? 'жыл' : lang === 'en' ? 'years' : 'года'}</span>
+                        <div className="w-full max-w-3xl bg-gradient-to-r from-brand-50 to-blue-50 dark:from-brand-950/30 dark:to-blue-950/30 border border-brand-100 dark:border-brand-800 rounded-xl sm:rounded-2xl px-3 sm:px-5 py-2.5 sm:py-4 text-left animate-fade-in">
+                          <div className="flex items-center gap-2 sm:gap-4">
+                            <div className="text-2xl sm:text-3xl shrink-0">🎓</div>
+                            <div className="min-w-0">
+                              <p className="font-bold text-sm sm:text-base text-brand-800 dark:text-brand-300">
+                                {lang === 'kz' ? 'Мектеп бітірушілер үшін' : lang === 'en' ? 'For School Graduates' : 'Для выпускников школы'}
+                              </p>
+                              <p className="hidden sm:block text-sm text-brand-700 dark:text-brand-400 leading-relaxed mt-1">
+                                {lang === 'kz'
+                                  ? 'ЕҰТ нәтижелері бойынша бакалавриатқа түсесіз. Мемлекеттік грант үшін минималды балл: 50–70 (мамандыққа байланысты). Оқу мерзімі: 4 жыл.'
+                                  : lang === 'en'
+                                  ? 'You apply to Bachelor programs based on UNT scores. Minimum grant score: 50–70 (depends on specialty). Duration: 4 years.'
+                                  : 'Поступаете в бакалавриат по результатам ЕНТ. Минимальный балл для гранта: 50–70 (зависит от специальности). Срок обучения: 4 года.'}
+                              </p>
                             </div>
+                          </div>
+                          <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-2">
+                            <span className="text-[10px] sm:text-xs bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 px-2 py-0.5 sm:py-1 rounded-full font-medium">📋 ЕНТ</span>
+                            <span className="text-[10px] sm:text-xs bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 px-2 py-0.5 sm:py-1 rounded-full font-medium">🎯 {lang === 'kz' ? 'Грант' : lang === 'en' ? 'Grant' : 'Грант'}</span>
+                            <span className="text-[10px] sm:text-xs bg-brand-100 dark:bg-brand-900/50 text-brand-700 dark:text-brand-300 px-2 py-0.5 sm:py-1 rounded-full font-medium">📅 4 {lang === 'kz' ? 'жыл' : lang === 'en' ? 'years' : 'года'}</span>
                           </div>
                         </div>
                       ) : (
-                        <div className="w-full max-w-3xl bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/30 dark:to-pink-950/30 border border-purple-100 dark:border-purple-800 rounded-xl sm:rounded-2xl px-3 sm:px-5 py-3 sm:py-4 flex flex-col sm:flex-row gap-3 sm:gap-4 items-start text-left animate-fade-in">
-                          <div className="text-3xl shrink-0">🏫</div>
-                          <div>
-                            <p className="font-bold text-purple-800 dark:text-purple-300 mb-1">
-                              {lang === 'kz' ? 'Колледж бітірушілер үшін' : lang === 'en' ? 'For College Graduates' : 'Для выпускников колледжа'}
-                            </p>
-                            <p className="text-sm text-purple-700 dark:text-purple-400 leading-relaxed">
-                              {lang === 'kz'
-                                ? 'Колледж дипломымен 2–3 курсқа ауыса аласыз немесе күндізгі/сырттай бөлімде оқи аласыз. ЕҰТ тапсырмауыңыз мүмкін — жеке вуздармен тексеріңіз.'
-                                : lang === 'en'
-                                ? 'With a college diploma you can transfer to year 2–3 or study full/part-time. UNT may not be required — verify with each university.'
-                                : 'С дипломом колледжа можно перевестись на 2–3 курс или учиться на очном/заочном. ЕНТ может не требоваться — уточняйте в вузе.'}
-                            </p>
-                            <div className="flex flex-wrap gap-2 mt-2">
-                              <span className="text-xs bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 px-2.5 py-1 rounded-full font-medium">📄 {lang === 'kz' ? 'Колледж дипломы' : lang === 'en' ? 'College Diploma' : 'Диплом колледжа'}</span>
-                              <span className="text-xs bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 px-2.5 py-1 rounded-full font-medium">⚡ {lang === 'kz' ? 'Қысқартылған оқу' : lang === 'en' ? 'Shortened Program' : 'Сокращённая программа'}</span>
-                              <span className="text-xs bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 px-2.5 py-1 rounded-full font-medium">📅 2–3 {lang === 'kz' ? 'жыл' : lang === 'en' ? 'years' : 'года'}</span>
-                              <span className="text-xs bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 px-2.5 py-1 rounded-full font-medium">🌙 {lang === 'kz' ? 'Сырттай / кешкі' : lang === 'en' ? 'Part-time / Evening' : 'Заочно / вечернее'}</span>
+                        <div className="w-full max-w-3xl bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/30 dark:to-pink-950/30 border border-purple-100 dark:border-purple-800 rounded-xl sm:rounded-2xl px-3 sm:px-5 py-2.5 sm:py-4 text-left animate-fade-in">
+                          <div className="flex items-center gap-2 sm:gap-4">
+                            <div className="text-2xl sm:text-3xl shrink-0">🏫</div>
+                            <div className="min-w-0">
+                              <p className="font-bold text-sm sm:text-base text-purple-800 dark:text-purple-300">
+                                {lang === 'kz' ? 'Колледж бітірушілер үшін' : lang === 'en' ? 'For College Graduates' : 'Для выпускников колледжа'}
+                              </p>
+                              <p className="hidden sm:block text-sm text-purple-700 dark:text-purple-400 leading-relaxed mt-1">
+                                {lang === 'kz'
+                                  ? 'Колледж дипломымен 2–3 курсқа ауыса аласыз немесе күндізгі/сырттай бөлімде оқи аласыз. ЕҰТ тапсырмауыңыз мүмкін — жеке вуздармен тексеріңіз.'
+                                  : lang === 'en'
+                                  ? 'With a college diploma you can transfer to year 2–3 or study full/part-time. UNT may not be required — verify with each university.'
+                                  : 'С дипломом колледжа можно перевестись на 2–3 курс или учиться на очном/заочном. ЕНТ может не требоваться — уточняйте в вузе.'}
+                              </p>
                             </div>
+                          </div>
+                          <div className="flex flex-wrap gap-1.5 sm:gap-2 mt-2">
+                            <span className="text-[10px] sm:text-xs bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 px-2 py-0.5 sm:py-1 rounded-full font-medium">📄 {lang === 'kz' ? 'Диплом' : lang === 'en' ? 'Diploma' : 'Диплом'}</span>
+                            <span className="text-[10px] sm:text-xs bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 px-2 py-0.5 sm:py-1 rounded-full font-medium">⚡ {lang === 'kz' ? 'Қысқартылған' : lang === 'en' ? 'Shortened' : 'Сокращённо'}</span>
+                            <span className="text-[10px] sm:text-xs bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 px-2 py-0.5 sm:py-1 rounded-full font-medium">📅 2–3 {lang === 'kz' ? 'жыл' : lang === 'en' ? 'years' : 'года'}</span>
                           </div>
                         </div>
                       )}
@@ -756,19 +759,19 @@ export default function App() {
 
                   {/* --- SCOPE SWITCHER (КЗ / Зарубежные) --- */}
                   {view === 'home' && !showSavedOnly && (
-                    <div className="flex justify-center mb-6">
-                      <div className="inline-flex bg-gray-100 dark:bg-gray-800 rounded-xl p-1 gap-0.5 sm:gap-1 shadow-inner">
+                    <div className="flex justify-center mb-4 sm:mb-6 px-1">
+                      <div className="flex w-full max-w-xs sm:max-w-none sm:w-auto bg-gray-100 dark:bg-gray-800 rounded-xl p-1 gap-0.5 sm:gap-1 shadow-inner">
                         <button
                           onClick={() => { setUniScope('domestic'); setSelectedCity('All'); setSelectedCategory('All'); setCurrentPage(1); }}
-                          className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 ${uniScope === 'domestic' ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'}`}
+                          className={`flex-1 sm:flex-none flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-5 py-2 sm:py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 ${uniScope === 'domestic' ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'}`}
                         >
-                          🇰🇿 {lang === 'kz' ? 'Қазақстан вузлары' : lang === 'en' ? 'Kazakhstan unis' : 'Казахстанские вузы'}
+                          🇰🇿 <span className="hidden sm:inline">{lang === 'kz' ? 'Қазақстан вузлары' : lang === 'en' ? 'Kazakhstan unis' : 'Казахстанские вузы'}</span><span className="sm:hidden">{lang === 'kz' ? 'ҚЗ' : lang === 'en' ? 'KZ' : 'КЗ вузы'}</span>
                         </button>
                         <button
                           onClick={() => { setUniScope('international'); setSelectedCity('All'); setSelectedCategory('All'); setCurrentPage(1); }}
-                          className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 ${uniScope === 'international' ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'}`}
+                          className={`flex-1 sm:flex-none flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-5 py-2 sm:py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 ${uniScope === 'international' ? 'bg-white dark:bg-gray-700 text-brand-700 dark:text-brand-400 shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'}`}
                         >
-                          🌍 {lang === 'kz' ? 'Шетелдік вузлар' : lang === 'en' ? 'International unis' : 'Зарубежные вузы'}
+                          🌍 <span className="hidden sm:inline">{lang === 'kz' ? 'Шетелдік вузлар' : lang === 'en' ? 'International unis' : 'Зарубежные вузы'}</span><span className="sm:hidden">{lang === 'kz' ? 'Шетел' : lang === 'en' ? 'Intl' : 'Зарубежные'}</span>
                         </button>
                       </div>
                     </div>
@@ -907,7 +910,7 @@ export default function App() {
                           <div 
                             key={uni.id} 
                             onClick={() => handleUniversityClick(uni)}
-                            className="bg-white p-3 sm:p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-md hover:border-brand-300 transition-all cursor-pointer group flex flex-col md:flex-row gap-3 sm:gap-6 relative"
+                            className="bg-white dark:bg-gray-800 p-3 sm:p-5 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md hover:border-brand-300 transition-all cursor-pointer group flex flex-col md:flex-row gap-3 sm:gap-6 relative overflow-hidden"
                           >
                             {/* Favorite Button (Absolute) */}
                             <button 
@@ -957,7 +960,7 @@ export default function App() {
                                   )}
                                 </div>
                               </div>
-                              <p className="text-gray-500 text-sm mb-4 line-clamp-2">{uni.description}</p>
+                              <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-2">{uni.description}</p>
 
                               {/* College mode: show relevant programs with shortened duration */}
                               {applicantMode === 'college' && (() => {
@@ -978,14 +981,14 @@ export default function App() {
                                 );
                               })()}
                               
-                              <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-500">
-                                <span className="flex items-center gap-1.5">
-                                  <MapPin className="w-4 h-4 text-gray-400" /> {uni.location}
+                              <div className="flex flex-wrap items-center gap-x-3 sm:gap-x-6 gap-y-1.5 text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+                                <span className="flex items-center gap-1">
+                                  <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gray-400" /> {uni.location}
                                 </span>
-                                <span className="flex items-center gap-1.5">
-                                  <GraduationCap className="w-4 h-4 text-gray-400" /> {uni.programs.length} {t.programs_count}
+                                <span className="flex items-center gap-1">
+                                  <GraduationCap className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gray-400" /> {uni.programs.length} {t.programs_count}
                                 </span>
-                                <span className="text-green-600 font-medium">
+                                <span className="text-green-600 dark:text-green-400 font-medium">
                                   {uni.tuitionAvg}
                                 </span>
                               </div>
