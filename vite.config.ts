@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 // Use .env file with VITE_API_KEY for local development.
 // In production use a backend proxy to hide the key.
 export default defineConfig({
-  base: '/raimgaz/',
+  base: '/DataHub/',
   plugins: [react()],
 })
