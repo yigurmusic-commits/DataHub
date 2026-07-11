@@ -34,7 +34,7 @@ export interface University {
   programs: AcademicProgram[];
   partners: string[];
   admissionDeadlines: string;
-  category?: 'National' | 'State' | 'Private' | 'Medical' | 'Specialized' | 'International';
+  category?: 'National' | 'State' | 'Private' | 'Medical' | 'Specialized' | 'International' | 'Regional' | 'Military';
   tourUrl?: string;
   
   // New Detailed Fields

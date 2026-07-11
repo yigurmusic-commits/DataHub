@@ -48,65 +48,6 @@ export const UNIVERSITIES: University[] = [
     tuitionAvg: 'от 5 000 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg/800px-Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg',
     gallery: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Nazarbayev_University_Library.jpg/800px-Nazarbayev_University_Library.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nazarbayev_University_front.jpg/800px-Nazarbayev_University_front.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nazarbayev_University_Atrium.jpg/800px-Nazarbayev_University_Atrium.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg/800px-Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg'
-    ],
-    logo: 'NU',
-    mission: 'Стать моделью реформы высшего образования и научным центром Казахстана.',
-    programs: [
-      { name: 'Computer Science', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Изучение алгоритмов, ИИ и разработки ПО.' },
-      { name: 'Robotics', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Мехатроника и автоматизация систем.' },
-      { name: 'Civil Engineering', degree: 'Bachelor', duration: '4 года', language: 'English' },
-    ],
-    partners: ['Duke', 'NUS', 'Cambridge', 'UCL'],
-    admissionDeadlines: '15.04 (NUET)',
-    category: 'National',
-    achievements: [
-      "Топ-30% исследовательских вузов Азии",
-      "Аккредитация международных агентств",
-      "Преподаватели из 50+ стран мира"
-    ],
-    admissionRequirements: [
-      "IELTS 6.5 (не менее 6.0 по секциям)",
-      "SAT Subject Tests / NUET",
-      "Мотивационное письмо",
-      "Интервью (для некоторых программ)"
-    ],
-    admissionProcedure: [
-      "Онлайн регистрация на portal.nu.edu.kz",
-      "Загрузка сканов документов и сертификатов",
-      "Сдача вступительных экзаменов NUET (если нет SAT)",
-      "Рассмотрение заявки приемной комиссией",
-      "Получение приглашения (Offer letter)"
-    ],
-    scholarships: [
-      "Грант 'Назарбаев Университет' (100% покрытие обучения)",
-      "Стипендия Abay Kunanbayev",
-      "Социальные гранты Yessenov Foundation"
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://nu.edu.kz',
-        phone: '+7 (7172) 70 66 88',
-        email: 'info_admissions@nu.edu.kz',
-        address: 'г. Астана, пр. Кабанбай батыра, 53'
-    }
-  },
-  {
-    id: 'enu',
-    name: 'Евразийский национальный университет им. Л.Н. Гумилева',
-    shortName: 'ЕНУ',
-    location: 'Астана',
-    description: 'Один из ведущих классических университетов Казахстана, входящий в топ мировых рейтингов QS. Является центром евразийской науки и культуры, активно развивает международное сотрудничество.',
-    founded: 1996,
-    ranking: 3,
-    students: 20000,
-    tuitionAvg: '1 000 000 – 1 300 000 ₸',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg/800px-L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg',
-    gallery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gumilyov_Eurasian_National_University.jpg/800px-Gumilyov_Eurasian_National_University.jpg',
       'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg/800px-L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg',
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/ENU_main_building.jpg/800px-ENU_main_building.jpg'
@@ -149,40 +90,11 @@ export const UNIVERSITIES: University[] = [
     students: 12000,
     tuitionAvg: '800 000 – 950 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/KazATU_main_building.jpg/800px-KazATU_main_building.jpg',
-    logo: 'KATU',
-    mission: 'Интеграция образования, науки и производства для развития АПК страны.',
-    programs: [
-      { name: 'Агрономия', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Ветеринария', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
-      { name: 'Технический сервис в АПК', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' }
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['UC Davis', 'AgroParisTech'],
-    admissionDeadlines: '20.08',
-    category: 'State',
-    achievements: ["Статус исследовательского университета", "Собственные агрополигоны", "Лидер аграрной науки"],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://kazatu.edu.kz',
-        phone: '+7 (7172) 31 75 56',
-        email: 'katu@katu.kz',
-        address: 'г. Астана, пр. Женис, 62'
-    }
-  },
-  {
-    id: 'aitu',
-    name: 'Astana IT University',
-    shortName: 'AITU',
-    location: 'Астана',
-    description: 'Инновационный IT-университет, расположенный на территории EXPO-2017. Фокус на практических навыках, проектном обучении и цифровой экономике. Программы реализуются за 3 года (триместры).',
-    founded: 2019,
-    ranking: 10,
-    students: 4000,
-    tuitionAvg: '1 600 000 ₸',
-    image: 'https://astanait.edu.kz/wp-content/uploads/2021/04/aitu.jpg',
     logo: 'AITU',
     mission: 'Подготовка цифровой элиты для трансформации экономики Казахстана.',
     programs: [
@@ -222,40 +134,11 @@ export const UNIVERSITIES: University[] = [
     students: 8000,
     tuitionAvg: '1 100 000 – 1 400 000 ₸',
     image: 'https://amu.edu.kz/upload/iblock/c53/c538b7d413e15779ecdfa2db7243c7b3.jpg',
-    logo: 'MUA',
-    mission: 'Подготовка врачей новой формации, ориентированных на пациента и науку.',
-    programs: [
-      { name: 'Общая медицина', degree: 'Bachelor', duration: '6 лет', language: 'KZ/RU/EN' },
-      { name: 'Стоматология', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
-      { name: 'Фармация', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' }
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Sapienza Rome', 'Seoul National Univ'],
-    admissionDeadlines: '20.07',
-    category: 'Medical',
-    achievements: ["Лидер по трудоустройству врачей", "Собственный симуляционный центр"],
-    admissionRequirements: [...DEFAULTS.requirements, "Психометрический тест (допуск к конкурсу)"],
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://amu.edu.kz',
-        phone: '+7 (7172) 53 94 24',
-        email: 'info@amu.kz',
-        address: 'г. Астана, ул. Бейбитшилик, 49А'
-    }
-  },
-  {
-    id: 'kazgyu',
-    name: 'Университет КАЗГЮУ имени М.С. Нарикбаева',
-    shortName: 'KAZGUU',
-    location: 'Астана',
-    description: 'Лидер юридического образования в стране. Также имеет сильную международную бизнес-школу и школу либеральных искусств. Высокие стандарты качества и академической честности.',
-    founded: 1994,
-    ranking: 8,
-    students: 5000,
-    tuitionAvg: '1 300 000 – 2 000 000 ₸',
-    image: 'https://kazguu.kz/wp-content/uploads/2016/11/Glavnyj-korpus-KAZGYuU-1024x576.jpg',
     logo: 'KAZGUU',
     mission: 'Служение правосудию и обществу через качественное образование.',
     programs: [
@@ -297,44 +180,10 @@ export const UNIVERSITIES: University[] = [
     tuitionAvg: '1 200 000 – 1 600 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Al-Farabi_Kazakh_National_University.jpg/800px-Al-Farabi_Kazakh_National_University.jpg',
     gallery: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Al-Farabi_Kazakh_National_University_campus.jpg/800px-Al-Farabi_Kazakh_National_University_campus.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Al-Farabi_Kazakh_National_University.jpg/800px-Al-Farabi_Kazakh_National_University.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/KazNU_library.jpg/800px-KazNU_library.jpg'
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800'
     ],
-    logo: 'KazNU',
-    mission: 'Формирование интеллектуального потенциала нации и интеграция в мировое образовательное пространство.',
-    programs: [
-      { name: 'Физика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Востоковедение', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Биотехнология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' }
-    ],
-    partners: ['MSU', 'Osaka Univ', 'Columbia Univ'],
-    admissionDeadlines: '20.08',
-    category: 'National',
-    achievements: ["Top 150 QS World Ranking", "Глобальный Хаб ООН", "Самый большой кампус в ЦА (Казгуград)"],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://kaznu.kz',
-        phone: '+7 (727) 377 33 33',
-        email: 'info@kaznu.kz',
-        address: 'г. Алматы, пр. аль-Фараби, 71'
-    }
-  },
-  {
-    id: 'satbayev',
-    name: 'Satbayev University (КазНИТУ)',
-    shortName: 'Satbayev',
-    location: 'Алматы',
-    description: 'Главный технический вуз страны, первый исследовательский университет. Основной поставщик инженерных кадров для промышленности, нефтегаза и горного дела.',
-    founded: 1934,
-    ranking: 4,
-    students: 15000,
-    tuitionAvg: '1 000 000 – 1 200 000 ₸',
-    image: 'https://satbayev.university/cache/images/d/3/d3cfc7e0f2f70b79040003004d80931e.jpg',
     logo: 'SU',
     mission: 'Научное и инженерное обеспечение промышленного развития Казахстана.',
     programs: [
@@ -373,49 +222,6 @@ export const UNIVERSITIES: University[] = [
     students: 4000,
     tuitionAvg: '2 400 000 – 3 600 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
-    gallery: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/KBTU_Round_Hall.jpg/800px-KBTU_Round_Hall.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/KBTU_interior.jpg/800px-KBTU_interior.jpg'
-    ],
-    logo: 'KBTU',
-    mission: 'Подготовка лидеров в сфере технологий и бизнеса.',
-    programs: [
-      { name: 'Information Systems', degree: 'Bachelor', duration: '4 года', language: 'English' },
-      { name: 'Petroleum Engineering', degree: 'Bachelor', duration: '4 года', language: 'English' },
-      { name: 'Management', degree: 'Bachelor', duration: '4 года', language: 'English' }
-    ],
-    partners: ['UoL (University of London)', 'Harvard Business School (affiliate)'],
-    doubleDegree: [
-       { partner: 'University of London (UoL)', program: 'Economics & Data Science', country: 'UK' },
-       { partner: 'Geneva Business School', program: 'Finance', country: 'CH' }
-    ],
-    admissionDeadlines: '10.07',
-    category: 'Private',
-    achievements: ["Аккредитация ABET (единственный в РК по IT)", "Трудоустройство в Big 4, Google, Facebook", "Двойной диплом с LSE"],
-    admissionRequirements: ["ЕНТ", "IELTS 5.5+", "Математика (профильный предмет)", "Внутренний экзамен по математике (для гранта)"],
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: ["Гранты КБТУ", "Гранты компаний-партнеров (Тенгизшевройл, КазМунайГаз)", "Спортсменские гранты"],
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://kbtu.edu.kz',
-        phone: '+7 (727) 357 42 42',
-        email: 'info@kbtu.kz',
-        address: 'г. Алматы, ул. Толе би, 59'
-    }
-  },
-  {
-    id: 'kimep',
-    name: 'Университет КИМЭП',
-    shortName: 'KIMEP',
-    location: 'Алматы',
-    description: 'Ведущий вуз североамериканского образца в СНГ. Специализируется на бизнесе, праве и социальных науках. Обучение полностью на английском языке.',
-    founded: 1992,
-    ranking: 7,
-    students: 3500,
-    tuitionAvg: '3 500 000 – 4 200 000 ₸',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/KIMEP_University_campus.jpg/800px-KIMEP_University_campus.jpg',
     gallery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/KIMEP_University_campus.jpg/800px-KIMEP_University_campus.jpg',
       'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/KIMEP_New_Academic_Building.jpg/800px-KIMEP_New_Academic_Building.jpg',
@@ -459,40 +265,11 @@ export const UNIVERSITIES: University[] = [
     students: 5000,
     tuitionAvg: '1 800 000 ₸',
     image: 'https://iitu.edu.kz/media/images/IITU_1.original.jpg',
-    logo: 'IITU',
-    mission: 'Подготовка квалифицированных IT-специалистов международного уровня.',
-    programs: [
-      { name: 'Computer Science', degree: 'Bachelor', duration: '4 года', language: 'English' },
-      { name: 'Software Engineering', degree: 'Bachelor', duration: '4 года', language: 'English' },
-      { name: 'IT Management', degree: 'Bachelor', duration: '4 года', language: 'English' }
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Carnegie Mellon (partners)', 'iCarnegie'],
-    admissionDeadlines: '20.08',
-    category: 'Private',
-    achievements: ["Аккредитация ASIIN", "Лучшие команды по спортивному программированию (ACM ICPC)", "Трудоустройство 90%+"],
-    admissionRequirements: ["ЕНТ (Мат-Инф)", "Собеседование (для внутренних грантов)"],
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: ["Гос. гранты", "Гранты спонсоров", "Скидки за отличную учебу"],
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://iitu.edu.kz',
-        phone: '+7 (727) 320 00 00',
-        email: 'info@iitu.edu.kz',
-        address: 'г. Алматы, ул. Манаса, 34/1'
-    }
-  },
-  {
-    id: 'narxoz',
-    name: 'Университет Нархоз',
-    shortName: 'Narxoz',
-    location: 'Алматы',
-    description: 'Современный экономический университет, прошедший полную трансформацию. Новый эко-кампус, западные стандарты обучения и фокус на устойчивое развитие.',
-    founded: 1963,
-    ranking: 13,
-    students: 7000,
-    tuitionAvg: '1 300 000 – 1 800 000 ₸',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Narxoz_University_Main_Campus.jpg/800px-Narxoz_University_Main_Campus.jpg',
     logo: 'Narxoz',
     mission: 'Вдохновлять на обучение и исследования для устойчивого будущего.',
     programs: [
@@ -531,44 +308,11 @@ export const UNIVERSITIES: University[] = [
     students: 4500,
     tuitionAvg: '1 900 000 – 2 200 000 ₸',
     image: 'https://alma.edu.kz/wp-content/uploads/2023/10/alma-u-building.jpg',
-    logo: 'AlmaU',
-    mission: 'Делаем мир лучше через развитие предпринимательства и знаний.',
-    programs: [
-      { name: 'Менеджмент', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Предпринимательство', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Ресторанное дело', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' }
+    gallery: [
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Arizona State University (Cintana)', 'Emlyon'],
-    doubleDegree: [
-       { partner: 'Arizona State University (ASU)', program: 'Global Management', country: 'USA' },
-       { partner: 'Global Business School Barcelona', program: 'BBA', country: 'ES' }
-    ],
-    admissionDeadlines: '20.08',
-    category: 'Private',
-    achievements: ["AMBA аккредитация (MBA)", "Стратегическое партнерство с ASU (США)"],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: ["Предпринимательские гранты", "Скидки за успеваемость"],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://almau.edu.kz',
-        phone: '+7 (727) 313 30 90',
-        email: 'admission@almau.edu.kz',
-        address: 'г. Алматы, ул. Розыбакиева, 227'
-    }
-  },
-  {
-    id: 'turan',
-    name: 'Университет Туран',
-    shortName: 'Turan',
-    location: 'Алматы',
-    description: 'Инновационно-предпринимательский университет полного цикла (лицей-колледж-вуз-магистратура-PhD). Сильные направления: туризм, кино и ТВ, психология, IT.',
-    founded: 1992,
-    ranking: 15,
-    students: 6000,
-    tuitionAvg: '900 000 – 1 100 000 ₸',
-    image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&q=80&w=1200',
     logo: 'Turan',
     mission: 'Создавать возможности для успеха каждого.',
     programs: [
@@ -603,41 +347,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 16,
     students: 8000,
     tuitionAvg: '950 000 – 1 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1200',
-    logo: 'AUPET',
-    mission: 'Подготовка элиты инженерных кадров для цифровой энергетики.',
-    programs: [
-      { name: 'Теплоэнергетика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Электроэнергетика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Радиотехника и электроника', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' }
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KBTU_building_at_night.jpg/800px-KBTU_building_at_night.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['MPEI', 'Schneider Electric'],
-    admissionDeadlines: '15.08',
-    category: 'State',
-    achievements: ["Учебные центры Cisco, Huawei, Schneider Electric", "95% трудоустройство по специальности"],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://aues.edu.kz',
-        phone: '+7 (727) 323 11 75',
-        email: 'aues@aues.kz',
-        address: 'г. Алматы, ул. Байтурсынова, 126'
-    }
-  },
-  {
-    id: 'atu',
-    name: 'Алматинский технологический университет',
-    shortName: 'АТУ',
-    location: 'Алматы',
-    description: 'Лидер в подготовке кадров для пищевой, перерабатывающей и легкой промышленности. Сочетание инженерии, технологий и сервиса.',
-    founded: 1957,
-    ranking: 30,
-    students: 7000,
-    tuitionAvg: '800 000 – 1 000 000 ₸',
-    image: 'https://atu.edu.kz/wp-content/uploads/2021/04/Glavnyj-korpus-ATU.jpg',
     logo: 'ATU',
     mission: 'Технологии качества жизни.',
     programs: [
@@ -671,44 +386,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 20,
     students: 6000,
     tuitionAvg: '1 200 000 – 1 500 000 ₸',
-    image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&q=80&w=1200',
-    logo: 'KG',
-    mission: 'Строим будущее, сохраняя традиции.',
-    programs: [
-      { name: 'Архитектура', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
-      { name: 'Дизайн', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Строительство', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' }
+    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['RIBA', 'Politecnico di Milano'],
-    admissionDeadlines: '10.07 (Творческие)',
-    category: 'Private',
-    achievements: ["Аккредитация ЮНЕСКО-МСА", "Золотые медали на архитектурных биеннале"],
-    admissionRequirements: [...DEFAULTS.requirements, "Творческие экзамены (Рисунок, Черчение)"],
-    admissionProcedure: [
-        "Сдача творческих экзаменов в вузе (июль)",
-        ...DEFAULTS.procedure.slice(2)
-    ],
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://kazgasa.kz',
-        phone: '+7 (727) 309 60 00',
-        email: 'info@kazgasa.kz',
-        address: 'г. Алматы, ул. Рыскулбекова, 28'
-    }
-  },
-  {
-    id: 'sdu',
-    name: 'SDU University',
-    shortName: 'SDU',
-    location: 'Каскелен',
-    description: 'Современный кампус мирового уровня в пригороде Алматы. Сильные направления: IT, право, педагогика, филология. Обучение преимущественно на английском языке.',
-    founded: 1996,
-    ranking: 11,
-    students: 8000,
-    tuitionAvg: '1 500 000 – 2 000 000 ₸',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200',
     logo: 'SDU',
     mission: 'Excellence in education.',
     programs: [
@@ -744,41 +427,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 17,
     students: 13000,
     tuitionAvg: '600 000 – 900 000 ₸',
-    image: 'https://images.unsplash.com/photo-1543966888-7c1dc482a810?auto=format&fit=crop&q=80&w=1200',
-    logo: 'KarU',
-    mission: 'Служение науке и образованию во благо общества.',
-    programs: [
-      { name: 'Физика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Иностранный язык: два иностранных языка', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' }
+    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Charles Univ', 'Tomsk State Univ'],
-    admissionDeadlines: '25.08',
-    category: 'State',
-    achievements: DEFAULTS.achievements,
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://buketov.edu.kz',
-        phone: '+7 (7212) 31 22 43',
-        email: 'kargu@ksu.kz',
-        address: 'г. Караганда, ул. Университетская, 28'
-    }
-  },
-  {
-    id: 'ktu',
-    name: 'Карагандинский технический университет им. А. Сагинова',
-    shortName: 'КарТУ',
-    location: 'Караганда',
-    description: '«Политех». Ведущий технический вуз региона. Кузница кадров для горно-металлургической промышленности и машиностроения.',
-    founded: 1953,
-    ranking: 18,
-    students: 10000,
-    tuitionAvg: '800 000 – 950 000 ₸',
-    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&q=80&w=1200',
     logo: 'KTU',
     mission: 'Инновационное развитие через интеграцию образования, науки и производства.',
     programs: [
@@ -812,41 +466,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 5,
     students: 28000,
     tuitionAvg: '550 000 – 750 000 ₸',
-    image: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=1200',
-    logo: 'Auezov',
-    mission: 'Формирование человеческого капитала для инновационного развития Южного региона.',
-    programs: [
-      { name: 'Химическая технология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Право', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Информатика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' }
+    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: [],
-    admissionDeadlines: '25.08',
-    category: 'State',
-    achievements: ["Самый большой контингент студентов", "Многопрофильность"],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://auezov.edu.kz',
-        phone: '+7 (7252) 21 01 41',
-        email: 'rector@auezov.edu.kz',
-        address: 'г. Шымкент, пр. Тауке хана, 5'
-    }
-  },
-  {
-    id: 'yessenov',
-    name: 'Yessenov University',
-    shortName: 'YU',
-    location: 'Актау',
-    description: 'Флагман образования Мангистауской области. Специализируется на нефтегазовом деле, морской технике и туризме.',
-    founded: 1976,
-    ranking: 21,
-    students: 6000,
-    tuitionAvg: '650 000 – 800 000 ₸',
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200',
     logo: 'YU',
     mission: 'Служение региону через развитие человеческого капитала.',
     programs: [
@@ -879,40 +504,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 29,
     students: 8000,
     tuitionAvg: '600 000 – 800 000 ₸',
-    image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ASU',
-    mission: 'Качественное образование для процветания региона.',
-    programs: [
-      { name: 'Педагогика и методика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Журналистика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' }
+    image: 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: [],
-    admissionDeadlines: '25.08',
-    category: 'State',
-    achievements: DEFAULTS.achievements,
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://asu.edu.kz',
-        phone: '+7 (7122) 27 63 23',
-        email: 'kense@asu.edu.kz',
-        address: 'г. Атырау, пр. Студенческий, 212'
-    }
-  },
-  {
-    id: 'aog',
-    name: 'Атырауский университет нефти и газа им. С. Утебаева',
-    shortName: 'AOGU',
-    location: 'Атырау',
-    description: 'Специализированный нефтяной вуз. Единственный профильный университет по подготовке кадров для нефтегазовой отрасли в РК.',
-    founded: 1980,
-    ranking: 32,
-    students: 4000,
-    tuitionAvg: '800 000 – 1 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&q=80&w=1200',
     logo: 'AOG',
     mission: 'Индустриальный вуз для нефтегазовой отрасли.',
     programs: [
@@ -949,62 +546,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 1,
     students: 11500,
     tuitionAvg: 'от ~$60 000/год',
-    image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200',
-    logo: 'MIT',
-    mission: 'Продвижение знаний и образования в науке, технологиях и других областях для блага нации и мира.',
-    programs: [
-      { name: 'Computer Science & AI', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Лучшая в мире программа по CS и искусственному интеллекту.' },
-      { name: 'Electrical Engineering', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Системы, схемотехника, робототехника.' },
-      { name: 'Physics', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Теоретическая и прикладная физика.' },
+    image: 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Google', 'NASA', 'Microsoft', 'SpaceX'],
-    admissionDeadlines: '01.01 (Regular Decision)',
-    category: 'International',
-    achievements: [
-      'QS World Ranking #1 (12 лет подряд)',
-      '100+ лауреатов Нобелевской премии',
-      'Крупнейший эндаумент-фонд ($27 млрд)',
-    ],
-    admissionRequirements: [
-      'SAT / ACT (топ-перцентиль)',
-      'TOEFL iBT 90+ / IELTS 7.0+',
-      'Мотивационное эссе',
-      '3 рекомендательных письма',
-      'Портфолио проектов / олимпиадные достижения',
-    ],
-    admissionProcedure: [
-      'Подача заявки на my.mit.edu (Early Action — 1 ноября).',
-      'Загрузка документов и рекомендаций.',
-      'Интервью с alumni (по приглашению).',
-      'Решение — декабрь (EA) / март (Regular).',
-      'Принятие оффера и оформление визы F-1.',
-    ],
-    scholarships: [
-      'MIT Need-Based Financial Aid (без займов!)',
-      'MIT International Student Scholarships',
-      'Финансовая помощь иностранным студентам (до 100%)',
-      'Стипендии от корпоративных партнёров',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://web.mit.edu',
-      phone: '+1 (617) 253-1000',
-      email: 'admissions@mit.edu',
-      address: '77 Massachusetts Ave, Cambridge, MA 02139, USA',
-    }
-  },
-  {
-    id: 'cambridge',
-    name: 'University of Cambridge',
-    shortName: 'Cambridge',
-    location: 'Великобритания',
-    description: 'Один из старейших и самых престижных университетов мира с 800-летней историей. Входит в тройку лучших вузов планеты. Отличается уникальной коллегиальной системой обучения и выдающимися академическими традициями.',
-    founded: 1209,
-    ranking: 2,
-    students: 24000,
-    tuitionAvg: 'от £31 000/год',
-    image: 'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=1200',
     logo: 'Cam',
     mission: 'Содействие образованию, учению и исследованиям на высшем уровне для блага общества.',
     programs: [
@@ -1060,1015 +607,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 87,
     students: 40000,
     tuitionAvg: 'от 280 000 – 450 000 ₽/год',
-    image: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&q=80&w=1200',
-    logo: 'МГУ',
-    mission: 'Сохранение и приумножение лучших традиций российской науки и образования в интересах общества.',
-    programs: [
-      { name: 'Прикладная математика и информатика', degree: 'Bachelor', duration: '4 года', language: 'RU', description: 'Математика, программирование, анализ данных.' },
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'RU', description: 'Государственное и международное право.' },
-      { name: 'Международные отношения', degree: 'Bachelor', duration: '4 года', language: 'RU/EN', description: 'Дипломатия, внешняя политика, МО.' },
-      { name: 'Биология', degree: 'Bachelor', duration: '4 года', language: 'RU', description: 'Молекулярная биология, биохимия, экология.' },
+    image: 'https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['РАН', 'Сколтех', 'Яндекс', 'РФ Правительство'],
-    admissionDeadlines: '26.07 (ЕГЭ / вступительные МГУ)',
-    category: 'International',
-    achievements: [
-      'QS World Ranking Top-100',
-      'Лучший университет СНГ/России',
-      'Крупнейшая научная библиотека (10 млн+ книг)',
-    ],
-    admissionRequirements: [
-      'Диплом / аттестат о среднем образовании',
-      'Вступительные экзамены МГУ (доп. испытания)',
-      'ЕГЭ / ЕНТ или академическая справка',
-      'Нострификация документа об образовании',
-    ],
-    admissionProcedure: [
-      'Подача заявления в деканат выбранного факультета.',
-      'Нострификация аттестата в Министерстве просвещения РФ.',
-      'Прохождение дополнительных вступительных испытаний МГУ.',
-      'Зачисление на конкурсной основе.',
-      'Оформление учебной визы и регистрации.',
-    ],
-    scholarships: [
-      'Государственная квота РФ для граждан Казахстана',
-      'Стипендия Президента РФ для иностранцев',
-      'Именные стипендии МГУ',
-      'Общежитие по льготной цене',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.msu.ru',
-      phone: '+7 (495) 939-10-00',
-      email: 'pk@msu.ru',
-      address: 'г. Москва, Ленинские горы, 1, ГСП-1',
-    }
-  },
-  {
-    id: 'hse',
-    name: 'Национальный исследовательский университет «Высшая школа экономики»',
-    shortName: 'НИУ ВШЭ',
-    location: 'Россия, Москва',
-    description: 'Ведущий университет России в области экономики, социальных наук и IT. ВШЭ — современный исследовательский вуз с сильными программами по Data Science, финансам, праву и дизайну. Активно принимает студентов из Казахстана.',
-    founded: 1992,
-    ranking: 301,
-    students: 47000,
-    tuitionAvg: 'от 320 000 – 600 000 ₽/год',
-    image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ВШЭ',
-    mission: 'Формирование среды для создания знаний, востребованных обществом и экономикой.',
-    programs: [
-      { name: 'Бизнес-информатика', degree: 'Bachelor', duration: '4 года', language: 'RU', description: 'IT, управление, цифровые технологии в бизнесе.' },
-      { name: 'Экономика', degree: 'Bachelor', duration: '4 года', language: 'RU/EN', description: 'Финансы, эконометрика, анализ рынков.' },
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'RU', description: 'Частное и публичное право, международное право.' },
-      { name: 'Программная инженерия', degree: 'Bachelor', duration: '4 года', language: 'RU/EN', description: 'Разработка ПО, архитектура, DevOps.' },
-    ],
-    partners: ['Яндекс', 'Сбер', '1С', 'Тинькофф'],
-    admissionDeadlines: '29.07 (основная волна)',
-    category: 'International',
-    achievements: [
-      'Лучший вуз СНГ по экономике и социальным наукам',
-      'Партнёр Яндекс Образования и Сбера',
-      '5-е место в Рейтинге вузов России 2024',
-    ],
-    admissionRequirements: [
-      'Аттестат о среднем образовании',
-      'ЕГЭ (для граждан РФ) / вступительные испытания ВШЭ',
-      'Нострификация для иностранных граждан',
-      'Портфолио (для творческих специальностей)',
-    ],
-    admissionProcedure: [
-      'Регистрация на https://enroll.hse.ru.',
-      'Подача документов (онлайн или лично).',
-      'Участие в конкурсе индивидуальных достижений.',
-      'Нострификация аттестата.',
-      'Зачисление и оформление договора.',
-    ],
-    scholarships: [
-      'Квота РФ для казахстанских абитуриентов',
-      'Стипендия «Путь в науку» ВШЭ',
-      'Гранты для призёров олимпиад',
-      'Скидки за высокий балл ЕНТ / аттестат',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.hse.ru',
-      phone: '+7 (495) 621-28-73',
-      email: 'abitur@hse.ru',
-      address: 'г. Москва, ул. Мясницкая, 20',
-    }
-  },
-  {
-    id: 'kaist',
-    name: 'Korea Advanced Institute of Science and Technology',
-    shortName: 'KAIST',
-    location: 'Южная Корея, Дэджон',
-    description: 'Ведущий технический университет Азии, основанный при поддержке правительства Южной Кореи. KAIST — инновационный хаб в области робототехники, ИИ, полупроводников и биотехнологий. Предоставляет щедрые стипендии иностранным студентам.',
-    founded: 1971,
-    ranking: 42,
-    students: 10000,
-    tuitionAvg: 'от $3 000/год (со стипендией — бесплатно)',
-    image: 'https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?auto=format&fit=crop&q=80&w=1200',
-    logo: 'KAIST',
-    mission: 'Стать мировым лидером в науке и технологиях для процветания человечества.',
-    programs: [
-      { name: 'Computer Science', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'ИИ, машинное обучение, HCI.' },
-      { name: 'Electrical Engineering', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Полупроводники, робототехника, телекоммуникации.' },
-      { name: 'Mechanical Engineering', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Механика, автомобилестроение, аэрокосмос.' },
-      { name: 'Biomedical Engineering', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Биомедицинские устройства, генетика.' },
-    ],
-    partners: ['Samsung', 'LG', 'Hyundai', 'SK Hynix'],
-    admissionDeadlines: '30.09 (Spring) / 28.02 (Fall)',
-    category: 'International',
-    achievements: [
-      'QS World Ranking #42',
-      'Топ-10 лучших технических вузов Азии',
-      'Уровень трудоустройства 99% (Samsung, Hyundai, Google)',
-    ],
-    admissionRequirements: [
-      'Аттестат о среднем образовании (GPA 3.5+/4.0)',
-      'TOEFL iBT 83+ / IELTS 6.5+',
-      'SAT (желательно 1400+) или ACT',
-      'Мотивационное письмо',
-      '2 рекомендательных письма',
-    ],
-    admissionProcedure: [
-      'Регистрация на admissions.kaist.ac.kr.',
-      'Загрузка транскриптов, мотивационного письма и рекомендаций.',
-      'Рассмотрение заявки (2–3 месяца).',
-      'Интервью по Zoom (по необходимости).',
-      'Оффер + оформление стипендии и визы D-2.',
-    ],
-    scholarships: [
-      'KAIST Scholarship (100% оплата + проживание для иностр.)',
-      'Korean Government Scholarship Program (KGSP)',
-      'Global Korea Scholarship (GKS)',
-      'Стипендии Samsung и LG (для магистратуры)',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.kaist.ac.kr',
-      phone: '+82-42-350-2114',
-      email: 'admission@kaist.ac.kr',
-      address: '291 Daehak-ro, Yuseong-gu, Daejeon 34141, South Korea',
-    }
-  },
-  {
-    id: 'eth-zurich',
-    name: 'ETH Zürich — Swiss Federal Institute of Technology',
-    shortName: 'ETH Zürich',
-    location: 'Швейцария, Цюрих',
-    description: 'Один из лучших технических университетов мира, расположенный в сердце Европы. Родина 22 нобелевских лауреатов. ETH Zürich известен сильными программами по инженерии, компьютерным наукам, архитектуре и наукам о Земле. Бакалавриат преподаётся преимущественно на немецком.',
-    founded: 1855,
-    ranking: 7,
-    students: 24500,
-    tuitionAvg: 'CHF 730/семестр (~$800)',
-    image: 'https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ETH',
-    mission: 'Образование и исследования, служащие обществу с ориентацией на науку и технологии.',
-    programs: [
-      { name: 'Computer Science', degree: 'Master', duration: '2 года', language: 'English', description: 'Системы, ИИ, распределённые вычисления.' },
-      { name: 'Data Science', degree: 'Master', duration: '2 года', language: 'English', description: 'Статистика, ML, Big Data.' },
-      { name: 'Civil Engineering', degree: 'Bachelor', duration: '3 года', language: 'Deutsch', description: 'Строительство, геотехника, управление проектами.' },
-      { name: 'Architecture', degree: 'Bachelor', duration: '3 года', language: 'Deutsch', description: 'Архитектура, городской дизайн.' },
-    ],
-    partners: ['IBM', 'ABB', 'Nestlé', 'Roche', 'Google DeepMind'],
-    admissionDeadlines: '15.12 (Master) / 30.04 (Bachelor)',
-    category: 'International',
-    achievements: [
-      'QS World Ranking #7 (Европа #1 в IT)',
-      '22 нобелевских лауреата (вкл. Эйнштейн)',
-      'Самые низкие цены за обучение среди топ-10 мира',
-    ],
-    admissionRequirements: [
-      'Аттестат с отличными оценками (особенно математика и физика)',
-      'Немецкий B2+ (для бакалавриата) / Английский C1 (для магистратуры)',
-      'TOEFL / IELTS (для магистратуры на английском)',
-      'Мотивационное письмо и CV',
-      'Рекомендательные письма (для магистратуры)',
-    ],
-    admissionProcedure: [
-      'Регистрация на myStudies.ethz.ch.',
-      'Загрузка транскриптов и языковых сертификатов.',
-      'Прохождение вступительного экзамена (для бакалавра, не-EU).',
-      'Рассмотрение заявки (~8 недель).',
-      'Получение оффера и оформление разрешения на пребывание (Aufenthaltsbewilligung).',
-    ],
-    scholarships: [
-      'ETH Excellence Scholarship & Opportunity Programme (ESOP)',
-      'Swiss Government Excellence Scholarships',
-      'Excellence Masters Scholarships (для магистратуры)',
-      'Erasmus+ Grants (для EU-партнёров)',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://ethz.ch',
-      phone: '+41 44 632 11 11',
-      email: 'admissions@ethz.ch',
-      address: 'Rämistrasse 101, 8092 Zürich, Switzerland',
-    }
-  },
-  {
-    id: 'skoltech',
-    name: 'Сколковский институт науки и технологий',
-    shortName: 'Сколтех',
-    location: 'Россия, Москва',
-    description: 'Международный технологический университет нового поколения, основанный совместно с MIT. Сколтех специализируется исключительно на магистратуре и аспирантуре в области IT, энергетики, биомедицины и космоса. Обучение ведётся на английском языке.',
-    founded: 2011,
-    ranking: 501,
-    students: 2200,
-    tuitionAvg: 'Бесплатно (полная стипендия)',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200',
-    logo: 'Skol',
-    mission: 'Создавать, распространять и применять знания для решения глобальных проблем с фокусом на технологии и предпринимательство.',
-    programs: [
-      { name: 'Space Science and Technology', degree: 'Master', duration: '2 года', language: 'English', description: 'Спутники, космические аппараты, ДЗЗ.' },
-      { name: 'Data Science', degree: 'Master', duration: '2 года', language: 'English', description: 'ML, Big Data, прикладной ИИ.' },
-      { name: 'Biotechnology', degree: 'Master', duration: '2 года', language: 'English', description: 'Биомедицина, генные технологии.' },
-      { name: 'Energy Science and Technology', degree: 'Master', duration: '2 года', language: 'English', description: 'Нефтегаз, возобновляемая энергетика.' },
-    ],
-    partners: ['MIT', 'Boeing', 'Shell', 'Яндекс', 'Роскосмос'],
-    admissionDeadlines: '01.04 (основная волна)',
-    category: 'International',
-    achievements: [
-      'Основан совместно с MIT (USA)',
-      'Полная стипендия для всех студентов (включая иностранцев)',
-      'Инновационный кампус в Сколково',
-    ],
-    admissionRequirements: [
-      'Диплом бакалавра (технический / естественнонаучный)',
-      'IELTS 6.5+ / TOEFL iBT 85+',
-      'GRE / GMAT (желательно)',
-      'Мотивационное письмо и резюме (CV)',
-      '2 рекомендательных письма',
-    ],
-    admissionProcedure: [
-      'Онлайн заявка на apply.skoltech.ru.',
-      'Загрузка диплома, транскриптов, IELTS/TOEFL.',
-      'Письменный тест и онлайн-интервью.',
-      'Решение приёмной комиссии (~3 недели).',
-      'Оформление студенческой визы и регистрации.',
-    ],
-    scholarships: [
-      'Полная стипендия Сколтех (покрывает обучение и проживание)',
-      'Гранты Правительства РФ для иностранцев',
-      'Корпоративные стипендии от партнёров (Shell, Boeing)',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.skoltech.ru',
-      phone: '+7 (495) 280-14-81',
-      email: 'ask@skoltech.ru',
-      address: 'Территория инновационного центра «Сколково», Большой бульвар, 30, Москва',
-    }
-  },
-  {
-    id: 'nus',
-    name: 'National University of Singapore',
-    shortName: 'NUS',
-    location: 'Сингапур',
-    description: 'Лучший университет Азии по версии QS 2024. NUS — флагман Сингапура и один из самых инновационных вузов мира. Предлагает сотни программ на английском языке, сильные связи с бизнесом и отличную перспективу трудоустройства в азиатском регионе.',
-    founded: 1905,
-    ranking: 8,
-    students: 40000,
-    tuitionAvg: 'SGD 17 000 – 26 000/год (~$13–19 тыс.)',
-    image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=1200',
-    logo: 'NUS',
-    mission: 'Образование глобальных лидеров и пионеров, создающих влияние для Сингапура и мира.',
-    programs: [
-      { name: 'Computer Science', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'ИИ, кибербезопасность, SE, Data Science.' },
-      { name: 'Business Administration', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Управление, маркетинг, предпринимательство.' },
-      { name: 'Medicine (MBBS)', degree: 'Bachelor', duration: '5 лет', language: 'English', description: 'Клиническая медицина, хирургия.' },
-      { name: 'Law (LLB)', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Международное и деловое право.' },
-    ],
-    partners: ['Google', 'Alibaba', 'Grab', 'DBS Bank', 'A*STAR'],
-    admissionDeadlines: '01.03 (International applicants)',
-    category: 'International',
-    achievements: [
-      'QS World Ranking #8 / Asia #1',
-      'Лучший вуз Юго-Восточной Азии 10+ лет',
-      '100+ спин-офф стартапов в год',
-    ],
-    admissionRequirements: [
-      'Аттестат с отличными оценками (A-Levels/IB/National exams)',
-      'SAT 1400+ / ACT 32+ (для некоторых программ)',
-      'IELTS 6.5+ / TOEFL iBT 92+',
-      'Мотивационное письмо',
-      '1 рекомендательное письмо',
-    ],
-    admissionProcedure: [
-      'Онлайн заявка на admissions.nus.edu.sg.',
-      'Загрузка документов, транскриптов, языковых сертификатов.',
-      'SAT/ACT баллы (при наличии).',
-      'Интервью (для медицины и права).',
-      'Оффер + оформление Student\'s Pass (виза).',
-    ],
-    scholarships: [
-      'NUS Scholarships for ASEAN & International Students',
-      'ASEAN Undergraduate Scholarship',
-      'Science & Technology Undergraduate Scholarship',
-      'Singapore Government Scholarships (SPRING)',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.nus.edu.sg',
-      phone: '+65 6516 6666',
-      email: 'askadmissions@nus.edu.sg',
-      address: '21 Lower Kent Ridge Road, Singapore 119077',
-    }
-  },
-
-  // --- Германия ---
-  {
-    id: 'tum',
-    name: 'Технический университет Мюнхена',
-    shortName: 'TU München',
-    location: 'Германия, Мюнхен',
-    description: 'Лучший технический университет Германии и один из топовых в Европе. TUM входит в элитную группу «Университетов превосходства» Германии. Сильные программы по инженерии, информатике, менеджменту и медицине. Обучение частично на английском, стоимость — практически бесплатная.',
-    founded: 1868,
-    ranking: 37,
-    students: 50000,
-    tuitionAvg: 'Семестровый взнос €144 (~$155) + страховка',
-    image: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&q=80&w=1200',
-    logo: 'TUM',
-    mission: 'Отличное образование и исследования для устойчивого развития общества.',
-    programs: [
-      { name: 'Informatics (M.Sc.)', degree: 'Master', duration: '2 года', language: 'English', description: 'ИИ, робототехника, безопасность данных.' },
-      { name: 'Electrical Engineering (B.Sc.)', degree: 'Bachelor', duration: '3.5 года', language: 'Deutsch', description: 'Электроника, автоматизация, телекоммуникации.' },
-      { name: 'Management & Technology (B.Sc.)', degree: 'Bachelor', duration: '4 года', language: 'English/DE', description: 'Технологический менеджмент, стартапы.' },
-      { name: 'Data Engineering & Analytics', degree: 'Master', duration: '2 года', language: 'English', description: 'Big Data, ML, аналитика.' },
-    ],
-    partners: ['BMW', 'Siemens', 'MAN', 'Microsoft', 'Google'],
-    admissionDeadlines: '15.01 (Winter) / 31.05 (Summer)',
-    category: 'International',
-    achievements: [
-      'QS World Ranking #37',
-      'Элитный университет Германии (Exzellenzinitiative)',
-      '17 нобелевских лауреатов',
-    ],
-    admissionRequirements: [
-      'Аттестат / Диплом бакалавра с высоким GPA',
-      'Немецкий B2+ (DSH-2 / TestDaF) для нем. программ',
-      'IELTS 6.5+ / TOEFL iBT 88+ для англ. программ',
-      'Мотивационное письмо и CV',
-      'Рекомендательные письма (для магистратуры)',
-    ],
-    admissionProcedure: [
-      'Регистрация на TUMonline (campus.tum.de).',
-      'Подача документов через TUMOnline или uni-assist.de.',
-      'Оценка документов приёмной комиссией.',
-      'Получение Zulassung (разрешение на обучение).',
-      'Подача заявки на студенческую визу (Visum D).',
-    ],
-    scholarships: [
-      'DAAD Scholarship (немецкая служба академических обменов)',
-      'Deutschlandstipendium (€300/мес)',
-      'TUM Merit Scholarships',
-      'Erasmus+ для студентов из стран-партнёров',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.tum.de',
-      phone: '+49 89 289-01',
-      email: 'studienbuero@tum.de',
-      address: 'Arcisstraße 21, 80333 München, Germany',
-    }
-  },
-  {
-    id: 'heidelberg',
-    name: 'Гейдельбергский университет',
-    shortName: 'Heidelberg',
-    location: 'Германия, Гейдельберг',
-    description: 'Старейший университет Германии (1386 г.) и один из самых престижных в Европе. Особенно силён в медицине, биологии, праве и гуманитарных науках. Расположен в живописном университетском городке. Обучение преимущественно на немецком.',
-    founded: 1386,
-    ranking: 65,
-    students: 30000,
-    tuitionAvg: 'Семестровый взнос €185 (~$200)',
-    image: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&q=80&w=1200',
-    logo: 'HD',
-    mission: 'Служение истине через науку и образование для общества и будущих поколений.',
-    programs: [
-      { name: 'Medizin (Staatsexamen)', degree: 'Bachelor', duration: '6 лет', language: 'Deutsch', description: 'Одна из лучших медицинских программ Германии.' },
-      { name: 'Biosciences (M.Sc.)', degree: 'Master', duration: '2 года', language: 'English', description: 'Молекулярная биология, биотехнологии, нейронауки.' },
-      { name: 'Law (Staatsexamen)', degree: 'Bachelor', duration: '4.5 года', language: 'Deutsch', description: 'Немецкое и европейское право.' },
-    ],
-    partners: ['DKFZ', 'EMBL', 'Max Planck', 'WHO'],
-    admissionDeadlines: '15.07 (Wintersemester) / 15.01 (Sommersemester)',
-    category: 'International',
-    achievements: [
-      'Старейший университет Германии (с 1386 г.)',
-      '56 нобелевских лауреатов',
-      'Топ медицинская школа Европы',
-    ],
-    admissionRequirements: [
-      'Аттестат с нострификацией (Feststellungsprüfung)',
-      'Немецкий C1 (DSH-2 или TestDaF 4×4)',
-      'NC (numerus clausus) — высокий средний балл',
-      'Мотивационное письмо (для отдельных программ)',
-    ],
-    admissionProcedure: [
-      'Подача через hochschulstart.de (для медицины) или напрямую.',
-      'Прохождение Feststellungsprüfung при необходимости.',
-      'Запись через uni-assist.de (для иностранцев).',
-      'Получение письма о зачислении.',
-      'Оформление визы в посольстве Германии.',
-    ],
-    scholarships: [
-      'DAAD Scholarship (полные и частичные)',
-      'Heidelberg University Excellence Scholarship',
-      'Heinrich Böll Foundation Grants',
-      'Konrad Adenauer Foundation Scholarships',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.uni-heidelberg.de',
-      phone: '+49 6221 54-0',
-      email: 'info@uni-heidelberg.de',
-      address: 'Grabengasse 1, 69117 Heidelberg, Germany',
-    }
-  },
-
-  // --- Турция ---
-  {
-    id: 'metu',
-    name: 'Ближневосточный технический университет',
-    shortName: 'METU (ODTÜ)',
-    location: 'Турция, Анкара',
-    description: 'Ведущий технический университет Турции и всего ближневосточного региона. Обучение ведётся полностью на английском языке — редкость для турецких вузов. Очень популярен среди казахстанских студентов: доступные цены, хорошее качество и диплом международного уровня.',
-    founded: 1956,
-    ranking: 401,
-    students: 30000,
-    tuitionAvg: 'от $800 – 2 500/год (иностр. студенты)',
-    image: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200',
-    logo: 'METU',
-    mission: 'Создание и распространение знаний в области науки и технологий для блага общества.',
-    programs: [
-      { name: 'Computer Engineering', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Разработка ПО, сети, встроенные системы.' },
-      { name: 'Electrical & Electronics Eng.', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Электроника, телекоммуникации, схемы.' },
-      { name: 'Business Administration', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Управление, финансы, маркетинг.' },
-      { name: 'International Relations', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Дипломатия, МО, конфликтология.' },
-    ],
-    partners: ['NASA', 'CERN', 'Boeing', 'Airbus'],
-    admissionDeadlines: '30.06 (Fall) / 30.11 (Spring)',
-    category: 'International',
-    achievements: [
-      'Единственный вуз Турции с обучением полностью на английском',
-      'QS World Ranking Top-500',
-      'Самый популярный вуз Турции среди иностранных студентов',
-    ],
-    admissionRequirements: [
-      'Аттестат о среднем образовании',
-      'SAT 1200+ / ACT 25+ или METU English Proficiency Exam',
-      'IELTS 6.5+ / TOEFL iBT 79+',
-      'Мотивационное письмо',
-    ],
-    admissionProcedure: [
-      'Онлайн заявка на ois.metu.edu.tr.',
-      'Загрузка аттестата, языкового сертификата и мотив. письма.',
-      'Сдача вступительного языкового теста METU (при необходимости).',
-      'Получение условного оффера.',
-      'Оформление студенческой визы Турции.',
-    ],
-    scholarships: [
-      'Türkiye Burslari (полная стипендия Правительства Турции — жильё + стипендия)',
-      'METU International Student Scholarship',
-      'Скидки за высокий GPA',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.metu.edu.tr',
-      phone: '+90 312 210 2000',
-      email: 'ois@metu.edu.tr',
-      address: 'Dumlupınar Blvd No:1, 06800 Ankara, Turkey',
-    }
-  },
-  {
-    id: 'istanbul',
-    name: 'Стамбульский университет',
-    shortName: 'İÜ',
-    location: 'Турция, Стамбул',
-    description: 'Один из старейших и крупнейших университетов Турции, расположенный в сердце Стамбула. Привлекает тысячи студентов из Казахстана и Центральной Азии ежегодно. Доступные цены, широкий выбор программ, возможность учиться на русском/казахском в отдельных группах.',
-    founded: 1453,
-    ranking: 751,
-    students: 73000,
-    tuitionAvg: 'от $500 – 1 500/год',
-    image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=1200',
-    logo: 'İÜ',
-    mission: 'Воспитание образованных граждан, служащих Турции и всему человечеству.',
-    programs: [
-      { name: 'Медицина / Tıp', degree: 'Bachelor', duration: '6 лет', language: 'Türkçe', description: 'Клиническая медицина, диплом признан в РК.' },
-      { name: 'Стоматология / Diş Hekimliği', degree: 'Bachelor', duration: '5 лет', language: 'Türkçe', description: 'Терапевтическая и хирургическая стоматология.' },
-      { name: 'Юриспруденция / Hukuk', degree: 'Bachelor', duration: '4 года', language: 'Türkçe', description: 'Турецкое и международное право.' },
-      { name: 'Экономика / İktisat', degree: 'Bachelor', duration: '4 года', language: 'Türkçe/EN', description: 'Макроэкономика, финансы, мировая экономика.' },
-    ],
-    partners: ['Erasmus+ (500+ вузов)', 'UN', 'World Bank'],
-    admissionDeadlines: '31.07 (осенний семестр)',
-    category: 'International',
-    achievements: [
-      'Крупнейший университет Турции (73 000 студентов)',
-      'Один из старейших вузов мира (с 1453 г.)',
-      '5 000+ студентов из Казахстана и ЦА ежегодно',
-    ],
-    admissionRequirements: [
-      'Аттестат о среднем образовании (нострификация)',
-      'Türkiye Burslari или YÖS (вступительный экзамен для иностранцев)',
-      'Языковой экзамен (TÖMER — турецкий, если программа на тур.)',
-      'Медицинская справка',
-    ],
-    admissionProcedure: [
-      'Подача заявки через studyinturkey.gov.tr или напрямую.',
-      'Участие в конкурсе стипендий Türkiye Burslari (февраль).',
-      'Сдача YÖS экзамена (апрель–май).',
-      'Зачисление и оформление ВНЖ в Турции.',
-    ],
-    scholarships: [
-      'Türkiye Burslari — полная стипендия (жильё, питание, перелёт)',
-      'Скидки для граждан тюркоязычных стран',
-      'Гранты TIKA (Турецкое агентство по сотрудничеству)',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.istanbul.edu.tr',
-      phone: '+90 212 440 0000',
-      email: 'uluslararasi@istanbul.edu.tr',
-      address: 'Beyazıt, Fatih, 34116 İstanbul, Turkey',
-    }
-  },
-
-  // --- Китай ---
-  {
-    id: 'tsinghua',
-    name: 'Университет Цинхуа',
-    shortName: 'Tsinghua',
-    location: 'Китай, Пекин',
-    description: '"Азиатский MIT" — ведущий технический вуз Китая и всей Азии. Активно принимает иностранных студентов, особенно из Казахстана — предоставляются правительственные стипендии КНР. Обучение на английском или китайском. Сильнейшие программы по инженерии, ИИ и бизнесу.',
-    founded: 1911,
-    ranking: 25,
-    students: 47000,
-    tuitionAvg: 'CNY 26 000–30 000/год (~$3 500–4 200)',
-    image: 'https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&q=80&w=1200',
-    logo: 'THU',
-    mission: 'Самосовершенствование, честность, всесторонность, лидерство — для Китая и мира.',
-    programs: [
-      { name: 'Computer Science & Technology', degree: 'Bachelor', duration: '4 года', language: 'English/中文', description: 'ИИ, алгоритмы, разработка систем.' },
-      { name: 'Civil Engineering', degree: 'Bachelor', duration: '4 года', language: '中文', description: 'Строительство, геотехника, транспорт.' },
-      { name: 'Economics & Finance', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Финансы, эконометрика, международная экономика.' },
-      { name: 'Architecture', degree: 'Bachelor', duration: '5 лет', language: '中文', description: 'Архитектура, урбанизм, дизайн.' },
-    ],
-    partners: ['MIT', 'UC Berkeley', 'Oxford', 'Huawei', 'Alibaba'],
-    admissionDeadlines: '31.03 (осенний семестр)',
-    category: 'International',
-    achievements: [
-      'QS World Ranking #25',
-      'Лучший вуз Китая и Азии (несколько лет)',
-      'Партнёр: MIT, Huawei, Google, Alibaba',
-    ],
-    admissionRequirements: [
-      'Аттестат о среднем образовании',
-      'HSK 5+ (для программ на китайском)',
-      'IELTS 6.5+ / TOEFL iBT 90+ (для английских программ)',
-      'Мотивационное письмо и рекомендации',
-      'Медицинская справка',
-    ],
-    admissionProcedure: [
-      'Регистрация на is.tsinghua.edu.cn.',
-      'Подача заявки на стипендию CSC (до 1 февраля).',
-      'Загрузка аттестата, языковых сертификатов, мотив. письма.',
-      'Рассмотрение заявки (~2 месяца).',
-      'Оффер + оформление учебной визы X1/X2.',
-    ],
-    scholarships: [
-      'Chinese Government Scholarship (CSC) — полная (для граждан КЗ)',
-      'Tsinghua University Scholarship for International Students',
-      'Silk Road Scholarship (для стран ШОС и Центральной Азии)',
-      'Конфуций-Институт Стипендии (для знающих китайский)',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.tsinghua.edu.cn',
-      phone: '+86 10 6278-4857',
-      email: 'international@tsinghua.edu.cn',
-      address: '30 Shuangqing Rd, Haidian District, Beijing 100084, China',
-    }
-  },
-  {
-    id: 'beihang',
-    name: 'Пекинский авиационно-космический университет',
-    shortName: 'BUAA',
-    location: 'Китай, Пекин',
-    description: 'Ведущий аэрокосмический и технический университет Китая. BUAA — главный поставщик кадров для китайской космической отрасли, авиации и оборонной промышленности. Активно принимает студентов из Казахстана по стипендиям CSC. Популярен среди тех, кто хочет работать в авиа- и нефтегазовой сфере.',
-    founded: 1952,
-    ranking: 451,
-    students: 38000,
-    tuitionAvg: 'CNY 25 000–29 000/год (~$3 400–4 000)',
-    image: 'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=1200',
-    logo: 'BUAA',
-    mission: 'Воспитание элиты аэрокосмической и технической науки для развития Китая.',
-    programs: [
-      { name: 'Aerospace Engineering', degree: 'Bachelor', duration: '4 года', language: 'English/中文', description: 'Самолётостроение, ракетные двигатели, авионика.' },
-      { name: 'Petroleum Engineering', degree: 'Bachelor', duration: '4 года', language: '中文', description: 'Бурение, добыча нефти и газа, геология пласта.' },
-      { name: 'Software Engineering', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Разработка ПО, встроенные системы, DevOps.' },
-      { name: 'Mechanical Engineering', degree: 'Bachelor', duration: '4 года', language: '中文/EN', description: 'Машиностроение, CAD/CAM, робототехника.' },
-    ],
-    partners: ['Airbus', 'COMAC', 'AVIC', 'Роскосмос', 'Boeing'],
-    admissionDeadlines: '15.03 (осенний семестр)',
-    category: 'International',
-    achievements: [
-      'Главный аэрокосмический вуз Китая',
-      'Партнёр Airbus, COMAC и Роскосмос',
-      'Стипендии CSC для граждан Казахстана',
-    ],
-    admissionRequirements: [
-      'Аттестат о среднем образовании (GPA 75%+)',
-      'HSK 4+ (для программ на китайском)',
-      'IELTS 6.0+ / TOEFL iBT 80+ (для английских)',
-      'Мотивационное письмо',
-      'Медицинская справка (форма JW201/JW202)',
-    ],
-    admissionProcedure: [
-      'Подача заявки на ips.buaa.edu.cn.',
-      'Заявка на стипендию CSC через csc.edu.cn.',
-      'Загрузка всех документов онлайн.',
-      'Получение Admission Notice.',
-      'Оформление визы X1 + регистрация по прибытии.',
-    ],
-    scholarships: [
-      'Chinese Government Scholarship CSC (полная)',
-      'BUAA Presidential Scholarship для иностранцев',
-      'Belt & Road Initiative Scholarship',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://ev.buaa.edu.cn',
-      phone: '+86 10 8231-6181',
-      email: 'ioeng@buaa.edu.cn',
-      address: 'No.37 Xueyuan Road, Haidian District, Beijing 100191, China',
-    }
-  },
-
-  // --- Чехия ---
-  {
-    id: 'ctu-prague',
-    name: 'Чешский технический университет в Праге',
-    shortName: 'ČVUT Praha',
-    location: 'Чехия, Прага',
-    description: 'Один из старейших технических университетов Европы. Расположен в центре Праги — одном из красивейших городов мира. Обучение бесплатно при знании чешского языка. Программы на английском — платные, но доступные. Диплом признаётся в ЕС и Казахстане.',
-    founded: 1707,
-    ranking: 551,
-    students: 18000,
-    tuitionAvg: 'Бесплатно (чеш. язык) / €3 000–5 000/год (англ.)',
-    image: 'https://images.unsplash.com/photo-1562016600-ece13e8ba570?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ČVUT',
-    mission: 'Образование инженеров и учёных мирового уровня в традициях европейской науки.',
-    programs: [
-      { name: 'Software Engineering (B.Sc.)', degree: 'Bachelor', duration: '3 года', language: 'English', description: 'Разработка ПО, архитектура, AI.' },
-      { name: 'Civil Engineering', degree: 'Bachelor', duration: '4 года', language: 'Čeština', description: 'Строительство, мосты, дороги, ЖКХ.' },
-      { name: 'Mechanical Engineering (M.Sc.)', degree: 'Master', duration: '2 года', language: 'English', description: 'Производство, CAD, автомобилестроение.' },
-    ],
-    partners: ['Škoda Auto', 'Siemens', 'ABB', 'Bosch', 'ČEZ'],
-    admissionDeadlines: '31.03 (осенний семестр)',
-    category: 'International',
-    achievements: [
-      'Старейший технический вуз ЦВЕ (с 1707 г.)',
-      'Бесплатное обучение при знании чешского',
-      'Диплом ЕС — признаётся по всей Европе',
-    ],
-    admissionRequirements: [
-      'Аттестат с нострификацией в МО Чехии',
-      'Чешский B2+ (ÚJOP) для бесплатных программ',
-      'IELTS 6.0+ / TOEFL iBT 72+ для англ. программ',
-      'Мотивационное письмо',
-    ],
-    admissionProcedure: [
-      'Онлайн заявка на prihlaska.cvut.cz.',
-      'Нострификация аттестата (2–3 месяца).',
-      'Языковой сертификат или курсы ÚJOP.',
-      'Получение подтверждения о зачислении.',
-      'Оформление долгосрочной визы D в посольстве ЧР.',
-    ],
-    scholarships: [
-      'Чешские правительственные стипендии для иностранцев (DZS)',
-      'ČVUT Merit Scholarships',
-      'Erasmus+ Mobility Grants',
-      'Вышеградский фонд (V4) стипендии',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.cvut.cz',
-      phone: '+420 224 351 111',
-      email: 'studijni@cvut.cz',
-      address: 'Zikova 1903/4, 166 36 Praha 6-Dejvice, Czech Republic',
-    }
-  },
-
-  // --- Нидерланды ---
-  {
-    id: 'delft',
-    name: 'Делфтский технический университет',
-    shortName: 'TU Delft',
-    location: 'Нидерланды, Делфт',
-    description: 'Лучший технический университет Нидерландов и один из топ-10 в Европе. TU Delft знаменит программами по аэрокосмосу, гражданскому строительству, архитектуре и компьютерным наукам. Все программы магистратуры ведутся на английском языке.',
-    founded: 1842,
-    ranking: 49,
-    students: 27000,
-    tuitionAvg: '€18 750/год (non-EU) / €2 530/год (EU)',
-    image: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&q=80&w=1200',
-    logo: 'TUDelft',
-    mission: 'Наука и технологии для будущего — устойчивое общество через инженерную мысль.',
-    programs: [
-      { name: 'Aerospace Engineering (M.Sc.)', degree: 'Master', duration: '2 года', language: 'English', description: 'Авиация, ракеты, беспилотники.' },
-      { name: 'Computer Science (M.Sc.)', degree: 'Master', duration: '2 года', language: 'English', description: 'ИИ, кибербезопасность, SE.' },
-      { name: 'Civil Engineering (M.Sc.)', degree: 'Master', duration: '2 года', language: 'English', description: 'Водные системы, геотехника, транспорт.' },
-      { name: 'Architecture & the Built Environment', degree: 'Master', duration: '2 года', language: 'English', description: 'Архитектура, городская среда, устойчивость.' },
-    ],
-    partners: ['Airbus', 'Shell', 'Philips', 'ASML', 'ING'],
-    admissionDeadlines: '01.04 (магистратура)',
-    category: 'International',
-    achievements: [
-      'QS World Ranking #49 / Европа Топ-10 (Инженерия)',
-      'Родина многих нидерландских изобретений',
-      '100% магистерских программ на английском',
-    ],
-    admissionRequirements: [
-      'Диплом бакалавра по профилю (GPA 75%+)',
-      'IELTS 6.5+ / TOEFL iBT 90+',
-      'Мотивационное письмо',
-      'CV / Resume',
-      '2 рекомендательных письма',
-    ],
-    admissionProcedure: [
-      'Онлайн заявка на studielink.nl + TU Delft Portal.',
-      'Загрузка транскриптов, диплома, мотив. письма.',
-      'Рассмотрение заявки (~6–8 недель).',
-      'Получение Letter of Admission.',
-      'Оформление MVV-визы или Dutch Residence Permit.',
-    ],
-    scholarships: [
-      'TU Delft Excellence Scholarship (€25 000/год)',
-      'Holland Scholarship (€5 000 — единоразово)',
-      'Orange Tulip Scholarship (для ряда стран)',
-      'Erasmus+ Grants',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.tudelft.nl',
-      phone: '+31 15 278 9111',
-      email: 'info@tudelft.nl',
-      address: 'Mekelweg 5, 2628 CD Delft, Netherlands',
-    }
-  },
-
-  // --- ОАЭ ---
-  {
-    id: 'khalifa',
-    name: 'Университет Халифа',
-    shortName: 'Khalifa Univ.',
-    location: 'ОАЭ, Абу-Даби',
-    description: 'Ведущий исследовательский университет ОАЭ, специализирующийся на науке, технологиях, инженерии и математике (STEM). Входит в топ-5 вузов арабского мира. Обучение полностью на английском. Щедрые стипендии для иностранных студентов. Тесное сотрудничество с нефтегазовой отраслью (ADNOC, BP).',
-    founded: 2007,
-    ranking: 201,
-    students: 5000,
-    tuitionAvg: 'AED 57 000/год (~$15 500) — покрывается стипендией',
-    image: 'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=1200',
-    logo: 'KU',
-    mission: 'Подготовка учёных и инженеров, двигающих инновации для ОАЭ и региона.',
-    programs: [
-      { name: 'Petroleum Engineering', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Нефтегаз, бурение, пластовые флюиды.' },
-      { name: 'Computer Engineering', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Кибербезопасность, AI, встроенные системы.' },
-      { name: 'Nuclear Engineering', degree: 'Master', duration: '2 года', language: 'English', description: 'Ядерная энергетика, реакторные технологии.' },
-      { name: 'Mechanical Engineering', degree: 'Bachelor', duration: '4 года', language: 'English', description: 'Термодинамика, робототехника, CAD.' },
-    ],
-    partners: ['ADNOC', 'BP', 'Lockheed Martin', 'General Electric'],
-    admissionDeadlines: '01.02 (Fall semester)',
-    category: 'International',
-    achievements: [
-      'QS Arab Region #5',
-      'Лучший инженерный вуз ОАЭ',
-      'Полные стипендии для иностранных студентов',
-    ],
-    admissionRequirements: [
-      'Аттестат с высоким средним баллом (85%+)',
-      'SAT 1200+ / ACT 26+ (желательно)',
-      'IELTS 6.0+ / TOEFL iBT 79+',
-      'Мотивационное письмо',
-    ],
-    admissionProcedure: [
-      'Онлайн заявка на ku.ac.ae.',
-      'Загрузка аттестата, языковых сертификатов, мотив. письма.',
-      'Рассмотрение заявки на стипендию.',
-      'Получение оффера.',
-      'Оформление студенческой визы ОАЭ.',
-    ],
-    scholarships: [
-      'KU Full Scholarship (туиция + жильё + стипендия $1500/мес)',
-      'ADNOC Scholarship (для нефтегазовых программ)',
-      'UAE Centennial Scholarship',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.ku.ac.ae',
-      phone: '+971 2 401 8000',
-      email: 'admissions@ku.ac.ae',
-      address: 'Main Campus, Sas Al Nakhl, Abu Dhabi, UAE',
-    }
-  },
-
-  // --- Франция ---
-  {
-    id: 'paris-saclay',
-    name: 'Университет Париж-Сакле',
-    shortName: 'Paris-Saclay',
-    location: 'Франция, Париж',
-    description: 'Крупнейший исследовательский университет Франции, объединяющий 10 вузов и 9 национальных лабораторий. Занял первое место в рейтинге Times Higher Education в области физики, математики и химии. Сильные магистерские программы на английском. Обучение частично субсидируется государством.',
-    founded: 2015,
-    ranking: 69,
-    students: 48000,
-    tuitionAvg: '€3 770/год (иностр. студенты, фиксированная государственная ставка)',
-    image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=1200',
-    logo: 'PSaclay',
-    mission: 'Мировое лидерство в науке и технологиях через объединение лучших умов Франции.',
-    programs: [
-      { name: 'Mathematics (M.Sc.)', degree: 'Master', duration: '2 года', language: 'English/Français', description: 'Анализ, топология, математическая физика.' },
-      { name: 'Physics (M.Sc.)', degree: 'Master', duration: '2 года', language: 'English', description: 'Квантовая физика, нанотехнологии, астрофизика.' },
-      { name: 'Data Science (M.Sc.)', degree: 'Master', duration: '2 года', language: 'English', description: 'ML, статистика, AI.' },
-      { name: 'Petroleum Geosciences', degree: 'Master', duration: '2 года', language: 'English', description: 'Геология нефтяных месторождений, сейсмика.' },
-    ],
-    partners: ['CEA', 'CNRS', 'Airbus', 'EDF', 'Total Energies'],
-    admissionDeadlines: '15.04 (для магистратуры)',
-    category: 'International',
-    achievements: [
-      'THE World Ranking #1 в физике и математике',
-      'QS World Ranking #69',
-      'Объединяет 10 вузов и 9 нац. лабораторий',
-    ],
-    admissionRequirements: [
-      'Диплом бакалавра (или эквивалент) с высоким GPA',
-      'IELTS 6.5+ / TOEFL iBT 87+ (для англ. программ)',
-      'DELF/DALF B2 (для фр. программ)',
-      'Мотивационное письмо',
-      '2 рекомендательных письма',
-    ],
-    admissionProcedure: [
-      'Заявка через MonMaster.gouv.fr или напрямую.',
-      'Загрузка транскриптов, дипломов, мотив. письма.',
-      'Рассмотрение заявки кафедрой.',
-      'Получение оффера.',
-      'Оформление студенческой визы (Campus France).',
-    ],
-    scholarships: [
-      'Eiffel Excellence Scholarship Programme (полные)',
-      'Bourse du gouvernement français (франц. правительство)',
-      'Campus France Grants для КЗ',
-      'PAUSE Program (для исследователей)',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.universite-paris-saclay.fr',
-      phone: '+33 1 69 15 00 00',
-      email: 'international@universite-paris-saclay.fr',
-      address: '15 Rue Georges Clemenceau, 91400 Orsay, France',
-    }
-  },
-
-  // --- Польша ---
-  {
-    id: 'warsaw-tech',
-    name: 'Варшавский политехнический университет',
-    shortName: 'PW Warszawa',
-    location: 'Польша, Варшава',
-    description: 'Лучший технический университет Польши. Варшавская политехника очень популярна среди казахстанских студентов: доступные цены, европейский диплом, обучение на русском или английском. Близость к Казахстану по культуре и менталитету. Диплом признаётся в ЕС.',
-    founded: 1826,
-    ranking: 801,
-    students: 35000,
-    tuitionAvg: 'PLN 2 000–5 000 семестр (~$500–1 200)',
-    image: 'https://images.unsplash.com/photo-1519832979-6fa011b87667?auto=format&fit=crop&q=80&w=1200',
-    logo: 'PW',
-    mission: 'Воспитание инженеров нового поколения, соответствующих вызовам современного мира.',
-    programs: [
-      { name: 'Computer Science (B.Sc.)', degree: 'Bachelor', duration: '3.5 года', language: 'English', description: 'Разработка ПО, AI, сети.' },
-      { name: 'Civil Engineering', degree: 'Bachelor', duration: '3.5 года', language: 'English/Polski', description: 'Конструкции, дороги, ЖКХ.' },
-      { name: 'Electrical Engineering', degree: 'Bachelor', duration: '3.5 года', language: 'English', description: 'Энергетика, схемотехника, автоматизация.' },
-      { name: 'Mechatronics', degree: 'Bachelor', duration: '3.5 года', language: 'English', description: 'Робототехника, механика, электроника.' },
-    ],
-    partners: ['Airbus', 'Samsung', 'Intel', 'Siemens', 'ABB'],
-    admissionDeadlines: '30.06 (осенний семестр)',
-    category: 'International',
-    achievements: [
-      'Лучший политехнический вуз Польши',
-      'Диплом ЕС — признаётся в 27 странах',
-      'Самый доступный техн. вуз Европы для иностранцев',
-    ],
-    admissionRequirements: [
-      'Аттестат о среднем образовании (нострификация)',
-      'IELTS 5.5+ / TOEFL iBT 72+ (для англ. программ)',
-      'Польский B1+ (для польскоязычных программ)',
-      'Мотивационное письмо',
-    ],
-    admissionProcedure: [
-      'Онлайн заявка на rekrutacja.pw.edu.pl.',
-      'Нострификация аттестата в Польше (~1 месяц).',
-      'Оплата вступительного взноса.',
-      'Получение подтверждения о зачислении.',
-      'Оформление национальной визы D.',
-    ],
-    scholarships: [
-      'Стипендия им. Банача для иностранцев (польское правительство)',
-      'Polish National Agency for Academic Exchange (NAWA)',
-      'Внутренние гранты политехники за успеваемость',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.pw.edu.pl',
-      phone: '+48 22 234 7211',
-      email: 'international@pw.edu.pl',
-      address: 'Pl. Politechniki 1, 00-661 Warszawa, Poland',
-    }
-  },
-
-  // --- Беларусь ---
-  {
-    id: 'bsuir',
-    name: 'Белорусский государственный университет информатики и радиоэлектроники',
-    shortName: 'БГУИР',
-    location: 'Беларусь, Минск',
-    description: 'Ведущий IT-университет Беларуси, один из лучших технических вузов СНГ. Чрезвычайно популярен среди казахстанцев: обучение на русском языке, низкие цены, общежития, диплом признаётся в Казахстане. Сильные программы по информатике, электронике и телекоммуникациям.',
-    founded: 1964,
-    ranking: 1200,
-    students: 16000,
-    tuitionAvg: 'от $1 800 – 2 500/год',
-    image: 'https://images.unsplash.com/photo-1609769408344-ce7a49ce4e4b?auto=format&fit=crop&q=80&w=1200',
-    logo: 'БГУИР',
-    mission: 'Подготовка специалистов в области IT и радиоэлектроники мирового уровня.',
-    programs: [
-      { name: 'Программная инженерия', degree: 'Bachelor', duration: '4 года', language: 'RU', description: 'Разработка ПО, web, mobile, DevOps.' },
-      { name: 'Информационная безопасность', degree: 'Bachelor', duration: '5 лет', language: 'RU', description: 'Кибербезопасность, криптография, сети.' },
-      { name: 'Телекоммуникации', degree: 'Bachelor', duration: '4 года', language: 'RU', description: 'Сети связи, 5G, оптоволокно.' },
-      { name: 'Электронные системы', degree: 'Bachelor', duration: '4 года', language: 'RU', description: 'Схемотехника, микроэлектроника, ПЛИС.' },
-    ],
-    partners: ['EPAM Systems', 'Yandex', 'Mail.ru', 'IBA Group'],
-    admissionDeadlines: '25.08 (основной этап)',
-    category: 'International',
-    achievements: [
-      'Лучший IT-вуз Беларуси',
-      'Диплом признаётся в РК без нострификации',
-      'Центральный вуз ПВТ — Парка высоких технологий Минска',
-    ],
-    admissionRequirements: [
-      'Аттестат о среднем образовании',
-      'ЦТ Беларуси или вступительные испытания БГУИР',
-      'Знание русского языка (уровень общения)',
-      'Медицинская справка',
-    ],
-    admissionProcedure: [
-      'Подача заявки напрямую в приёмную комиссию БГУИР.',
-      'Предоставление аттестата, паспорта, медсправки.',
-      'Вступительные испытания или зачёт баллов ЕНТ.',
-      'Заключение договора на обучение.',
-      'Оформление разрешения на временное проживание в Беларуси.',
-    ],
-    scholarships: [
-      'Квота Правительства Беларуси для иностранцев',
-      'Скидки за высокий балл ЕНТ',
-      'Стипендия БГУИР за отличную успеваемость',
-      'Льготы для граждан стран СНГ',
-    ],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-      website: 'https://www.bsuir.by',
-      phone: '+375 17 293-88-16',
-      email: 'inter@bsuir.by',
-      address: 'ул. П. Бровки, 6, г. Минск, 220013, Беларусь',
-    }
-  },
-  {
-    id: 'kartu',
-    name: 'Карагандинский технический университет имени Абылкаса Сагинова',
-    shortName: 'КарТУ',
-    location: 'Караганда',
-    description: 'Один из старейших и ведущих технических вузов Казахстана. Крупнейший центр подготовки инженерных кадров для горнодобывающей, металлургической и IT отраслей.',
-    founded: 1953,
-    ranking: 10,
-    students: 12000,
-    tuitionAvg: 'от 500 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200',
     logo: 'КарТУ',
     mission: 'Обеспечение промышленности высококвалифицированными инженерными кадрами.',
     programs: [
@@ -2108,44 +652,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 12,
     students: 8000,
     tuitionAvg: 'от 450 000 ₸',
-    image: 'https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ВКТУ',
-    mission: 'Подготовка инженерной элиты региона.',
-    programs: [
-      { name: 'Архитектура и дизайн', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
-      { name: 'IT и программирование', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Транспорт и логистика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Томский политех', 'Obuda University'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Собственный технопарк «Алтай»",
-      "Крупные исследовательские центры по металлургии"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://www.ektu.kz',
-        phone: '+7 (7232) 26-74-09',
-        email: 'kanc@ektu.kz',
-        address: 'г. Усть-Каменогорск, ул. Серикбаева, 19'
-    }
-  },
-  {
-    id: 'kru',
-    name: 'Костанайский региональный университет имени А. Байтурсынова',
-    shortName: 'КРУ',
-    location: 'Костанай',
-    description: 'Крупнейший многопрофильный университет Костанайской области. Объединяет направления педагогики, инженерии, сельского хозяйства и гуманитарных наук.',
-    founded: 1939,
-    ranking: 18,
-    students: 10000,
-    tuitionAvg: 'от 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
     logo: 'КРУ',
     mission: 'Обеспечение северного региона качественными кадрами.',
     programs: [
@@ -2181,43 +693,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 20,
     students: 9000,
     tuitionAvg: 'от 420 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
-    logo: 'СКУ',
-    mission: 'Развитие интеллектуального потенциала севера страны.',
-    programs: [
-      { name: 'Образование и педагогика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Радиотехника и электроника', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Иностранная филология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg/800px-Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['University of Arizona', 'ОмГПУ'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Реализация двудипломных программ с Университетом Аризоны (США)"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://ku.edu.kz',
-        phone: '+7 (7152) 49-32-33',
-        email: 'mail@ku.edu.kz',
-        address: 'г. Петропавловск, ул. Пушкина, 86'
-    }
-  },
-  {
-    id: 'tarru',
-    name: 'Таразский региональный университет имени М.Х. Дулати',
-    shortName: 'ТарРУ',
-    location: 'Тараз',
-    description: 'Один из крупнейших региональных университетов юга Казахстана. Готовит специалистов для химической, водной и легкой промышленности.',
-    founded: 1958,
-    ranking: 15,
-    students: 15000,
-    tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1525926477800-7a04a085b376?auto=format&fit=crop&q=80&w=1200',
     logo: 'ТарРУ',
     mission: 'Подготовка востребованных специалистов для Южного Казахстана.',
     programs: [
@@ -2254,44 +735,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 14,
     students: 18000,
     tuitionAvg: 'от 480 000 ₸',
-    image: 'https://images.unsplash.com/photo-1544833261-2b0e6e7d6a52?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КарУ',
-    mission: 'Подготовка интеллектуальной элиты для центрального региона Казахстана.',
-    programs: [
-      { name: 'Педагогика и психология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Естественные науки', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
+    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['МГУ им. Ломоносова', 'University of Poitiers'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Признанный научный центр по исследованию химических полимеров",
-      "Огромная библиотека и исследовательские лаборатории"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://www.buketov.edu.kz',
-        phone: '+7 (7212) 77-03-85',
-        email: 'info@buketov.edu.kz',
-        address: 'г. Караганда, ул. Университетская, 28'
-    }
-  },
-  {
-    id: 'zkgu',
-    name: 'Западно-Казахстанский университет имени М. Утемисова',
-    shortName: 'ЗКГУ',
-    location: 'Уральск',
-    description: 'Старейший университет в Западном Казахстане. Центр гуманитарного, педагогического и естественнонаучного образования в регионе.',
-    founded: 1932,
-    ranking: 22,
-    students: 7500,
-    tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200',
     logo: 'ЗКГУ',
     mission: 'Подготовка востребованных специалистов для западного региона.',
     programs: [
@@ -2327,44 +776,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 17,
     students: 11000,
     tuitionAvg: 'от 450 000 ₸',
-    image: 'https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&q=80&w=1200',
-    logo: 'АРГУ',
-    mission: 'Снабжение западного региона квалифицированными кадрами.',
-    programs: [
-      { name: 'Нефтегазовое дело', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Экономика и бизнес', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Математика и программирование', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1564069114553-7215e1ff1890?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['РГУ нефти и газа им. Губкина', 'Heriot-Watt University'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Тесное сотрудничество с нефтегазодобывающими компаниями",
-      "Филиал университета Heriot-Watt (UK) на базе АРГУ"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://zhubanov.edu.kz',
-        phone: '+7 (7132) 24-98-38',
-        email: 'info@zhubanov.edu.kz',
-        address: 'г. Актобе, пр. А. Молдагуловой, 34'
-    }
-  },
-  {
-    id: 'yuku',
-    name: 'Южно-Казахстанский университет имени М. Ауэзова',
-    shortName: 'ЮКУ',
-    location: 'Шымкент',
-    description: 'Один из самых крупных и авторитетных многопрофильных вузов страны. Выпускает специалистов для всех отраслей экономики Южного Казахстана.',
-    founded: 1943,
-    ranking: 8,
-    students: 22000,
-    tuitionAvg: 'от 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=1200',
     logo: 'ЮКУ',
     mission: 'Инновационное развитие южного региона через образование.',
     programs: [
@@ -2401,44 +818,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 30,
     students: 3500,
     tuitionAvg: 'от 450 000 ₸',
-    image: 'https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КарИУ',
-    mission: 'Подготовка специалистов для металлургии и машиностроения.',
-    programs: [
-      { name: 'Металлургия черных металлов', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Машиностроение', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Автоматизация производства', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['ArcelorMittal', 'Сибирский государственный индустриальный университет'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Вуз, который окончил первый Президент РК Н.А. Назарбаев",
-      "Огромная доля практического обучения на реальном производстве (ArcelorMittal)"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://kgiu.kz',
-        phone: '+7 (7213) 91-43-34',
-        email: 'kgiu@kgiu.kz',
-        address: 'г. Темиртау, пр. Республики, 30'
-    }
-  },
-  {
-    id: 'kaznmu',
-    name: 'Казахский национальный медицинский университет им. С.Д. Асфендиярова',
-    shortName: 'КазНМУ',
-    location: 'Алматы',
-    description: 'Флагман медицинского образования Казахстана. Старейший и самый престижный медицинский вуз страны, выпускающий врачей, фармацевтов и стоматологов.',
-    founded: 1930,
-    ranking: 5,
-    students: 10000,
-    tuitionAvg: 'от 1 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&q=80&w=1200',
     logo: 'КазНМУ',
     mission: 'Подготовка элиты здравоохранения.',
     programs: [
@@ -2480,45 +865,11 @@ export const UNIVERSITIES: University[] = [
     students: 8500,
     tuitionAvg: 'от 1 100 000 ₸',
     image: 'https://amu.edu.kz/upload/iblock/c53/c538b7d413e15779ecdfa2db7243c7b3.jpg',
-    logo: 'МУА',
-    mission: 'Обеспечение здравоохранения высокопрофессиональными кадрами.',
-    programs: [
-      { name: 'Общая медицина', degree: 'Bachelor', duration: '5+2 лет', language: 'KZ/RU/EN' },
-      { name: 'Общественное здравоохранение', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Педиатрия', degree: 'Bachelor', duration: '5+2 лет', language: 'KZ/RU' },
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['ВМУ (Литва)', 'La Sapienza (Италия)'],
-    admissionDeadlines: '25.08',
-    category: 'National',
-    achievements: [
-      "База практики в Национальных центрах хирургии, кардиохирургии и нейрохирургии",
-    ],
-    admissionRequirements: [
-      ...DEFAULTS.requirements,
-      "Специальный экзамен"
-    ],
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://amu.edu.kz',
-        phone: '+7 (7172) 53-94-24',
-        email: 'info@amu.kz',
-        address: 'г. Астана, ул. Бейбитшилик, 49/A'
-    }
-  },
-  {
-    id: 'zkmu',
-    name: 'Западно-Казахстанский медицинский университет им. М. Оспанова',
-    shortName: 'ЗКМУ',
-    location: 'Актобе',
-    description: 'Главный медицинский центр и вуз для всего западного региона Казахстана. Собственный медицинский центр на 400 коек.',
-    founded: 1957,
-    ranking: 19,
-    students: 5000,
-    tuitionAvg: 'от 900 000 ₸',
-    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200',
     logo: 'ЗКМУ',
     mission: 'Подготовка врачей для западного региона.',
     programs: [
@@ -2556,44 +907,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 13,
     students: 7500,
     tuitionAvg: 'от 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КазНАИУ',
-    mission: 'Инновационное развитие АПК Казахстана.',
-    programs: [
-      { name: 'Агрономия', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Ветеринарная медицина', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU/EN' },
-      { name: 'Лесные ресурсы', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KBTU_building_at_night.jpg/800px-KBTU_building_at_night.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Wageningen University', 'Cornell University'],
-    admissionDeadlines: '25.08',
-    category: 'National',
-    achievements: [
-      "Исследовательский статус университета",
-      "Сильнейшие лаборатории по ветеринарии и селекции"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://kaznau.kz',
-        phone: '+7 (727) 264-08-54',
-        email: 'info@kaznau.kz',
-        address: 'г. Алматы, пр. Абая, 8'
-    }
-  },
-  {
-    id: 'katiyu',
-    name: 'Казахский агротехнический исследовательский университет им. С. Сейфуллина',
-    shortName: 'КАТИУ',
-    location: 'Астана',
-    description: 'Один из крупнейших вузов столицы, лидер аграрного и технического образования в Северном и Центральном Казахстане.',
-    founded: 1957,
-    ranking: 16,
-    students: 11000,
-    tuitionAvg: 'от 450 000 ₸',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/KazATU_main_building.jpg/800px-KazATU_main_building.jpg',
     logo: 'КАТИУ',
     mission: 'Подготовка кадров для индустриально-аграрного сектора экономики.',
     programs: [
@@ -2629,44 +948,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 1,
     students: 25000,
     tuitionAvg: 'от 1 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КазНУ',
-    mission: 'Глобальный исследовательский университет.',
-    programs: [
-      { name: 'Международные отношения', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Журналистика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Химия и физика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-    ],
-    partners: ['МГУ им. Ломоносова', 'University of Tsukuba'],
-    admissionDeadlines: '25.08',
-    category: 'National',
-    achievements: [
-      "Единственный вуз ЦА в топ-150 QS World University Rankings",
-      "Огромный кампус КазГУград"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://kaznu.kz',
-        phone: '+7 (727) 377-33-33',
-        email: 'info@kaznu.kz',
-        address: 'г. Алматы, пр. аль-Фараби, 71'
-    }
-  },
-  {
-    id: 'enu',
-    name: 'Евразийский национальный университет имени Л. Н. Гумилева',
-    shortName: 'ЕНУ',
-    location: 'Астана',
-    description: 'Ведущий классический университет столицы Казахстана. Входит в Топ-300 лучших университетов мира по версии QS.',
-    founded: 1996,
-    ranking: 2,
-    students: 20000,
-    tuitionAvg: 'от 1 100 000 ₸',
     image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
+    ],
     logo: 'ЕНУ',
     mission: 'Стать ведущим исследовательским центром Евразии.',
     programs: [
@@ -2703,47 +990,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 6,
     students: 6000,
     tuitionAvg: 'от 1 500 000 ₸',
-    image: 'https://images.unsplash.com/photo-1577985051167-0d49eec21977?auto=format&fit=crop&q=80&w=1200',
-    logo: 'MNU',
-    mission: 'Служить обществу, обеспечивая высочайшее качество образования.',
-    programs: [
-      { name: 'Международное право', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Финансы и аудит', degree: 'Bachelor', duration: '4 года', language: 'EN' },
-      { name: 'Переводческое дело', degree: 'Bachelor', duration: '4 года', language: 'EN' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Suleyman_Demirel_University_Campus.jpg/800px-Suleyman_Demirel_University_Campus.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Hofstra University', 'Geneva Business School'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Лидер рейтинга НПП Атамекен по специальности 'Право'",
-      "Программы аккредитованы международными агентствами (CIMA, ACCA, FIBAA)"
-    ],
-    admissionRequirements: [
-      ...DEFAULTS.requirements,
-      "Собеседование и мотивационное эссе (для некоторых программ)"
-    ],
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: ["Гранты КАЗГЮУ", "Государственные гранты"],
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://mnu.kz',
-        phone: '+7 (7172) 70-30-30',
-        email: 'info@mnu.kz',
-        address: 'г. Астана, Коргалжинское шоссе, 8'
-    }
-  },
-  {
-    id: 'kaznpu',
-    name: 'Казахский национальный педагогический университет имени Абая',
-    shortName: 'КазНПУ',
-    location: 'Алматы',
-    description: 'Первый и старейший вуз Казахстана. Безоговорочный лидер в подготовке педагогических кадров для школ и колледжей страны.',
-    founded: 1928,
-    ranking: 7,
-    students: 12000,
-    tuitionAvg: 'от 700 000 ₸',
-    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
     logo: 'КазНПУ',
     mission: 'Подготовка педагогов новой формации.',
     programs: [
@@ -2780,47 +1032,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 25,
     students: 6000,
     tuitionAvg: 'от 800 000 ₸',
-    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КазГАСА',
-    mission: 'Обеспечение строительной индустрии и архитектуры профессионалами.',
-    programs: [
-      { name: 'Архитектура', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
-      { name: 'Дизайн (Графический, интерьер)', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU/EN' },
-      { name: 'Гражданское строительство', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Politecnico di Milano', 'Bauhaus-Universität Weimar'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Центр притяжения архитекторов и дизайнеров",
-      "Международная аккредитация RIBA (Royal Institute of British Architects)"
-    ],
-    admissionRequirements: [
-      "ЕНТ (История Казахстана + Математическая грамотность)",
-      "Творческий экзамен (рисунок, черчение/композиция)"
-    ],
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://kazgasa.kz',
-        phone: '+7 (727) 309-61-11',
-        email: 'info@kazgasa.kz',
-        address: 'г. Алматы, ул. Рыскулбекова, 28'
-    }
-  },
-  {
-    id: 'narxoz',
-    name: 'Университет Нархоз (Narxoz University)',
-    shortName: 'Нархоз',
-    location: 'Алматы',
-    description: 'Один из ведущих экономических и бизнес-университетов Центральной Азии. Современный кампус, сильные связи с корпоративным сектором и двудипломные программы.',
-    founded: 1963,
-    ranking: 9,
-    students: 8000,
-    tuitionAvg: 'от 1 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&q=80&w=1200',
     logo: 'Narxoz',
     mission: 'Вдохновлять на создание новой экономики.',
     programs: [
@@ -2857,44 +1074,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 21,
     students: 5000,
     tuitionAvg: 'от 900 000 ₸',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200',
-    logo: 'UIB',
-    mission: 'Подготовка лидеров бизнеса с глобальным мышлением.',
-    programs: [
-      { name: 'Бизнес администрирование', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Туризм и гостеприимство', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Связи с общественностью (PR)', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['SolBridge International School of Business', 'University of Applied Sciences Upper Austria'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Сильная школа практического маркетинга",
-      "Большое количество программ по обмену (Erasmus+)"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://uib.kz',
-        phone: '+7 (727) 259-80-00',
-        email: 'info@uib.kz',
-        address: 'г. Алматы, пр. Абая, 8А'
-    }
-  },
-  {
-    id: 'kazumo',
-    name: 'Казахский университет международных отношений и мировых языков им. Абылай хана',
-    shortName: 'КазУМОиМЯ',
-    location: 'Алматы',
-    description: 'Главный языковой и дипломатический вуз страны. Готовит переводчиков-синхронистов, дипломатов и специалистов по международным отношениям.',
-    founded: 1941,
-    ranking: 23,
-    students: 7000,
-    tuitionAvg: 'от 850 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200',
     logo: 'КазУМОиМЯ',
     mission: 'Интеграция Казахстана в мировое сообщество через языки и дипломатию.',
     programs: [
@@ -2930,48 +1115,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 35,
     students: 3000,
     tuitionAvg: 'от 1 000 000 ₸',
-    image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=1200',
-    logo: 'АГА',
-    mission: 'Подготовка авиационных кадров мирового уровня.',
-    programs: [
-      { name: 'Летная эксплуатация (Пилот)', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Обслуживание воздушного движения', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Авиационная техника', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Lufthansa Aviation Training', 'Air Astana'],
-    admissionDeadlines: '25.08',
-    category: 'Specialized',
-    achievements: [
-      "Наличие собственного тренировочного авиапарка и авиационных симуляторов",
-      "Официальный центр ИКАО (ICAO)"
-    ],
-    admissionRequirements: [
-      ...DEFAULTS.requirements,
-      "Строгая медицинская комиссия (ВЛЭК)",
-      "Профильные: Физика + Математика"
-    ],
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://agakaz.kz',
-        phone: '+7 (727) 346-71-71',
-        email: 'info@agakaz.kz',
-        address: 'г. Алматы, ул. Закарпатская, 44'
-    }
-  },
-  {
-    id: 'kaznai',
-    name: 'Казахская национальная академия искусств им. Т. Жургенова',
-    shortName: 'Жургеновка',
-    location: 'Алматы',
-    description: 'Главный творческий вуз страны. «Кузница» звезд кино, театра, эстрады и выдающихся художников Казахстана.',
-    founded: 1978,
-    ranking: 40,
-    students: 2500,
-    tuitionAvg: 'от 950 000 ₸',
-    image: 'https://kaznai.kz/wp-content/uploads/2021/08/1-1024x683.jpg',
     logo: 'КазНАИ',
     mission: 'Сохранение и развитие национального искусства.',
     programs: [
@@ -3015,52 +1164,12 @@ export const UNIVERSITIES: University[] = [
     ranking: null, // Спец. вузы не участвуют в общих рейтингах
     students: 1500,
     tuitionAvg: 'Бесплатно (Гособеспечение)',
-    image: 'https://images.unsplash.com/photo-1541888053-93d3d4b68e59?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КНБ',
-    mission: 'Обеспечение безопасности личности, общества и государства.',
-    programs: [
-      { name: 'Обеспечение национальной безопасности', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Информационная безопасность', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Иностранные языки', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KBTU_building_at_night.jpg/800px-KBTU_building_at_night.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Академия ФСБ РФ', 'Спецслужбы СНГ'],
-    admissionDeadlines: '01.05', // Документы подаются заранее
-    category: 'Military',
-    achievements: [
-      "Полное государственное обеспечение курсантов (стипендия, жилье, питание, форма)",
-      "Гарантированное трудоустройство в органы КНБ"
-    ],
-    admissionRequirements: [
-      "Строгая медицинская комиссия и полиграф",
-      "Физическая подготовка (нормативы)",
-      "Проверка благонадежности"
-    ],
-    admissionProcedure: [
-      "Подача рапорта/заявления в ДКНБ по месту жительства (до мая)",
-      "Спец. проверка",
-      "Сдача ЕНТ и нормативов"
-    ],
-    scholarships: ["100% государственное обеспечение"],
-    dormitory: true,
-    militaryDept: true, // Курсанты получают звания
-    contacts: {
-        website: 'https://knb.gov.kz/ru/academy',
-        phone: '+7 (7172) 71-00-00',
-        email: 'info@knb.kz',
-        address: 'г. Астана, засекречено (основной кампус в Алматы/Астане)'
-    }
-  },
-  {
-    id: 'mvd',
-    name: 'Карагандинская академия МВД РК имени Б. Бейсенова',
-    shortName: 'КЮИ МВД',
-    location: 'Караганда',
-    description: 'Ведущий кузница кадров для следственных подразделений Министерства внутренних дел РК.',
-    founded: 1969,
-    ranking: null,
-    students: 2000,
-    tuitionAvg: 'Бесплатно (Гособеспечение)',
-    image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200',
     logo: 'МВД',
     mission: 'Подготовка квалифицированных офицеров полиции.',
     programs: [
@@ -3104,52 +1213,12 @@ export const UNIVERSITIES: University[] = [
     ranking: null,
     students: 1800,
     tuitionAvg: 'Бесплатно (Гособеспечение)',
-    image: 'https://images.unsplash.com/photo-1579309852899-73d8b5c960a3?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ВИСВ',
-    mission: 'Подготовка офицеров тактического звена.',
-    programs: [
-      { name: 'Управление мотострелковыми подразделениями', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Управление танковыми подразделениями', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Десантно-штурмовые войска', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Военная академия США (Вест-Пойнт)', 'Военные вузы РФ'],
-    admissionDeadlines: '20.06',
-    category: 'Military',
-    achievements: [
-      "Выпускники — будущие генералы и министры обороны РК",
-      "Международные военные стажировки"
-    ],
-    admissionRequirements: [
-      "Военно-врачебная комиссия",
-      "Физические нормативы",
-      "Профильные предметы ЕНТ: Математика + Физика"
-    ],
-    admissionProcedure: [
-      "Подача заявления в местный военкомат (ДО», май)",
-      "Медкомиссия и отбор",
-      "Сдача нормативов в институте"
-    ],
-    scholarships: ["Полное государственное обеспечение"],
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://mod.gov.kz',
-        phone: '+7 (727) 290-12-04',
-        email: 'visv@mod.gov.kz',
-        address: 'г. Алматы, ул. Красногорская, 4'
-    }
-  },
-  {
-    id: 'aues',
-    name: 'Алматинский университет энергетики и связи имени Гумарбека Даукеева',
-    shortName: 'АУЭС',
-    location: 'Алматы',
-    description: 'Ведущий технический вуз Казахстана в области энергетики, телекоммуникаций, IT и космических технологий.',
-    founded: 1975,
-    ranking: 15,
-    students: 7000,
-    tuitionAvg: 'от 900 000 ₸',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200',
     logo: 'АУЭС',
     mission: 'Развитие инженерной мысли в энергетике и связи.',
     programs: [
@@ -3186,44 +1255,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 28,
     students: 3500,
     tuitionAvg: 'от 600 000 ₸',
-    image: 'https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&q=80&w=1200',
-    logo: 'МУТГ',
-    mission: 'Превращение Казахстана в центр мирового туризма.',
-    programs: [
-      { name: 'Туризм', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Ресторанное дело и гостиничный бизнес', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Организация массовых мероприятий', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['George Washington University', 'Antalya Bilim University'],
-    admissionDeadlines: '25.08',
-    category: 'National',
-    achievements: [
-      "Вуз создан по инициативе Президента для развития туризма в Туркестане",
-      "Большое количество государственных грантов"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://iuth.edu.kz',
-        phone: '+7 (72533) 5-00-11',
-        email: 'info@iuth.edu.kz',
-        address: 'г. Туркестан, ул. Рабига Султан Бегим, 14А'
-    }
-  },
-  {
-    id: 'tou',
-    name: 'Торайгыров Университет',
-    shortName: 'Торайгыров',
-    location: 'Павлодар',
-    description: 'Один из крупнейших вузов северного региона, центр инноваций и подготовки инженерных, ИТ и аграрных кадров.',
-    founded: 1960,
-    ranking: 13,
-    students: 10000,
-    tuitionAvg: 'от 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1592289139049-5eb4de87071f?auto=format&fit=crop&q=80&w=1200',
     logo: 'Торайгыров',
     mission: 'Подготовка востребованных кадров для индустриального Павлодарского региона.',
     programs: [
@@ -3260,43 +1297,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 27,
     students: 4500,
     tuitionAvg: 'от 450 000 ₸',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=1200',
-    logo: 'АУНГ',
-    mission: 'Служить центром нефтегазового образования и науки.',
-    programs: [
-      { name: 'Нефтегазовое дело', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Химическая технология органических веществ', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Автоматизация и управление', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['РГУ нефти и газа им. И.М. Губкина', 'КазМунайГаз'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Главная база практики — крупнейшие нефтегазовые компании Казахстана (ТШО, NCOC, KPO)",
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://aogu.edu.kz',
-        phone: '+7 (7122) 36-34-31',
-        email: 'info@aogu.edu.kz',
-        address: 'г. Атырау, мкр. Авангард-4, 1'
-    }
-  },
-  {
-    id: 'yessenov',
-    name: 'Каспийский университет технологий и инжиниринга им. Ш. Есенова',
-    shortName: 'Yessenov University',
-    location: 'Актау',
-    description: 'Ведущий вуз Мангистауской области и всего Каспийского региона Казахстана. Ключевые направления: морская академия, инженерия, туризм.',
-    founded: 1976,
-    ranking: 22,
-    students: 7000,
-    tuitionAvg: 'от 380 000 ₸',
-    image: 'https://yu.edu.kz/wp-content/uploads/2021/05/glavnyj-korpus.jpg',
     logo: 'Yessenov',
     mission: 'Подготовка конкурентоспособных специалистов для Каспийского региона.',
     programs: [
@@ -3333,43 +1339,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 31,
     students: 6500,
     tuitionAvg: 'от 350 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
-    logo: 'Шакарим',
-    mission: 'Обеспечение области Абай квалифицированными кадрами.',
-    programs: [
-      { name: 'Ветеринария', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
-      { name: 'Педагогические науки', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Технология продовольственных продуктов', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Университет Памуккале (Турция)'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Сильная научно-исследовательская база по ветеринарии и мясомолочной промышленности"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://shakarim.edu.kz',
-        phone: '+7 (7222) 35-80-60',
-        email: 'rector@shakarim.kz',
-        address: 'г. Семей, ул. Глинки, 20А'
-    }
-  },
-  {
-    id: 'zhetysu',
-    name: 'Жетысуский университет имени И. Жансугурова',
-    shortName: 'Zhetysu University',
-    location: 'Талдыкорган',
-    description: 'Ведущий университет области Жетысу. Центр педагогического, гуманитарного и ИТ-образования в регионе.',
-    founded: 1972,
-    ranking: 36,
-    students: 5500,
-    tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
     logo: 'Zhetysu',
     mission: 'Подготовка современных учителей и специалистов для региона Жетысу.',
     programs: [
@@ -3405,43 +1380,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 38,
     students: 4000,
     tuitionAvg: 'от 350 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КУАМ',
-    mission: 'Подготовка квалифицированных кадров для северного региона.',
-    programs: [
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Дизайн', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Педагогика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-    ],
-    partners: ['ОмГУ (Россия)'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Сильная региональная база для студентов Акмолинской области"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://kuam.kz',
-        phone: '+7 (7162) 25-42-59',
-        email: 'info@kuam.kz',
-        address: 'г. Кокшетау, ул. Ауэзова, 189А'
-    }
-  },
-  {
-    id: 'korkyt',
-    name: 'Кызылординский университет имени Коркыт ата',
-    shortName: 'Университет Коркыт ата',
-    location: 'Кызылорда',
-    description: 'Главный вуз Кызылординской области. Отличается сильными инженерными программами, а также недавно открытым филиалом Сеульского университета (SeoulTech).',
-    founded: 1937,
-    ranking: 24,
-    students: 6000,
-    tuitionAvg: 'от 380 000 ₸',
     image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
+    ],
     logo: 'Коркыт ата',
     mission: 'Служение обществу через предоставление качественного образования в южном регионе.',
     programs: [
@@ -3477,43 +1421,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 26,
     students: 5500,
     tuitionAvg: 'от 390 000 ₸',
-    image: 'https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ЗКАТУ',
-    mission: 'Подготовка кадров для индустриально-аграрного развития запада Казахстана.',
-    programs: [
-      { name: 'Агроинженерия', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Ветеринария', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
-      { name: 'Нефтегазовое дело', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KBTU_building_at_night.jpg/800px-KBTU_building_at_night.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Саратовский ГАУ'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Один из лучших кампусов (студенческих городков) в стране"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://wkau.kz',
-        phone: '+7 (7112) 50-09-43',
-        email: 'info@wkau.kz',
-        address: 'г. Уральск, ул. Жангир хана, 51'
-    }
-  },
-  {
-    id: 'karuk',
-    name: 'Карагандинский университет Казпотребсоюза',
-    shortName: 'КарУК',
-    location: 'Караганда',
-    description: 'Ведущий экономический вуз центрального Казахстана. Специализируется на экономике, праве, бизнесе и торговле.',
-    founded: 1966,
-    ranking: 29,
-    students: 6500,
-    tuitionAvg: 'от 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&q=80&w=1200',
     logo: 'КарУК',
     mission: 'Развитие предпринимательства и экономики через качественное образование.',
     programs: [
@@ -3550,43 +1463,11 @@ export const UNIVERSITIES: University[] = [
     students: 8000,
     tuitionAvg: 'от 700 000 ₸',
     image: 'https://atu.edu.kz/wp-content/uploads/2021/04/Glavnyj-korpus-ATU.jpg',
-    logo: 'АТУ',
-    mission: 'Внедрение передовых технологий в пищевую и легкую промышленность.',
-    programs: [
-      { name: 'Технология продовольственных продуктов', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Технология и дизайн изделий легкой промышленности', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Ресторанное дело и гостеприимство', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['University of Reading', 'Genoa University'],
-    admissionDeadlines: '25.08',
-    category: 'National',
-    achievements: [
-      "Уникальные научно-исследовательские институты пищевых технологий",
-      "Собственные учебно-производственные цеха (хлебопекарные, мясные, сыроваренные)"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://atu.edu.kz',
-        phone: '+7 (727) 293-52-84',
-        email: 'info@atu.kz',
-        address: 'г. Алматы, ул. Толе би, 100'
-    }
-  },
-  {
-    id: 'mktu',
-    name: 'Международный казахско-турецкий университет имени Х. А. Ясави',
-    shortName: 'МКТУ',
-    location: 'Туркестан',
-    description: 'Уникальный международный университет, финансируемый совместно Казахстаном и Турцией. Привлекает студентов со всего тюркского мира.',
-    founded: 1991,
-    ranking: 17,
-    students: 12000,
-    tuitionAvg: 'от 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1548048026-5a1a941d93d3?auto=format&fit=crop&q=80&w=1200',
     logo: 'МКТУ',
     mission: 'Служить мостом науки и образования для тюркского мира.',
     programs: [
@@ -3623,43 +1504,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 19,
     students: 14000,
     tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
-    logo: 'АРГУ',
-    mission: 'Подготовка востребованных специалистов для развития западного региона.',
-    programs: [
-      { name: 'Педагогика и методика начального обучения', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Нефтегазовое дело', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Информационные системы', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
+    image: 'https://images.unsplash.com/photo-1564069114553-7215e1ff1890?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Herriot-Watt University'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Открытие филиала британского университета Heriot-Watt (2023)"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://arsu.kz',
-        phone: '+7 (7132) 24-41-41',
-        email: 'info@arsu.kz',
-        address: 'г. Актобе, пр. А. Молдагуловой, 34'
-    }
-  },
-  {
-    id: 'skgu',
-    name: 'Северо-Казахстанский университет имени М. Козыбаева',
-    shortName: 'СКУ',
-    location: 'Петропавловск',
-    description: 'Главный университет северного региона. Отличается сильным преподавательским составом и совместными программами с University of Arizona (США).',
-    founded: 1937,
-    ranking: 30,
-    students: 7000,
-    tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1200',
     logo: 'СКУ',
     mission: 'Предоставление качественного образования на Севере Казахстана.',
     programs: [
@@ -3695,43 +1545,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 33,
     students: 6500,
     tuitionAvg: 'от 360 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КРУ',
-    mission: 'Подготовка интеллектуальной элиты северного региона.',
-    programs: [
-      { name: 'Аграрная техника и технологии', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Журналистика и информация', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Ветеринария', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KBTU_building_at_night.jpg/800px-KBTU_building_at_night.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Michigan State University', 'УрФУ (Россия)'],
-    admissionDeadlines: '25.08',
-    category: 'Regional',
-    achievements: [
-      "Крупный региональный центр смарт-технологий в АПК"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://ksu.edu.kz',
-        phone: '+7 (7142) 51-11-98',
-        email: 'info@ksu.edu.kz',
-        address: 'г. Костанай, ул. Байтурсынова, 47'
-    }
-  },
-  {
-    id: 'zhezu',
-    name: 'Жезказганский университет имени О. А. Байконурова',
-    shortName: 'ЖезУ',
-    location: 'Жезказган',
-    description: 'Опорный вуз для горно-металлургической отрасли региона Улытау.',
-    founded: 1996,
-    ranking: 45,
-    students: 3000,
-    tuitionAvg: 'от 350 000 ₸',
-    image: 'https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80&w=1200',
     logo: 'ЖезУ',
     mission: 'Кадровое обеспечение промышленности региона Улытау.',
     programs: [
@@ -3767,44 +1586,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 34,
     students: 5000,
     tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ABU',
-    mission: 'Создание инновационной образовательной среды для подготовки лидеров.',
-    programs: [
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Информационные системы', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Педагогика и психология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Университет Памуккале (Турция)'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Сильный центр правовой поддержки населения",
-      "Активное развитие программ двудипломного образования"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://abu.edu.kz',
-        phone: '+7 (7222) 36-02-60',
-        email: 'info@abu.edu.kz',
-        address: 'г. Семей, ул. Мәңгілік Ел, 11'
-    }
-  },
-  {
-    id: 'qyzpu',
-    name: 'Казахский национальный женский педагогический университет',
-    shortName: 'КазНацЖенПУ (QyzPU)',
-    location: 'Алматы',
-    description: 'Уникальный национальный вуз, созданный специально для обучения девушек. Лидер по подготовке педагогических кадров в стране.',
-    founded: 1944,
-    ranking: 20,
-    students: 8000,
-    tuitionAvg: 'от 600 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200',
     logo: 'QyzPU',
     mission: 'Подготовка педагогов-лидеров нового поколения.',
     programs: [
@@ -3841,43 +1628,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 42,
     students: 3500,
     tuitionAvg: 'от 550 000 ₸',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КазИТУ',
-    mission: 'Подготовка востребованных инженеров и технологов для инновационной экономики.',
-    programs: [
-      { name: 'Вычислительная техника и программное обеспечение', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Биотехнология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Технология продовольственных продуктов', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Рижский технический университет'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Сильная научно-исследовательская база по биотехнологиям"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://kazetu.kz',
-        phone: '+7 (727) 300-07-77',
-        email: 'info@kazetu.kz',
-        address: 'г. Алматы, пр. аль-Фараби, 93А'
-    }
-  },
-  {
-    id: 'esil',
-    name: 'Esil University (Казахский университет экономики, финансов и международной торговли)',
-    shortName: 'Esil',
-    location: 'Астана',
-    description: 'Специализированный столичный вуз, готовящий специалистов в области экономики, финансов, таможенного дела и ИТ.',
-    founded: 1999,
-    ranking: 37,
-    students: 4500,
-    tuitionAvg: 'от 650 000 ₸',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200',
     logo: 'Esil',
     mission: 'Формирование интеллектуальной экономической элиты Казахстана.',
     programs: [
@@ -3913,44 +1669,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 39,
     students: 4000,
     tuitionAvg: 'от 600 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200',
-    logo: 'Туран-Астана',
-    mission: 'Инновационное образование для успешной карьеры.',
-    programs: [
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Дизайн', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Туризм', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
+    image: 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Varna University of Management'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Современный кампус в центре столицы",
-      "Сильная поддержка студенческих инициатив"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://tau-edu.kz',
-        phone: '+7 (7172) 39-81-18',
-        email: 'info@tau-edu.kz',
-        address: 'г. Астана, ул. Ы. Дукенулы, 29'
-    }
-  },
-  {
-    id: 'vkgu',
-    name: 'Восточно-Казахстанский университет имени Сарсена Аманжолова',
-    shortName: 'ВКГУ',
-    location: 'Усть-Каменогорск',
-    description: 'Главный многопрофильный вуз Восточно-Казахстанской области. Готовит кадры в области инженерии, педагогики, экономики и права.',
-    founded: 1938,
-    ranking: 16,
-    students: 12000,
-    tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200',
     logo: 'ВКГУ',
     mission: 'Создание интеллектуального потенциала для процветания Восточного Казахстана.',
     programs: [
@@ -3987,51 +1711,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 50,
     students: 800,
     tuitionAvg: 'от 1 000 000 ₸',
-    image: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КазНацКонс',
-    mission: 'Сохранение и развитие музыкального наследия Казахстана и мира.',
-    programs: [
-      { name: 'Инструментальное исполнительство (домбра, рояль, скрипка)', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Вокальное искусство (академическое пение)', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Дирижирование (оркестр, хор)', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Московская государственная консерватория', 'Hochschule für Musik und Theater Hamburg'],
-    admissionDeadlines: '10.07',
-    category: 'National',
-    achievements: [
-      "Крупнейший центр академической и традиционной казахской музыки",
-      "Выпускники — лауреаты международных конкурсов Чайковского, Юношеского конкурса Ойстраха"
-    ],
-    admissionRequirements: [
-      "ЕНТ (базовые предметы)",
-      "Вступительный творческий экзамен (исполнение специальных произведений)"
-    ],
-    admissionProcedure: [
-      "Подача заявки",
-      "Творческий экзамен и прослушивание",
-      "Зачисление"
-    ],
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://conservatoire.kz',
-        phone: '+7 (727) 291-73-52',
-        email: 'info@conservatoire.kz',
-        address: 'г. Алматы, пр. Абылай хана, 86'
-    }
-  },
-  {
-    id: 'kasa',
-    name: 'Казахская академия спорта и туризма',
-    shortName: 'КазАСТ',
-    location: 'Алматы',
-    description: 'Главный спортивный вуз страны. Готовит тренеров, спортивных менеджеров и профессиональных спортсменов мирового уровня.',
-    founded: 1945,
-    ranking: 43,
-    students: 4000,
-    tuitionAvg: 'от 600 000 ₸',
-    image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&q=80&w=1200',
     logo: 'КазАСТ',
     mission: 'Развитие олимпийского движения и спортивной науки в Казахстане.',
     programs: [
@@ -4071,43 +1756,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 44,
     students: 4500,
     tuitionAvg: 'от 350 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
-    logo: 'Болашак',
-    mission: 'Подготовка будущего (болашак) Казахстана.',
-    programs: [
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Педагогика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Экономика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Ататюркский университет (Турция)'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Один из крупнейших частных вузов Южного Казахстана"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://bolashak.edu.kz',
-        phone: '+7 (7242) 40-46-40',
-        email: 'info@bolashak.edu.kz',
-        address: 'г. Кызылорда, ул. Женис, 45'
-    }
-  },
-  {
-    id: 'kazguu',
-    name: 'Казахский гуманитарно-юридический инновационный университет',
-    shortName: 'КАЗГЮИУ',
-    location: 'Семей',
-    description: 'Специализированный гуманитарно-юридический вуз Семея. Сильная школа права и международных отношений для востока страны.',
-    founded: 2001,
-    ranking: 46,
-    students: 3500,
-    tuitionAvg: 'от 370 000 ₸',
-    image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200',
     logo: 'КАЗГЮИУ',
     mission: 'Развитие гуманитарного и правового образования на Востоке Казахстана.',
     programs: [
@@ -4143,44 +1797,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 11,
     students: 10000,
     tuitionAvg: 'от 800 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
-    logo: 'Туран',
-    mission: 'Формирование элиты казахстанского общества через образование мирового уровня.',
-    programs: [
-      { name: 'Журналистика и связи с общественностью', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Графический дизайн', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Universidad de Alcalá (Испания)', 'Coventry University'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Лучшая частная школа журналистики в Казахстане",
-      "Международная аккредитация FIBAA"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: ["Туран-гранты", "Государственные гранты", "Корпоративные скидки"],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://turan-edu.kz',
-        phone: '+7 (727) 300-87-77',
-        email: 'info@turan-edu.kz',
-        address: 'г. Алматы, ул. Розыбакиева, 247'
-    }
-  },
-  {
-    id: 'vita',
-    name: 'Казахстанский медицинский университет «ВИТА»',
-    shortName: 'КМУ Вита',
-    location: 'Алматы',
-    description: 'Частный медицинский вуз с международными образовательными стандартами. Признанный диплом, право работы за рубежом.',
-    founded: 2003,
-    ranking: 47,
-    students: 2500,
-    tuitionAvg: 'от 1 800 000 ₸',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200',
     logo: 'ВИТА',
     mission: 'Подготовка врачей международного уровня.',
     programs: [
@@ -4220,44 +1842,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 8,
     students: 5000,
     tuitionAvg: 'от 1 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200',
-    logo: 'AlmaU',
-    mission: 'Вдохновлять предпринимателей и менеджеров изменять мир к лучшему.',
-    programs: [
-      { name: 'Бизнес и менеджмент (MBA)', degree: 'Master', duration: '1.5 года', language: 'EN' },
-      { name: 'Финансы и бухгалтерский учет', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Digital Marketing', degree: 'Bachelor', duration: '4 года', language: 'EN' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Suleyman_Demirel_University_Campus.jpg/800px-Suleyman_Demirel_University_Campus.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['IE Business School (Испания)', 'Thunderbird School of Global Management (США)'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Аккредитация AACSB — Топ-5% бизнес-школ мира",
-      "Лучшая школа бизнеса в Казахстане по версии QS"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: ["AlmaU Merit Scholarship", "Государственные гранты"],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://almau.edu.kz',
-        phone: '+7 (727) 394-90-00',
-        email: 'info@almau.edu.kz',
-        address: 'г. Алматы, пр. Достык, 220'
-    }
-  },
-  {
-    id: 'kazatk',
-    name: 'Казахская академия транспорта и коммуникаций им. М. Тынышпаева',
-    shortName: 'КазАТК',
-    location: 'Алматы',
-    description: 'Главный транспортный вуз страны. Готовит железнодорожников, логистов, авиационных инженеров и специалистов автомобильного транспорта.',
-    founded: 1931,
-    ranking: 32,
-    students: 5000,
-    tuitionAvg: 'от 750 000 ₸',
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=1200',
     logo: 'КазАТК',
     mission: 'Обеспечение транспортной системы Казахстана высококвалифицированными специалистами.',
     programs: [
@@ -4294,44 +1884,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 12,
     students: 4000,
     tuitionAvg: 'от 1 100 000 ₸',
-    image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=1200',
-    logo: 'МАБ',
-    mission: 'Создавать предпринимателей, меняющих мир.',
-    programs: [
-      { name: 'Бизнес администрирование (MBA)', degree: 'Master', duration: '1 год', language: 'EN' },
-      { name: 'Маркетинг и управление брендом', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Финансовый менеджмент', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
+    image: 'https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Grenoble Ecole de Management (Франция)', 'Lincoln University (Великобритания)'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Признанная программа MBA на рынке Центральной Азии",
-      "Сильные связи с инвестиционными фондами и венчурным рынком"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: ["Академические скидки до 50%", "Государственные гранты"],
-    dormitory: false,
-    militaryDept: false,
-    contacts: {
-        website: 'https://iab.kz',
-        phone: '+7 (727) 259-04-45',
-        email: 'info@iab.kz',
-        address: 'г. Алматы, пр. Достык, 240'
-    }
-  },
-  {
-    id: 'uku',
-    name: 'Южно-Казахстанский университет имени М. Ауэзова',
-    shortName: 'ЮКУ',
-    location: 'Шымкент',
-    description: 'Один из крупнейших вузов Казахстана и безоговорочный лидер юга страны. Готовит специалистов во всех ключевых отраслях: инженерии, медицине, педагогике и экономике.',
-    founded: 1943,
-    ranking: 5,
-    students: 35000,
-    tuitionAvg: 'от 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200',
     logo: 'ЮКУ',
     mission: 'Стать университетом мирового класса, ведущим трансформацию Южного Казахстана.',
     programs: [
@@ -4368,44 +1926,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 4,
     students: 18000,
     tuitionAvg: 'от 430 000 ₸',
-    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КарГУ',
-    mission: 'Быть исследовательским университетом, интегрированным в мировую науку.',
-    programs: [
-      { name: 'Физика (в т.ч. ядерная)', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'История', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Химия и химические технологии', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Justus-Liebig-Universität Gießen (Германия)', 'Томский государственный университет'],
-    admissionDeadlines: '25.08',
-    category: 'National',
-    achievements: [
-      "Топ-5 классических университетов Казахстана",
-      "Мощная исследовательская база, собственный физический реактор"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://ksu.kz',
-        phone: '+7 (7212) 77-03-89',
-        email: 'info@ksu.kz',
-        address: 'г. Караганда, ул. Университетская, 28'
-    }
-  },
-  {
-    id: 'dgti',
-    name: 'Дунганский государственный технический университет',
-    shortName: 'ДГТУ (EKTU)',
-    location: 'Усть-Каменогорск',
-    description: 'Ведущий технический вуз ВКО. Специализируется на горном деле, металлургии и приборостроении. Тесно связан с промышленными гигантами региона.',
-    founded: 1958,
-    ranking: 14,
-    students: 9000,
-    tuitionAvg: 'от 420 000 ₸',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200',
     logo: 'ВКГТУ',
     mission: 'Технический прогресс через высококачественное инженерное образование.',
     programs: [
@@ -4443,47 +1969,11 @@ export const UNIVERSITIES: University[] = [
     students: 3000,
     tuitionAvg: 'от 1 600 000 ₸',
     image: 'https://astanait.edu.kz/wp-content/uploads/2021/04/aitu.jpg',
-    logo: 'AITU',
-    mission: 'Стать ведущим ИТ-университетом мирового класса.',
-    programs: [
-      { name: 'Software Engineering', degree: 'Bachelor', duration: '4 года', language: 'EN' },
-      { name: 'Data Science & AI', degree: 'Bachelor', duration: '4 года', language: 'EN' },
-      { name: 'Cybersecurity', degree: 'Bachelor', duration: '4 года', language: 'EN' },
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Microsoft', 'Cisco', 'Huawei', 'IBM', 'Google'],
-    admissionDeadlines: '25.08',
-    category: 'National',
-    achievements: [
-      "Обучение ТОЛЬКО на английском языке",
-      "100% трудоустройство выпускников в ведущих ИТ-компаниях",
-      "Резидент Smart Technology Hub — первого ИТ-хаба в Казахстане"
-    ],
-    admissionRequirements: [
-      "ЕНТ (Математика + Физика/Информатика)",
-      "Английский язык (уровень Intermediate+)"
-    ],
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: ["Гранты от IT-компаний (Microsoft, Huawei)", "Государственные гранты"],
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://aitu.edu.kz',
-        phone: '+7 (7172) 63-08-00',
-        email: 'info@aitu.edu.kz',
-        address: 'г. Астана, ул. Манглик Ел, 55/11'
-    }
-  },
-  {
-    id: 'kazarkhi',
-    name: 'Казахский государственный женский педагогический университет (КазГосЖенПУ)',
-    shortName: 'КазГосЖенПУ',
-    location: 'Алматы',
-    description: 'Второй женский педагогический вуз страны. Нацелен на подготовку учителей начальной, средней и специальной школы, а также психологов и дефектологов.',
-    founded: 2001,
-    ranking: 41,
-    students: 5500,
-    tuitionAvg: 'от 500 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200',
     logo: 'КазГосЖенПУ',
     mission: 'Раскрывать потенциал каждой студентки для служения обществу.',
     programs: [
@@ -4520,45 +2010,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 6,
     students: 15000,
     tuitionAvg: 'от 900 000 ₸',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=1200',
-    logo: 'Satbayev',
-    mission: 'Быть исследовательским техническим университетом мирового класса.',
-    programs: [
-      { name: 'Горное дело и геология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Нефтегазовое дело (Petroleum Engineering)', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Кибербезопасность', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg/800px-Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Colorado School of Mines (США)', 'Heriot-Watt University (Великобритания)', 'Total Energies'],
-    admissionDeadlines: '25.08',
-    category: 'National',
-    achievements: [
-      "Топ-3 технических вузов страны, в Топ-400 QS мира",
-      "Собственный научно-исследовательский геологический музей",
-      "Партнёрство с Chevron, Shell, KMG"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: true,
-    contacts: {
-        website: 'https://satbayev.university',
-        phone: '+7 (727) 320-37-00',
-        email: 'info@satbayev.university',
-        address: 'г. Алматы, ул. Сатпаева, 22'
-    }
-  },
-  {
-    id: 'ineu',
-    name: 'Инновационный Евразийский университет',
-    shortName: 'ИнЕУ',
-    location: 'Павлодар',
-    description: 'Ведущий инновационный вуз Павлодарской области, специализирующийся на подготовке ИТ-специалистов, педагогов и экономистов.',
-    founded: 2001,
-    ranking: 35,
-    students: 7000,
-    tuitionAvg: 'от 390 000 ₸',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
     logo: 'ИнЕУ',
     mission: 'Формировать инновационную личность через современное образование.',
     programs: [
@@ -4594,51 +2051,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 48,
     students: 1200,
     tuitionAvg: 'от 1 300 000 ₸',
-    image: 'https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&q=80&w=1200',
-    logo: 'DKU',
-    mission: 'Соединить казахстанское образование с немецкими академическими традициями.',
-    programs: [
-      { name: 'Business Informatics', degree: 'Bachelor', duration: '4 года', language: 'DE/EN' },
-      { name: 'International Management', degree: 'Bachelor', duration: '4 года', language: 'DE/EN' },
-      { name: 'German Language and Culture', degree: 'Bachelor', duration: '4 года', language: 'DE' },
-    ],
-    partners: ['DAAD (Германская служба академических обменов)', 'FH Münster', 'FH Aachen'],
-    admissionDeadlines: '25.08',
-    category: 'International',
-    achievements: [
-      "Обучение на немецком языке и признанный диплом в Германии",
-      "Прямой путь в магистратуру немецких вузов"
-    ],
-    admissionRequirements: [
-      "ЕНТ",
-      "Немецкий язык (A2+ или выше)"
-    ],
-    admissionProcedure: [
-      "Сдача ЕНТ",
-      "Языковое тестирование",
-      "Собеседование"
-    ],
-    scholarships: ["Стипендии DAAD", "Гранты ФРГ"],
-    dormitory: false,
-    militaryDept: false,
-    contacts: {
-        website: 'https://dku.kz',
-        phone: '+7 (727) 327-97-52',
-        email: 'info@dku.kz',
-        address: 'г. Алматы, ул. Пушкина, 111'
-    }
-  },
-  {
-    id: 'zhargu',
-    name: 'Жаркентский университет',
-    shortName: 'ЖарГУ',
-    location: 'Жаркент',
-    description: 'Небольшой региональный вуз на юго-востоке страны, готовящий педагогов, юристов и специалистов по туризму для приграничного региона.',
-    founded: 2003,
-    ranking: null,
-    students: 2000,
-    tuitionAvg: 'от 280 000 ₸',
     image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
+    ],
     logo: 'ЖарГУ',
     mission: 'Обеспечение кадрами приграничных регионов Жетысу.',
     programs: [
@@ -4675,41 +2093,12 @@ export const UNIVERSITIES: University[] = [
     ranking: 49,
     students: 5000,
     tuitionAvg: 'от 550 000 ₸',
-    image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КазУТБ',
-    mission: 'Практико-ориентированное образование для быстрого старта карьеры.',
-    programs: [
-      { name: 'Менеджмент', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Вычислительная техника', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Ресторанное дело', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg/800px-Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Университет Сучжоу (Китай)'],
-    admissionDeadlines: '25.08',
-    category: 'Private',
-    achievements: [
-      "Гибкий формат обучения — очный, вечерний и дистанционный",
-      "Крупный центр переподготовки взрослых специалистов"
-    ],
-    admissionRequirements: DEFAULTS.requirements,
-    admissionProcedure: DEFAULTS.procedure,
-    scholarships: DEFAULTS.scholarships,
-    dormitory: true,
-    militaryDept: false,
-    contacts: {
-        website: 'https://kazutb.kz',
-        phone: '+7 (7172) 31-13-31',
-        email: 'info@kazutb.kz',
-        address: 'г. Астана, ул. Кабанбай батыра, 53'
-    }
-  },
-  {
-    id: 'abai-inst',
-    name: 'Алматинский институт менеджмента (AIM)',
-    shortName: 'AIM Алматы',
-    location: 'Алматы',
-    description: 'Специализированный вуз менеджмента и бизнеса с акцентом на практическое образование. Сильные программы MBA и Executive MBA.',
-    founded: 2002, ranking: 52, students: 1800, tuitionAvg: 'от 1 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=1200',
     logo: 'AIM', mission: 'Бизнес-образование, которое меняет карьеру.',
     programs: [
       { name: 'MBA', degree: 'Master', duration: '1.5 года', language: 'EN' },
@@ -4730,29 +2119,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Астана',
     description: 'Один из ведущих медицинских вузов страны с государственным финансированием. Сильная клиническая база — Национальный медицинский холдинг.',
     founded: 1964, ranking: 10, students: 5000, tuitionAvg: 'от 1 500 000 ₸',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200',
-    logo: 'МУА', mission: 'Подготовка врачей мирового уровня.',
-    programs: [
-      { name: 'Общая медицина', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU/EN' },
-      { name: 'Стоматология', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
-      { name: 'Фармация', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Charité Berlin', 'Johns Hopkins University'],
-    admissionDeadlines: '25.08', category: 'National',
-    achievements: ["Клинические базы — все больницы Национального медхолдинга Астаны", "Профильные: Биология + Химия"],
-    admissionRequirements: [...DEFAULTS.requirements, "Профильные ЕНТ: Биология + Химия"],
-    admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://amu.kz', phone: '+7 (7172) 53-94-11', email: 'info@amu.kz', address: 'г. Астана, ул. Бейбітшілік, 49А' }
-  },
-  {
-    id: 'kazmeduniver',
-    name: 'Казахстанский медицинский университет «CEMK»',
-    shortName: 'СЕМК',
-    location: 'Алматы',
-    description: 'Частный медицинский вуз нового поколения. Полностью двуязычный вуз (казахский и английский), интегрированный в международные стандарты.',
-    founded: 2009, ranking: 53, students: 2000, tuitionAvg: 'от 2 000 000 ₸',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200',
     logo: 'СЕМК', mission: 'Мировые стандарты медицины — в Казахстане.',
     programs: [
       { name: 'Общая медицина (MD)', degree: 'Bachelor', duration: '5 лет', language: 'KZ/EN' },
@@ -4773,28 +2145,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Костанай',
     description: 'Классический государственный университет Костанайской области. Широкий спектр программ от аграрной техники до гуманитарных наук.',
     founded: 1939, ranking: 33, students: 6500, tuitionAvg: 'от 360 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КГУ', mission: 'Классическое образование для динамичного мира.',
-    programs: [
-      { name: 'Аграрная техника', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Биология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Suleyman_Demirel_University_Campus.jpg/800px-Suleyman_Demirel_University_Campus.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Рудненский индустриальный институт'],
-    admissionDeadlines: '25.08', category: 'Regional',
-    achievements: ["Крупнейший государственный вуз Костанайской области"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: true,
-    contacts: { website: 'https://kgu.kz', phone: '+7 (7142) 51-11-98', email: 'info@kgu.kz', address: 'г. Костанай, ул. Байтурсынова, 47' }
-  },
-  {
-    id: 'kazmed-karaganda',
-    name: 'Карагандинский медицинский университет',
-    shortName: 'КарМУ',
-    location: 'Караганда',
-    description: 'Один из старейших медицинских университетов страны. Известен сильной традицией клинической подготовки и широкой международной сетью.',
-    founded: 1950, ranking: 20, students: 6000, tuitionAvg: 'от 1 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200',
     logo: 'КарМУ', mission: 'Наука и практика на службе здоровья.',
     programs: [
       { name: 'Общая медицина', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU/EN' },
@@ -4818,32 +2174,10 @@ export const UNIVERSITIES: University[] = [
     founded: 1999, ranking: 7, students: 3000, tuitionAvg: 'от 2 200 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
     gallery: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/KBTU_Round_Hall.jpg/800px-KBTU_Round_Hall.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/KBTU_interior.jpg/800px-KBTU_interior.jpg'
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800'
     ],
-    logo: 'КБТУ', mission: 'Воспитывать технических лидеров для нефтегазовой и ИТ-индустрии.',
-    programs: [
-      { name: 'Petroleum Engineering', degree: 'Bachelor', duration: '4 года', language: 'EN' },
-      { name: 'Computer Science', degree: 'Bachelor', duration: '4 года', language: 'EN' },
-      { name: 'Chemical Engineering', degree: 'Bachelor', duration: '4 года', language: 'EN' },
-    ],
-    partners: ['University of London', 'BP', 'TotalEnergies', 'Shell'],
-    admissionDeadlines: '25.08', category: 'International',
-    achievements: ["Обучение ТОЛЬКО на английском языке", "Диплом признан в Великобритании", "100% сотрудничество с нефтяными мейджорами"],
-    admissionRequirements: ["ЕНТ (Математика + Физика)", "IELTS 5.5+ или внутренний тест по английскому"],
-    admissionProcedure: DEFAULTS.procedure, scholarships: ["BP Scholarship", "Shell Scholarship", "Гос. гранты"],
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://kbtu.edu.kz', phone: '+7 (727) 270-45-47', email: 'info@kbtu.kz', address: 'г. Алматы, ул. Толе би, 59' }
-  },
-  {
-    id: 'bhu',
-    name: 'Университет «Болашак» (Шымкент)',
-    shortName: 'Болашак ЮКО',
-    location: 'Шымкент',
-    description: 'Крупный частный вуз Шымкента. Гибкие программы, заочное и дистанционное обучение. Акцент на практике и работе.',
-    founded: 1994, ranking: null, students: 8000, tuitionAvg: 'от 320 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
     logo: 'Болашак ЮКО', mission: 'Доступное и качественное образование для каждого.',
     programs: [
       { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
@@ -4864,28 +2198,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Кокшетау',
     description: 'Государственный классический университет Акмолинской области. Широкий спектр специальностей, доступные цены.',
     founded: 1996, ranking: 38, students: 5000, tuitionAvg: 'от 360 000 ₸',
-    image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КУ', mission: 'Образование, доступное каждому жителю Акмолинского региона.',
-    programs: [
-      { name: 'Экология и природопользование', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Информационные системы', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Социальная работа', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Suleyman_Demirel_University_Campus.jpg/800px-Suleyman_Demirel_University_Campus.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Омский государственный педагогический университет'],
-    admissionDeadlines: '25.08', category: 'Regional',
-    achievements: ["Ведущий государственный вуз Акмолинской области"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://kmu.edu.kz', phone: '+7 (7162) 25-09-50', email: 'info@kmu.edu.kz', address: 'г. Кокшетау, ул. Абылай хана, 76' }
-  },
-  {
-    id: 'karaganda-tec',
-    name: 'Карагандинский технический университет им. Абылкаса Сагинова',
-    shortName: 'КарТУ',
-    location: 'Караганда',
-    description: 'Ведущий технический и инженерный вуз Центрального Казахстана. Кузница горных инженеров, металлургов и программистов для промышленных гигантов.',
-    founded: 1953, ranking: 15, students: 11000, tuitionAvg: 'от 480 000 ₸',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200',
     logo: 'КарТУ', mission: 'Инженеры для промышленности Казахстана и мира.',
     programs: [
       { name: 'Горное дело', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
@@ -4906,28 +2224,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Астана',
     description: 'Современный частный вуз столицы. Сильные программы в области права, международных отношений и ИТ с акцентом на казахский язык и национальные ценности.',
     founded: 2005, ranking: null, students: 3000, tuitionAvg: 'от 480 000 ₸',
-    image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200',
-    logo: 'МЕ', mission: 'Казахская идентичность через знания.',
-    programs: [
-      { name: 'Казахский язык и литература', degree: 'Bachelor', duration: '4 года', language: 'KZ' },
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Информационные системы', degree: 'Bachelor', duration: '4 года', language: 'KZ' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg/800px-Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Университет Ататюрка (Турция)'],
-    admissionDeadlines: '25.08', category: 'Private',
-    achievements: ["Уникальный вуз с обучением преимущественно на казахском языке"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://mangilik.kz', phone: '+7 (7172) 55-66-77', email: 'info@mangilik.kz', address: 'г. Астана, ул. Мәңгілік Ел, 55' }
-  },
-  {
-    id: 'zhangir-khan',
-    name: 'Западно-Казахстанский инновационно-технологический университет',
-    shortName: 'ЗКИТУ',
-    location: 'Уральск',
-    description: 'Инновационный вуз Западного Казахстана. Готовит ИТ-специалистов, дизайнеров и менеджеров для нефтегазового региона.',
-    founded: 2008, ranking: null, students: 2500, tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
     logo: 'ЗКИТУ', mission: 'Инновации для Западного Казахстана.',
     programs: [
       { name: 'Информационные системы', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
@@ -4948,28 +2250,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Астана',
     description: 'Негосударственный многопрофильный университет столицы с широким набором гуманитарных и технических программ.',
     founded: 2003, ranking: null, students: 3500, tuitionAvg: 'от 420 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ЧУГ', mission: 'Доступное качественное образование в столице.',
-    programs: [
-      { name: 'Педагогика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Экономика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-    ],
-    partners: ['Тюменский государственный университет'],
-    admissionDeadlines: '25.08', category: 'Private',
-    achievements: ["Гибкое расписание — работающим студентам"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: false, militaryDept: false,
-    contacts: { website: 'https://gumilev-uni.kz', phone: '+7 (7172) 37-22-11', email: 'info@gumilev-uni.kz', address: 'г. Астана, ул. Республики, 5' }
-  },
-  {
-    id: 'shymkent-univer',
-    name: 'Шымкентский университет',
-    shortName: 'ШУ',
-    location: 'Шымкент',
-    description: 'Частный университет Шымкента с программами юриспруденции, педагогики и экономики. Популярен среди абитуриентов ЮКО благодаря доступным ценам.',
-    founded: 2001, ranking: null, students: 5500, tuitionAvg: 'от 310 000 ₸',
     image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
+    ],
     logo: 'ШУ', mission: 'Образование с заботой о каждом студенте.',
     programs: [
       { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
@@ -4990,29 +2276,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Алматы',
     description: 'Элитный англоязычный вуз, созданный при поддержке BP. Лидер в нефтегазовой инженерии и компьютерных науках. Дипломы признаются в Великобритании.',
     founded: 1999, ranking: 7, students: 3200, tuitionAvg: 'от 2 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=1200',
-    logo: 'KBTU', mission: 'Инженеры мирового уровня — из Казахстана для мира.',
-    programs: [
-      { name: 'Petroleum Engineering', degree: 'Bachelor', duration: '4 года', language: 'EN' },
-      { name: 'Information Systems', degree: 'Bachelor', duration: '4 года', language: 'EN' },
-      { name: 'Business Administration', degree: 'Bachelor', duration: '4 года', language: 'EN' },
+    image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['University College London', 'BP', 'Shell', 'Chevron'],
-    admissionDeadlines: '25.08', category: 'International',
-    achievements: ["100% обучение на английском", "Партнёрство с мировыми нефтяными гигантами", "Топ-10 вузов Казахстана"],
-    admissionRequirements: ["ЕНТ", "Внутренний тест по английскому или IELTS"],
-    admissionProcedure: DEFAULTS.procedure, scholarships: ["BP Scholarship", "Shell Scholarship"],
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://kbtu.edu.kz', phone: '+7 (727) 272-45-22', email: 'admission@kbtu.kz', address: 'г. Алматы, ул. Толе би, 59' }
-  },
-  {
-    id: 'yesil-river',
-    name: 'Евразийская юридическая академия имени Д. А. Кунаева',
-    shortName: 'ЕЮА',
-    location: 'Алматы',
-    description: 'Специализированный юридический вуз, готовящий адвокатов, нотариусов и судей для всей страны. Один из самых авторитетных правовых вузов.',
-    founded: 1994, ranking: 55, students: 4000, tuitionAvg: 'от 700 000 ₸',
-    image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200',
     logo: 'ЕЮА', mission: 'Защита права и справедливости через образование.',
     programs: [
       { name: 'Юриспруденция (Адвокатура)', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
@@ -5033,28 +2302,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Астана',
     description: 'Частный медицинский вуз столицы с современной клинической базой и международно-признанными программами обучения.',
     founded: 2011, ranking: null, students: 2000, tuitionAvg: 'от 1 700 000 ₸',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ЧМУ', mission: 'Подготовка врачей нового поколения в столице.',
-    programs: [
-      { name: 'Общая медицина', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU/EN' },
-      { name: 'Педиатрия', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU' },
-    ],
-    partners: ['Astana Medical Centre', 'National Research Oncology Centre'],
-    admissionDeadlines: '25.08', category: 'Private',
-    achievements: ["Клинические базы в больницах Астаны"],
-    admissionRequirements: [...DEFAULTS.requirements, "Биология + Химия"],
-    admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://pmu-astana.kz', phone: '+7 (7172) 27-80-88', email: 'info@pmu-astana.kz', address: 'г. Астана, пр. Туран, 5' }
-  },
-  {
-    id: 'atyrau-univer',
-    name: 'Атырауский государственный университет имени Х. Досмухамедова',
-    shortName: 'АтГУ',
-    location: 'Атырау',
-    description: 'Главный классический государственный университет Атырауской области. Дополняет сильного соседа — АУНГ — педагогическими и гуманитарными программами.',
-    founded: 1990, ranking: 40, students: 8000, tuitionAvg: 'от 380 000 ₸',
     image: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800'
+    ],
     logo: 'АтГУ', mission: 'Кадровое обеспечение Атырауской области.',
     programs: [
       { name: 'Педагогика и психология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
@@ -5075,28 +2328,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Алматы',
     description: 'Физкультурный факультет КазНУ. Готовит профессиональных спортсменов, тренеров и менеджеров в области спорта.',
     founded: 1960, ranking: null, students: 1500, tuitionAvg: 'от 700 000 ₸',
-    image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КазНУ-ФКС', mission: 'Воспитывать чемпионов.',
-    programs: [
-      { name: 'Физическая культура и спорт', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Адаптивная физическая культура', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Казахстанский олимпийский комитет'],
-    admissionDeadlines: '25.08', category: 'National',
-    achievements: ["Выпускники — олимпийские призёры и чемпионы мира"],
-    admissionRequirements: [...DEFAULTS.requirements, "Спортивный разряд"],
-    admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://kaznu.kz/sport', phone: '+7 (727) 377-33-40', email: 'sport@kaznu.kz', address: 'г. Алматы, пр. аль-Фараби, 71' }
-  },
-  {
-    id: 'kokshe-univ-2',
-    name: 'Академия «Кокше»',
-    shortName: 'Академия Кокше',
-    location: 'Кокшетау',
-    description: 'Частная академия Кокшетау. Специализируется на педагогике, дизайне и гуманитарных науках для Акмолинской области.',
-    founded: 2006, ranking: null, students: 2000, tuitionAvg: 'от 300 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
     logo: 'Кокше', mission: 'Раскрывать таланты студентов Акмолинской области.',
     programs: [
       { name: 'Педагогика', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
@@ -5117,28 +2354,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Шымкент',
     description: 'Специализированный педагогический университет Шымкента. Готовит учителей для школ ЮКО и соседних областей.',
     founded: 1931, ranking: null, students: 7000, tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ЮКПУ', mission: 'Учитель — главный человек в жизни каждого.',
-    programs: [
-      { name: 'Педагогика и методика начального обучения', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Дошкольное образование', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Дефектология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KBTU_building_at_night.jpg/800px-KBTU_building_at_night.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Ташкентский педагогический университет (Узбекистан)'],
-    admissionDeadlines: '25.08', category: 'National',
-    achievements: ["Старейший педагогический вуз ЮКО (с 1931 года)"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://yukpu.edu.kz', phone: '+7 (7252) 53-06-23', email: 'info@yukpu.edu.kz', address: 'г. Шымкент, ул. Дулати, 13' }
-  },
-  {
-    id: 'aktobe-med',
-    name: 'Западно-Казахстанский медицинский университет имени М. Оспанова',
-    shortName: 'ЗКМУ',
-    location: 'Актобе',
-    description: 'Один из ведущих медицинских вузов западного Казахстана. Известен сильной хирургической школой и симуляционным центром.',
-    founded: 1957, ranking: 25, students: 5000, tuitionAvg: 'от 1 100 000 ₸',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200',
     logo: 'ЗКМУ', mission: 'Медицина с сердцем, наука с разумом.',
     programs: [
       { name: 'Общая медицина', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU/EN' },
@@ -5160,28 +2381,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Шымкент',
     description: 'Технический государственный университет Шымкента. Готовит инженеров для лёгкой, химической и пищевой промышленности юга страны.',
     founded: 1960, ranking: 32, students: 9000, tuitionAvg: 'от 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ЮКГУ', mission: 'Технологии — на службе юга Казахстана.',
-    programs: [
-      { name: 'Химическая технология', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Строительство зданий и сооружений', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Дизайн', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://images.unsplash.com/photo-1564069114553-7215e1ff1890?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Ташкентский государственный технический университет'],
-    admissionDeadlines: '25.08', category: 'Regional',
-    achievements: ["Сильная лёгкая и пищевая промышленность — прямая база практики на заводах ЮКО"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: true,
-    contacts: { website: 'https://ukgu.kz', phone: '+7 (7252) 21-10-01', email: 'ukgu@ukgu.kz', address: 'г. Шымкент, пр. Тауке хана, 5А' }
-  },
-  {
-    id: 'narxoz-astana',
-    name: 'Narxoz University (филиал в Астане)',
-    shortName: 'Нархоз Астана',
-    location: 'Астана',
-    description: 'Столичный филиал известного бизнес-университета Нархоз. Специализируется на финансах, экономике и цифровом маркетинге.',
-    founded: 2018, ranking: null, students: 2000, tuitionAvg: 'от 1 000 000 ₸',
-    image: 'https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&q=80&w=1200',
     logo: 'Нархоз Астана', mission: 'Нархоз — в столице, для столицы.',
     programs: [
       { name: 'Финансы и инвестиции', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
@@ -5202,28 +2407,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Актобе',
     description: 'Инновационный ИТ-вуз западного Казахстана. Специализируется на программировании, телекоммуникациях и кибербезопасности.',
     founded: 2005, ranking: null, students: 2500, tuitionAvg: 'от 450 000 ₸',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КУИТ', mission: 'ИТ-образование для западного Казахстана.',
-    programs: [
-      { name: 'Информационные технологии', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Кибербезопасность', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Телекоммуникации', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KBTU_building_at_night.jpg/800px-KBTU_building_at_night.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Huawei Kazakhstan'],
-    admissionDeadlines: '25.08', category: 'Private',
-    achievements: ["Партнёрство с Huawei — сертификаты Huawei ICT Academy"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://kuit.kz', phone: '+7 (7132) 55-44-33', email: 'info@kuit.kz', address: 'г. Актобе, ул. Маресьева, 90' }
-  },
-  {
-    id: 'eurasian-law',
-    name: 'Евразийская академия права',
-    shortName: 'ЕАП',
-    location: 'Астана',
-    description: 'Частная юридическая академия столицы. Узкоспециализированный правовой вуз с сильной практической школой.',
-    founded: 2002, ranking: null, students: 2200, tuitionAvg: 'от 650 000 ₸',
-    image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200',
     logo: 'ЕАП', mission: 'Право и справедливость — фундамент государства.',
     programs: [
       { name: 'Юриспруденция', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
@@ -5244,27 +2433,11 @@ export const UNIVERSITIES: University[] = [
     description: 'Педагогический вуз Кокшетау. Готовит учителей начальных классов, преподавателей ин. яз. и логопедов.',
     founded: 2003, ranking: null, students: 1800, tuitionAvg: 'от 310 000 ₸',
     image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
-    logo: 'АК-Пед', mission: 'Педагоги — сердце образования.',
-    programs: [
-      { name: 'Педагогика и методика начального обучения', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Иностранный язык (английский)', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Логопедия', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
+    gallery: [
+      'https://images.unsplash.com/photo-1577412647305-991150c7d163?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: [],
-    admissionDeadlines: '25.08', category: 'Private',
-    achievements: ["Доступные цены при высоком качестве педагогической подготовки"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://kokshepen.kz', phone: '+7 (7162) 76-11-22', email: 'info@kokshepen.kz', address: 'г. Кокшетау, ул. Валиханова, 71' }
-  },
-  {
-    id: 'ust-kamen-ped',
-    name: 'Восточно-Казахстанский государственный педагогический университет',
-    shortName: 'ВКГПУ',
-    location: 'Усть-Каменогорск',
-    description: 'Специализированный педагогический вуз ВКО. Готовит учителей для школ Восточного Казахстана.',
-    founded: 2001, ranking: null, students: 3500, tuitionAvg: 'от 360 000 ₸',
-    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
     logo: 'ВКГПУ', mission: 'Вдохновлять педагогов. Развивать детей.',
     programs: [
       { name: 'Педагогика и методика начального обучения', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
@@ -5285,28 +2458,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Павлодар',
     description: 'Педагогический университет Павлодарской области. Готовит учителей для школ северного Казахстана.',
     founded: 2003, ranking: null, students: 3000, tuitionAvg: 'от 360 000 ₸',
-    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
-    logo: 'ПавПУ', mission: 'Педагоги — строители будущего.',
-    programs: [
-      { name: 'Педагогика и методика начального обучения', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
-      { name: 'Иностранный язык', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Казахский язык и литература', degree: 'Bachelor', duration: '4 года', language: 'KZ' },
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KBTU_building_at_night.jpg/800px-KBTU_building_at_night.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Омский педагогический университет'],
-    admissionDeadlines: '25.08', category: 'Regional',
-    achievements: ["Основной поставщик учительских кадров Павлодарской области"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: true, militaryDept: false,
-    contacts: { website: 'https://pavpu.kz', phone: '+7 (7182) 67-48-12', email: 'info@pavpu.kz', address: 'г. Павлодар, ул. Мира, 60' }
-  },
-  {
-    id: 'semey-med',
-    name: 'Государственный медицинский университет Семей',
-    shortName: 'ГМУ Семей',
-    location: 'Семей',
-    description: 'Один из ключевых медицинских вузов страны. Имеет уникальную историческую роль в изучении последствий ядерных испытаний на Семипалатинском полигоне.',
-    founded: 1953, ranking: 22, students: 4500, tuitionAvg: 'от 1 100 000 ₸',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200',
     logo: 'ГМУ Семей', mission: 'Медицина. Наука. Человечность.',
     programs: [
       { name: 'Общая медицина', degree: 'Bachelor', duration: '5 лет', language: 'KZ/RU/EN' },
@@ -5328,28 +2485,12 @@ export const UNIVERSITIES: University[] = [
     location: 'Алматы',
     description: 'Ведущая бизнес-школа при КазНУ им. аль-Фараби. Топовые программы MBA и Executive Education с международной аккредитацией.',
     founded: 2000, ranking: null, students: 2000, tuitionAvg: 'от 1 500 000 ₸',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200',
-    logo: 'КазНУ-ВШЭиБ', mission: 'Бизнес-лидеры из КазНУ.',
-    programs: [
-      { name: 'MBA (General Management)', degree: 'Master', duration: '1.5 года', language: 'EN' },
-      { name: 'Финансы и учет', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU/EN' },
-      { name: 'Международный бизнес', degree: 'Bachelor', duration: '4 года', language: 'EN' },
+    image: 'https://images.unsplash.com/photo-1564069114553-7215e1ff1890?auto=format&fit=crop&q=80&w=1200',
+    gallery: [
+      'https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800'
     ],
-    partners: ['Vienna University of Economics and Business', 'Maastricht School of Management'],
-    admissionDeadlines: '25.08', category: 'National',
-    achievements: ["Аккредитация AMBA (топ бизнес-школы мира)", "Двойные дипломы с европейскими партнёрами"],
-    admissionRequirements: DEFAULTS.requirements, admissionProcedure: DEFAULTS.procedure, scholarships: DEFAULTS.scholarships,
-    dormitory: false, militaryDept: false,
-    contacts: { website: 'https://gsb.kaznu.kz', phone: '+7 (727) 377-33-55', email: 'gsb@kaznu.kz', address: 'г. Алматы, пр. аль-Фараби, 71' }
-  },
-  {
-    id: 'shymkent-law',
-    name: 'Высшая школа права «Әділет»',
-    shortName: 'ВШП Әділет',
-    location: 'Алматы',
-    description: 'Элитная юридическая академия с авторитетной репутацией. Выпускает ведущих адвокатов, прокуроров и судей Казахстана.',
-    founded: 1994, ranking: 60, students: 3000, tuitionAvg: 'от 1 000 000 ₸',
-    image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200',
     logo: 'Әділет', mission: 'Справедливость — через закон.',
     programs: [
       { name: 'Юриспруденция (гражданское право)', degree: 'Bachelor', duration: '4 года', language: 'KZ/RU' },
