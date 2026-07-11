@@ -46,7 +46,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 1,
     students: 6500,
     tuitionAvg: 'от 5 000 000 ₸',
-    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg/800px-Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg',
     logo: 'NU',
     mission: 'Стать моделью реформы высшего образования и научным центром Казахстана.',
     programs: [
@@ -99,7 +99,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 3,
     students: 20000,
     tuitionAvg: '1 000 000 – 1 300 000 ₸',
-    image: 'https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg/800px-L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg',
     logo: 'ENU',
     mission: 'Генерация знаний и подготовка конкурентоспособных кадров для устойчивого развития Евразии.',
     programs: [
@@ -137,7 +137,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 12,
     students: 12000,
     tuitionAvg: '800 000 – 950 000 ₸',
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/KazATU_main_building.jpg/800px-KazATU_main_building.jpg',
     logo: 'KATU',
     mission: 'Интеграция образования, науки и производства для развития АПК страны.',
     programs: [
@@ -171,7 +171,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 10,
     students: 4000,
     tuitionAvg: '1 600 000 ₸',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://astanait.edu.kz/wp-content/uploads/2021/04/aitu.jpg',
     logo: 'AITU',
     mission: 'Подготовка цифровой элиты для трансформации экономики Казахстана.',
     programs: [
@@ -210,7 +210,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 19,
     students: 8000,
     tuitionAvg: '1 100 000 – 1 400 000 ₸',
-    image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://amu.edu.kz/upload/iblock/c53/c538b7d413e15779ecdfa2db7243c7b3.jpg',
     logo: 'MUA',
     mission: 'Подготовка врачей новой формации, ориентированных на пациента и науку.',
     programs: [
@@ -244,7 +244,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 8,
     students: 5000,
     tuitionAvg: '1 300 000 – 2 000 000 ₸',
-    image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://kazguu.kz/wp-content/uploads/2016/11/Glavnyj-korpus-KAZGYuU-1024x576.jpg',
     logo: 'KAZGUU',
     mission: 'Служение правосудию и обществу через качественное образование.',
     programs: [
@@ -284,7 +284,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 2,
     students: 25000,
     tuitionAvg: '1 200 000 – 1 600 000 ₸',
-    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Al-Farabi_Kazakh_National_University.jpg/800px-Al-Farabi_Kazakh_National_University.jpg',
     logo: 'KazNU',
     mission: 'Формирование интеллектуального потенциала нации и интеграция в мировое образовательное пространство.',
     programs: [
@@ -318,7 +318,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 4,
     students: 15000,
     tuitionAvg: '1 000 000 – 1 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://satbayev.university/cache/images/d/3/d3cfc7e0f2f70b79040003004d80931e.jpg',
     logo: 'SU',
     mission: 'Научное и инженерное обеспечение промышленного развития Казахстана.',
     programs: [
@@ -356,7 +356,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 6,
     students: 4000,
     tuitionAvg: '2 400 000 – 3 600 000 ₸',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
     logo: 'KBTU',
     mission: 'Подготовка лидеров в сфере технологий и бизнеса.',
     programs: [
@@ -394,7 +394,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 7,
     students: 3500,
     tuitionAvg: '3 500 000 – 4 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/KIMEP_University_campus.jpg/800px-KIMEP_University_campus.jpg',
     logo: 'KIMEP',
     mission: 'Воспитание образованных граждан и улучшение качества жизни в Казахстане.',
     programs: [
@@ -432,7 +432,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 9,
     students: 5000,
     tuitionAvg: '1 800 000 ₸',
-    image: 'https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://iitu.edu.kz/media/images/IITU_1.original.jpg',
     logo: 'IITU',
     mission: 'Подготовка квалифицированных IT-специалистов международного уровня.',
     programs: [
@@ -466,7 +466,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 13,
     students: 7000,
     tuitionAvg: '1 300 000 – 1 800 000 ₸',
-    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Narxoz_University_Main_Campus.jpg/800px-Narxoz_University_Main_Campus.jpg',
     logo: 'Narxoz',
     mission: 'Вдохновлять на обучение и исследования для устойчивого будущего.',
     programs: [
@@ -504,7 +504,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 14,
     students: 4500,
     tuitionAvg: '1 900 000 – 2 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://alma.edu.kz/wp-content/uploads/2023/10/alma-u-building.jpg',
     logo: 'AlmaU',
     mission: 'Делаем мир лучше через развитие предпринимательства и знаний.',
     programs: [
@@ -611,7 +611,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 30,
     students: 7000,
     tuitionAvg: '800 000 – 1 000 000 ₸',
-    image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://atu.edu.kz/wp-content/uploads/2021/04/Glavnyj-korpus-ATU.jpg',
     logo: 'ATU',
     mission: 'Технологии качества жизни.',
     programs: [
@@ -2453,7 +2453,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 11,
     students: 8500,
     tuitionAvg: 'от 1 100 000 ₸',
-    image: 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://amu.edu.kz/upload/iblock/c53/c538b7d413e15779ecdfa2db7243c7b3.jpg',
     logo: 'МУА',
     mission: 'Обеспечение здравоохранения высокопрофессиональными кадрами.',
     programs: [
@@ -2567,7 +2567,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 16,
     students: 11000,
     tuitionAvg: 'от 450 000 ₸',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8ed7b66ad3?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/KazATU_main_building.jpg/800px-KazATU_main_building.jpg',
     logo: 'КАТИУ',
     mission: 'Подготовка кадров для индустриально-аграрного сектора экономики.',
     programs: [
@@ -2945,7 +2945,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 40,
     students: 2500,
     tuitionAvg: 'от 950 000 ₸',
-    image: 'https://images.unsplash.com/photo-1460518451285-83b62b17a1c4?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://kaznai.kz/wp-content/uploads/2021/08/1-1024x683.jpg',
     logo: 'КазНАИ',
     mission: 'Сохранение и развитие национального искусства.',
     programs: [
@@ -3270,7 +3270,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 22,
     students: 7000,
     tuitionAvg: 'от 380 000 ₸',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://yu.edu.kz/wp-content/uploads/2021/05/glavnyj-korpus.jpg',
     logo: 'Yessenov',
     mission: 'Подготовка конкурентоспособных специалистов для Каспийского региона.',
     programs: [
@@ -3523,7 +3523,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 18,
     students: 8000,
     tuitionAvg: 'от 700 000 ₸',
-    image: 'https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://atu.edu.kz/wp-content/uploads/2021/04/Glavnyj-korpus-ATU.jpg',
     logo: 'АТУ',
     mission: 'Внедрение передовых технологий в пищевую и легкую промышленность.',
     programs: [
@@ -4416,7 +4416,7 @@ export const UNIVERSITIES: University[] = [
     ranking: 3,
     students: 3000,
     tuitionAvg: 'от 1 600 000 ₸',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://astanait.edu.kz/wp-content/uploads/2021/04/aitu.jpg',
     logo: 'AITU',
     mission: 'Стать ведущим ИТ-университетом мирового класса.',
     programs: [
@@ -4790,7 +4790,7 @@ export const UNIVERSITIES: University[] = [
     location: 'Алматы',
     description: 'Совместный казахстанско-британский технический вуз при поддержке BP. Лидер в нефтегазовом инжиниринге и ИТ. Обучение на английском языке.',
     founded: 1999, ranking: 7, students: 3000, tuitionAvg: 'от 2 200 000 ₸',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=1200',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
     logo: 'КБТУ', mission: 'Воспитывать технических лидеров для нефтегазовой и ИТ-индустрии.',
     programs: [
       { name: 'Petroleum Engineering', degree: 'Bachelor', duration: '4 года', language: 'EN' },
