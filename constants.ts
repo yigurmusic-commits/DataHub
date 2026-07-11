@@ -47,6 +47,12 @@ export const UNIVERSITIES: University[] = [
     students: 6500,
     tuitionAvg: 'от 5 000 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg/800px-Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg',
+    gallery: [
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Nazarbayev_University_Library.jpg/800px-Nazarbayev_University_Library.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nazarbayev_University_front.jpg/800px-Nazarbayev_University_front.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nazarbayev_University_Atrium.jpg/800px-Nazarbayev_University_Atrium.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg/800px-Nazarbayev_University_in_Astana%2C_Kazakhstan.jpg'
+    ],
     logo: 'NU',
     mission: 'Стать моделью реформы высшего образования и научным центром Казахстана.',
     programs: [
@@ -100,6 +106,11 @@ export const UNIVERSITIES: University[] = [
     students: 20000,
     tuitionAvg: '1 000 000 – 1 300 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg/800px-L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg',
+    gallery: [
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gumilyov_Eurasian_National_University.jpg/800px-Gumilyov_Eurasian_National_University.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg/800px-L.N._Gumilyov_Eurasian_National_University_Main_Building.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/ENU_main_building.jpg/800px-ENU_main_building.jpg'
+    ],
     logo: 'ENU',
     mission: 'Генерация знаний и подготовка конкурентоспособных кадров для устойчивого развития Евразии.',
     programs: [
@@ -285,6 +296,11 @@ export const UNIVERSITIES: University[] = [
     students: 25000,
     tuitionAvg: '1 200 000 – 1 600 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Al-Farabi_Kazakh_National_University.jpg/800px-Al-Farabi_Kazakh_National_University.jpg',
+    gallery: [
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Al-Farabi_Kazakh_National_University_campus.jpg/800px-Al-Farabi_Kazakh_National_University_campus.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Al-Farabi_Kazakh_National_University.jpg/800px-Al-Farabi_Kazakh_National_University.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/KazNU_library.jpg/800px-KazNU_library.jpg'
+    ],
     logo: 'KazNU',
     mission: 'Формирование интеллектуального потенциала нации и интеграция в мировое образовательное пространство.',
     programs: [
@@ -357,6 +373,11 @@ export const UNIVERSITIES: University[] = [
     students: 4000,
     tuitionAvg: '2 400 000 – 3 600 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
+    gallery: [
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/KBTU_Round_Hall.jpg/800px-KBTU_Round_Hall.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/KBTU_interior.jpg/800px-KBTU_interior.jpg'
+    ],
     logo: 'KBTU',
     mission: 'Подготовка лидеров в сфере технологий и бизнеса.',
     programs: [
@@ -395,6 +416,11 @@ export const UNIVERSITIES: University[] = [
     students: 3500,
     tuitionAvg: '3 500 000 – 4 200 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/KIMEP_University_campus.jpg/800px-KIMEP_University_campus.jpg',
+    gallery: [
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/KIMEP_University_campus.jpg/800px-KIMEP_University_campus.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/KIMEP_New_Academic_Building.jpg/800px-KIMEP_New_Academic_Building.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/KIMEP_library.jpg/800px-KIMEP_library.jpg'
+    ],
     logo: 'KIMEP',
     mission: 'Воспитание образованных граждан и улучшение качества жизни в Казахстане.',
     programs: [
@@ -4791,6 +4817,11 @@ export const UNIVERSITIES: University[] = [
     description: 'Совместный казахстанско-британский технический вуз при поддержке BP. Лидер в нефтегазовом инжиниринге и ИТ. Обучение на английском языке.',
     founded: 1999, ranking: 7, students: 3000, tuitionAvg: 'от 2 200 000 ₸',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
+    gallery: [
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KBTU_Building_Almaty.jpg/800px-KBTU_Building_Almaty.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/KBTU_Round_Hall.jpg/800px-KBTU_Round_Hall.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/KBTU_interior.jpg/800px-KBTU_interior.jpg'
+    ],
     logo: 'КБТУ', mission: 'Воспитывать технических лидеров для нефтегазовой и ИТ-индустрии.',
     programs: [
       { name: 'Petroleum Engineering', degree: 'Bachelor', duration: '4 года', language: 'EN' },

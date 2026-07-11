@@ -28,6 +28,7 @@ export interface University {
   students: number;
   tuitionAvg: string; // in KZT
   image: string;
+  gallery?: string[];
   logo: string;
   mission: string;
   programs: AcademicProgram[];

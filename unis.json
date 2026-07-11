@@ -1,0 +1,582 @@
+[
+  {
+    "name": "Nazarbayev University",
+    "oldImage": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science",
+    "oldImage": "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Международные отношения",
+    "oldImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Агрономия",
+    "oldImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Software Engineering",
+    "oldImage": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция",
+    "oldImage": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Физика",
+    "oldImage": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Нефтяная инженерия",
+    "oldImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Information Systems",
+    "oldImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Accounting and Audit",
+    "oldImage": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science",
+    "oldImage": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Экономика",
+    "oldImage": "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Менеджмент",
+    "oldImage": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Режиссура",
+    "oldImage": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Теплоэнергетика",
+    "oldImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Технология продовольственных продуктов",
+    "oldImage": "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Архитектура",
+    "oldImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science",
+    "oldImage": "https://images.unsplash.com/photo-1543966888-7c1dc482a810?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Физика",
+    "oldImage": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Горное дело",
+    "oldImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Химическая технология",
+    "oldImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Морская техника и технологии",
+    "oldImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и методика",
+    "oldImage": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Геология нефти и газа",
+    "oldImage": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science & AI",
+    "oldImage": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science (Part IA-IB)",
+    "oldImage": "https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Прикладная математика и информатика",
+    "oldImage": "https://images.unsplash.com/photo-1524178232363-1fb2b075b955?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Бизнес-информатика",
+    "oldImage": "https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science",
+    "oldImage": "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science",
+    "oldImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Space Science and Technology",
+    "oldImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science",
+    "oldImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Informatics (M.Sc.)",
+    "oldImage": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Medizin (Staatsexamen)",
+    "oldImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Engineering",
+    "oldImage": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Медицина / Tıp",
+    "oldImage": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science & Technology",
+    "oldImage": "https://images.unsplash.com/photo-1569660609-1b7c51e9d1ed?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Aerospace Engineering",
+    "oldImage": "https://images.unsplash.com/photo-1562016600-ece13e8ba570?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Software Engineering (B.Sc.)",
+    "oldImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Aerospace Engineering (M.Sc.)",
+    "oldImage": "https://images.unsplash.com/photo-1528702748617-c64d49f918af?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Petroleum Engineering",
+    "oldImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Mathematics (M.Sc.)",
+    "oldImage": "https://images.unsplash.com/photo-1519832979-6fa011b87667?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Computer Science (B.Sc.)",
+    "oldImage": "https://images.unsplash.com/photo-1609769408344-ce7a49ce4e4b?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Программная инженерия",
+    "oldImage": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Горное дело",
+    "oldImage": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Архитектура и дизайн",
+    "oldImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Аграрные технологии",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Образование и педагогика",
+    "oldImage": "https://images.unsplash.com/photo-1525926477800-7a04a085b376?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Водные ресурсы и водопользование",
+    "oldImage": "https://images.unsplash.com/photo-1544833261-2b0e6e7d6a52?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и психология",
+    "oldImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Иностранные языки",
+    "oldImage": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Нефтегазовое дело",
+    "oldImage": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Пищевая инженерия",
+    "oldImage": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Металлургия черных металлов",
+    "oldImage": "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Агрономия",
+    "oldImage": "https://images.unsplash.com/photo-1586528116311-ad8ed7b66ad3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Землеустройство",
+    "oldImage": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Международные отношения",
+    "oldImage": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Политология и экономика",
+    "oldImage": "https://images.unsplash.com/photo-1577985051167-0d49eec21977?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Международное право",
+    "oldImage": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и методика начального обучения",
+    "oldImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Архитектура",
+    "oldImage": "https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Финансы и аналитика",
+    "oldImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Бизнес администрирование",
+    "oldImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Переводческое дело (синхронный перевод)",
+    "oldImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Летная эксплуатация (Пилот)",
+    "oldImage": "https://images.unsplash.com/photo-1460518451285-83b62b17a1c4?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Кино и ТВ (Режиссура, Операторское искусство)",
+    "oldImage": "https://images.unsplash.com/photo-1541888053-93d3d4b68e59?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Обеспечение национальной безопасности",
+    "oldImage": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Правоохранительная деятельность",
+    "oldImage": "https://images.unsplash.com/photo-1579309852899-73d8b5c960a3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Управление мотострелковыми подразделениями",
+    "oldImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Теплоэнергетика",
+    "oldImage": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Туризм",
+    "oldImage": "https://images.unsplash.com/photo-1592289139049-5eb4de87071f?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Электроэнергетика",
+    "oldImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Нефтегазовое дело",
+    "oldImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Морская техника и технологии",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Ветеринария",
+    "oldImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и психология",
+    "oldImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Инженерия и ИТ (совместно с SeoulTech)",
+    "oldImage": "https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Агроинженерия",
+    "oldImage": "https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Экономика и учет",
+    "oldImage": "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Технология продовольственных продуктов",
+    "oldImage": "https://images.unsplash.com/photo-1548048026-5a1a941d93d3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Медицина",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и методика начального обучения",
+    "oldImage": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Агрономия",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Аграрная техника и технологии",
+    "oldImage": "https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Горное дело",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция",
+    "oldImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Дошкольное обучение и воспитание",
+    "oldImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Вычислительная техника и программное обеспечение",
+    "oldImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Финансы",
+    "oldImage": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция",
+    "oldImage": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Металлургия и машиностроение",
+    "oldImage": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Инструментальное исполнительство (домбра, рояль, скрипка)",
+    "oldImage": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Физическая культура и спорт (тренерство)",
+    "oldImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция",
+    "oldImage": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Журналистика и связи с общественностью",
+    "oldImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Бизнес и менеджмент (MBA)",
+    "oldImage": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Эксплуатация транспортных средств",
+    "oldImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Бизнес администрирование (MBA)",
+    "oldImage": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Медицина (общая)",
+    "oldImage": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Физика (в т.ч. ядерная)",
+    "oldImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Горное дело (открытые и подземные работы)",
+    "oldImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Software Engineering",
+    "oldImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и методика начального обучения",
+    "oldImage": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Горное дело и геология",
+    "oldImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Информационные системы",
+    "oldImage": "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Business Informatics",
+    "oldImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика",
+    "oldImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Менеджмент",
+    "oldImage": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "MBA",
+    "oldImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина (MD)",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Аграрная техника",
+    "oldImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Petroleum Engineering",
+    "oldImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция",
+    "oldImage": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Экология и природопользование",
+    "oldImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Горное дело",
+    "oldImage": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Казахский язык и литература",
+    "oldImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Информационные системы",
+    "oldImage": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция",
+    "oldImage": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Petroleum Engineering",
+    "oldImage": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция (Адвокатура)",
+    "oldImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и психология",
+    "oldImage": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Физическая культура и спорт",
+    "oldImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика",
+    "oldImage": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и методика начального обучения",
+    "oldImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Химическая технология",
+    "oldImage": "https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Финансы и инвестиции",
+    "oldImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Информационные технологии",
+    "oldImage": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Юриспруденция",
+    "oldImage": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и методика начального обучения",
+    "oldImage": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и методика начального обучения",
+    "oldImage": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Педагогика и методика начального обучения",
+    "oldImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "Общая медицина",
+    "oldImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200"
+  },
+  {
+    "name": "MBA (General Management)",
+    "oldImage": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200"
+  }
+]
