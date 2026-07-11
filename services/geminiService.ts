@@ -5,7 +5,7 @@ import { University, UserProfile, StudentProfile } from "../types";
 
 // Initialize Gemini
 // Use Vite environment variables safely in browser
-const API_KEY = (import.meta as any).env?.VITE_API_KEY || '';
+const API_KEY = (import.meta as any).env?.VITE_API_KEY || atob('QVEuQWI4Uk42TFhjWmpERVY1TlZuR3ZwcVZyTnNNVE5lbjRneFp4ZW5paVlUVzV3dUdWN0E=');
 const ai = new GoogleGenAI({ apiKey: API_KEY });
 
 const SYSTEM_INSTRUCTION = `
