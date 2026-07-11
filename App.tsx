@@ -1183,7 +1183,7 @@ export default function App() {
              <h3 className="text-gray-900 font-bold mb-4">{t.contact_support}</h3>
              <div className="flex flex-wrap justify-center gap-4">
                 <a 
-                  href="https://wa.me/77771234567" // Placeholder
+                  href="https://wa.me/87076394301"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-full font-medium hover:opacity-90 transition-opacity shadow-sm"
@@ -1194,7 +1194,7 @@ export default function App() {
                 </a>
 
                 <a 
-                  href="https://t.me/datahub_support" // Placeholder
+                  href="https://t.me/raimgaz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-[#0088cc] text-white px-5 py-2.5 rounded-full font-medium hover:opacity-90 transition-opacity shadow-sm"
